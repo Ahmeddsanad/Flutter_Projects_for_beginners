@@ -2,7 +2,7 @@ import 'dart:math';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:project1/BMIResultScreen.dart';
+import 'package:project1/modules/BMIResultScreen/BMIResultScreen.dart';
 
 class bmiScreen extends StatefulWidget {
   @override
