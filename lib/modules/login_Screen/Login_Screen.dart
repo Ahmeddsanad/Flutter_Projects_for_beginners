@@ -2,12 +2,23 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:project1/shared/component/components.dart';
 // ignore: must_be_immutable
-class LoginScreen extends StatelessWidget {
+class LoginScreen extends StatefulWidget {
+  const LoginScreen({Key? key}) : super(key: key);
+
+  @override
+  State<LoginScreen> createState() => _LoginScreenState();
+}
+
+class _LoginScreenState extends State<LoginScreen> {
   // ignore: non_constant_identifier_names
   var EmailController = TextEditingController();
+
   // ignore: non_constant_identifier_names
   var PasswordController = TextEditingController();
+
   var formKey = GlobalKey<FormState>();
+
+  bool isPassword = true;
 
   @override
   Widget build(BuildContext context) {
@@ -47,76 +58,56 @@ class LoginScreen extends StatelessWidget {
                   const SizedBox(
                     height: 50.0,
                   ),
-                  TextFormField(
-                    controller: EmailController,
-                    keyboardType: TextInputType.emailAddress,
-                    onFieldSubmitted: (value){
-                      if (kDebugMode) {
-                        print(value);
+                  DefaultFormField(
+                    Controller: EmailController,
+                    label: 'Email Address',
+                    prefix: Icons.email,
+                    type: TextInputType.emailAddress,
+                    validated: (String value){
+                      if(value.isEmpty){
+                        return 'Email Address Must Be Filled';
                       }
-                    },
-                    onChanged: (value){
-                      if (kDebugMode) {
-                        print(value);
-                      }
-                    },
-                    validator: (value){
-                      if (value!.isEmpty) {
-                        return 'Email Address Must be filled';
-                      }
-                      return null ;
-                    },
-                    decoration: InputDecoration(
-                     // hintText: 'Email Address',
-                      labelText: 'Email Address',
-                      prefixIcon: const Icon(
-                          Icons.email
-                      ),
-                      border: OutlineInputBorder(),
-                    ),
+                      return null;
+                    }
                   ),
                   const SizedBox(
                     height: 15.0,
                   ),
-                  TextFormField(
-                    controller: PasswordController,
-                    keyboardType: TextInputType.visiblePassword,
-                    obscureText: true,
-                    onFieldSubmitted: (value){
-                    },
-                    onChanged: (value){
-                      if (kDebugMode) {
-                        print(value);
+                  DefaultFormField(
+                      Controller: PasswordController,
+                      label: 'Your Password',
+                      prefix: Icons.lock,
+                      type: TextInputType.visiblePassword,
+                      isPassword: isPassword,
+                      Suffix: isPassword ? Icons.visibility : Icons.visibility_off,
+                      suffixPressed: (){
+                        setState(() {
+                          isPassword = !isPassword;
+                        });
+                      },
+                      validated: (String value){
+                        if(value.isEmpty){
+                          return 'Password Must Be Filled';
+                        }
+                        return null;
                       }
-                      if (kDebugMode) {
-                        print(value);
-                      }
-                    },
-                    validator: (value){
-                      if(value!.isEmpty) {
-                        return 'Passowrd Must be Filled';
-                      }
-                      return null;
-                    },
-                    decoration: const InputDecoration(
-                      // hintText: 'Email Address',
-                      labelText: 'Password',
-                      prefixIcon:  Icon(
-                          Icons.lock
-                      ),
-                      suffixIcon: Icon(
-                        Icons.remove_red_eye,
-                      ),
-                      border: OutlineInputBorder(),
-                    ),
                   ),
                   const SizedBox(
                     height: 20.0,
                   ),
                   DefaultButton(
-                      function: (){},
+                      function: (){
+                        if(formKey.currentState!.validate()){
+                          if (kDebugMode) {
+                            print(EmailController.text);
+                          }
+                          if (kDebugMode) {
+                            print(PasswordController.text);
+                          }
+                        }
+                      },
                       text: 'Login',
-                    radius: 40.0
+                      radius: 40.0,
                   ),
                   const SizedBox(
                     height: 10.0,
@@ -158,6 +149,7 @@ class LoginScreen extends StatelessWidget {
       ),
     );
   }
+
   @override
   void debugFillProperties(DiagnosticPropertiesBuilder properties) {
     super.debugFillProperties(properties);
