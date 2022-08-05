@@ -77,6 +77,9 @@ class _ScreensLayoutState extends State<ScreensLayout> {
             else
             {
               isBottomSheetShown = true ;
+              setState(() {
+                FabIcon = Icons.add;
+              });
               scaffoldKey.currentState!.showBottomSheet(
                       (context)=> Container(
                         color: Colors.white,
@@ -155,9 +158,12 @@ class _ScreensLayoutState extends State<ScreensLayout> {
                         ),
                       ),
                        elevation: 30.0,
-              );
-              setState(() {
-                FabIcon = Icons.add;
+              ).closed.then((value)
+              {
+                isBottomSheetShown = false ;
+                setState(() {
+                  FabIcon = Icons.edit;
+                });
               });
             }
           },
