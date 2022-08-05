@@ -40,12 +40,14 @@ Widget DefaultFormField({
   Function? suffixPressed,
   Function? onSubmit,
   Function? onChange,
+  Function? onTap,
   bool isPassword = false ,
 }) => TextFormField(
   controller: Controller,
   keyboardType: type,
   onFieldSubmitted: onSubmit != null ? onSubmit() : null,
   onChanged: onChange != null ? onChange() : null,
+  onTap: onTap != null ? () => onTap() : null,
   validator: (vale){
     return validated(vale);
   },
