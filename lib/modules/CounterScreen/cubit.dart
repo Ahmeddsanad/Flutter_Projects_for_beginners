@@ -4,7 +4,7 @@ import 'package:project1/modules/CounterScreen/states.dart';
 
 class CounterCubit extends Cubit<CounterStates>
 {
-  CounterCubit() : super(CounterInitalState());
+  CounterCubit() : super(CounterInitialState());
 
   static CounterCubit get(context) => BlocProvider.of(context);
 
