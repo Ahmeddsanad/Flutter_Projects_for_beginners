@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
-import 'package:project1/layout/Screen_Layout.dart';
+import 'package:project1/layout/Home_Layout.dart';
 import 'package:project1/modules/BMIResultScreen/BMIResultScreen.dart';
 import 'package:project1/modules/CounterScreen/CounterScreen.dart';
 import 'package:project1/modules/CounterScreen/states.dart';
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner:false ,
-      home: CounterScreen(),
+      home: ScreensLayout(),
     );
   }
   
