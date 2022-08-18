@@ -72,3 +72,48 @@ Widget DefaultFormField({
     ),
   ),
 );
+
+//onTap != null ? () => onTap() : null,
+Widget BuildTaskItem(Map model) => Padding(
+  padding: const EdgeInsets.all(20.0),
+  child: Row(
+    children: [
+      CircleAvatar(
+        radius: 40.0,
+        child: Text(
+          //${model['time']}
+          '${model['time']}',
+          style: TextStyle(
+              fontWeight: FontWeight.bold,
+              fontSize: 15.0,
+              color: Colors.white
+          ),
+        ),
+        backgroundColor: Colors.black,
+      ),
+      SizedBox(
+        width: 10.0,
+      ),
+      Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Text(
+            '${model['title']}',
+            style: TextStyle(
+                fontSize: 18.0,
+                fontWeight: FontWeight.bold
+            ),
+          ),
+          Text(
+            '${model['date']}',
+            style: TextStyle(
+              color: Colors.grey,
+              fontSize: 14.0
+            ),
+          ),
+        ],
+      )
+    ],
+  ),
+);

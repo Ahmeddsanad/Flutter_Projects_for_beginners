@@ -6,6 +6,8 @@ import 'package:project1/modules/TasksScreen/TasksToDoScreen.dart';
 import 'package:project1/shared/component/components.dart';
 import 'package:sqflite/sqflite.dart';
 
+import '../shared/component/constants.dart';
+
 class ScreensLayout extends StatefulWidget {
   const ScreensLayout({Key? key}) : super(key: key);
 
@@ -20,9 +22,11 @@ class _ScreensLayoutState extends State<ScreensLayout> {
   var formKey = GlobalKey<FormState>();
   bool isBottomSheetShown = false ;
   IconData FabIcon = Icons.edit;
+
   var titleController = TextEditingController();
   var timeController = TextEditingController();
   var dateController = TextEditingController();
+
   List<Widget> screens =
   [
     TaskstodoScreen(),
@@ -49,13 +53,13 @@ class _ScreensLayoutState extends State<ScreensLayout> {
       appBar: AppBar(
         title: Text(
           appbartext[currIndex],
-          style : TextStyle(
+          style : const TextStyle(
             fontSize: 25.0,
             fontWeight: FontWeight.bold
           )
         ),
       ),
-      body: screens[currIndex],
+      body: tasks.isEmpty ? const Center(child: CircularProgressIndicator()) : screens[currIndex],
       floatingActionButton: FloatingActionButton(
           onPressed:()
           {
@@ -66,10 +70,17 @@ class _ScreensLayoutState extends State<ScreensLayout> {
                     date: dateController.text,
                     time: timeController.text,
                 ).then((value) {
-                  isBottomSheetShown = false ;
-                  Navigator.pop(context);
-                  setState(() {
-                    FabIcon = Icons.edit;
+                  getFromDataBase(database).then((value) {
+                    Navigator.pop(context);
+                    setState(() {
+                      isBottomSheetShown = false ;
+                      setState(() {
+                        FabIcon = Icons.edit;
+                      });
+
+                      tasks = value ;
+                      print(tasks);
+                    });
                   });
                 });
               }
@@ -78,7 +89,7 @@ class _ScreensLayoutState extends State<ScreensLayout> {
             {
               isBottomSheetShown = true ;
               setState(() {
-                FabIcon = Icons.add;
+              FabIcon = Icons.add;
               });
               scaffoldKey.currentState!.showBottomSheet(
                       (context)=> Container(
@@ -102,7 +113,7 @@ class _ScreensLayoutState extends State<ScreensLayout> {
                                     label: 'Task title',
                                     prefix: Icons.title,
                                 ),
-                                SizedBox(
+                                const SizedBox(
                                   height: 15.0,
                                 ),
                                 DefaultFormField(
@@ -122,11 +133,10 @@ class _ScreensLayoutState extends State<ScreensLayout> {
                                     ).then((value)
                                     {
                                       timeController.text = value!.format(context).toString();
-                                      print(value.format(context));
                                     });
                                   },
                                 ),
-                                SizedBox(
+                                const SizedBox(
                                   height: 15.0,
                                 ),
                                 DefaultFormField(
@@ -181,7 +191,7 @@ class _ScreensLayoutState extends State<ScreensLayout> {
           });
         },
         items:
-        [
+        const [
           BottomNavigationBarItem(
               icon: Icon(
                 Icons.menu
@@ -204,10 +214,10 @@ class _ScreensLayoutState extends State<ScreensLayout> {
       ),
     );
   }
-  Future<String> getName() async
+  /*Future<String> getName() async
   {
     return 'Ahmed Sanad';
-  }
+  }*/
 
   void CreateDataBase() async
   {
@@ -216,7 +226,7 @@ class _ScreensLayoutState extends State<ScreensLayout> {
       version: 1,
       onCreate: (database,version){
          print('DataBase Created');
-         database.execute('CREATE TABLE tasks (id INTEGER PRIMARY KEY, title TEXT, date TEXT, time TEXT, status TEXT)').then((value)
+         database.execute('CREATE TABLE tasks (id INTEGER PRIMARY KEY, title TEXT, time TEXT, date TEXT, status TEXT)').then((value)
              {
                print('table created');
              }).catchError((error){
@@ -224,6 +234,12 @@ class _ScreensLayoutState extends State<ScreensLayout> {
          });
       },
       onOpen: (database){
+         getFromDataBase(database).then((value) {
+           setState(() {
+             tasks = value ;
+             print(tasks);
+           });
+         });
          print('Database Opened') ;
       },
     );
@@ -237,7 +253,7 @@ class _ScreensLayoutState extends State<ScreensLayout> {
      return await database.transaction((txn) async
      {
        txn.rawInsert(
-           'INSERT INTO tasks(title,date,time,status) VALUES("$title","$date","time","new")',
+           'INSERT INTO tasks(title,date,time,status) VALUES("$title","$date","$time","new")',
        ).then((value) {
          print('$value inserted successfully');
        }).catchError((error){
@@ -246,5 +262,10 @@ class _ScreensLayoutState extends State<ScreensLayout> {
 
        return null ;
      });
+  }
+
+  Future<List<Map>> getFromDataBase(database) async
+  {
+       return await database.rawQuery('SELECT * FROM tasks');
   }
 }
