@@ -1,3 +1,4 @@
+import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:project1/layout/Screen_Layout.dart';
 import 'package:project1/modules/BMIResultScreen/BMIResultScreen.dart';
@@ -10,10 +11,12 @@ import 'package:project1/modules/UsersScreen/UsersScreen.dart';
 import 'package:project1/modules/BmiScreen/bmiScreen.dart';
 import 'package:project1/modules/testing/t1.dart';
 import 'package:project1/modules/withListView/withListView.dart';
+import 'package:project1/shared/bloc_observer.dart';
 import 'modules/testing/LoginScreen2.dart';
 import 'modules/testing/Messenger2.dart';
 
 void main() {
+  Bloc.observer = MyBlocObserver();
   runApp(MyApp());
 }
 class MyApp extends StatelessWidget{

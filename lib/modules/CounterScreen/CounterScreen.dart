@@ -14,10 +14,10 @@ class CounterScreen extends StatelessWidget {
       child: BlocConsumer<CounterCubit, CounterStates>(
         listener: (context, state) {
           if(state is CounterMinusState){
-            print('Minus state ${state.counter}');
+            // print('Minus state ${state.counter}');
           }
           if(state is CounterPlusState){
-            print('Plus state ${state.counter}');
+            // print('Plus state ${state.counter}');
           }
         },
         builder: (context, state) {

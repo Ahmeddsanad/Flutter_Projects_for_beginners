@@ -1,7 +1,6 @@
 abstract class CounterStates {}
 
-class CounterInitialState extends CounterStates
-{
+class CounterInitialState extends CounterStates {
 
 }
 
