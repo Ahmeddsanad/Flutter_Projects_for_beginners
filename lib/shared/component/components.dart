@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:project1/shared/cubit/cubit.dart';
 // ignore: non_constant_identifier_names
 Widget DefaultButton({
   double width = double.infinity,
@@ -74,46 +75,157 @@ Widget DefaultFormField({
 );
 
 //onTap != null ? () => onTap() : null,
-Widget BuildTaskItem(Map model) => Padding(
-  padding: const EdgeInsets.all(20.0),
-  child: Row(
-    children: [
-      CircleAvatar(
-        radius: 40.0,
-        child: Text(
-          //${model['time']}
-          '${model['time']}',
-          style: TextStyle(
-              fontWeight: FontWeight.bold,
-              fontSize: 15.0,
-              color: Colors.white
+Widget BuildTaskItem(Map model,context) => Dismissible(
+  key: Key(model['id'].toString()),
+  child: Padding(
+  
+    padding: const EdgeInsets.all(20.0),
+  
+    child: Row(
+  
+      children: [
+  
+        CircleAvatar(
+  
+          radius: 40.0,
+  
+          child: Text(
+  
+            //${model['time']}
+  
+            '${model['time']}',
+  
+            style: TextStyle(
+  
+                fontWeight: FontWeight.bold,
+  
+                fontSize: 15.0,
+  
+                color: Colors.white
+  
+            ),
+  
           ),
+  
+          backgroundColor: Colors.black,
+  
         ),
-        backgroundColor: Colors.black,
-      ),
-      SizedBox(
-        width: 10.0,
-      ),
-      Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          Text(
-            '${model['title']}',
-            style: TextStyle(
-                fontSize: 18.0,
-                fontWeight: FontWeight.bold
-            ),
+  
+        SizedBox(
+  
+          width: 10.0,
+  
+        ),
+  
+        Expanded(
+  
+          child: Column(
+  
+            crossAxisAlignment: CrossAxisAlignment.start,
+  
+            mainAxisSize: MainAxisSize.min,
+  
+            children: [
+  
+              Text(
+  
+                '${model['title']}',
+  
+                style: TextStyle(
+  
+                    fontSize: 18.0,
+  
+                    fontWeight: FontWeight.bold
+  
+                ),
+  
+              ),
+  
+              Text(
+  
+                '${model['date']}',
+  
+                style: TextStyle(
+  
+                  color: Colors.grey,
+  
+                  fontSize: 14.0
+  
+                ),
+  
+              ),
+  
+            ],
+  
           ),
-          Text(
-            '${model['date']}',
-            style: TextStyle(
-              color: Colors.grey,
-              fontSize: 14.0
-            ),
-          ),
-        ],
-      )
-    ],
+  
+        ),
+  
+        SizedBox(
+  
+          width: 10.0,
+  
+        ),
+  
+        IconButton(
+  
+            onPressed: ()
+  
+            {
+  
+            AppCubit.get(context).updateData(
+  
+                status: 'done',
+  
+                id: model['id'],
+  
+            );
+  
+            },
+  
+            icon: Icon(
+  
+                Icons.check_box,
+  
+              color: Colors.green,
+  
+            )
+  
+        ),
+  
+        IconButton(
+  
+            onPressed: ()
+  
+            {
+  
+              AppCubit.get(context).updateData(
+  
+                status: 'archived',
+  
+                id: model['id'],
+  
+              );
+  
+            },
+  
+            icon: Icon(
+  
+                Icons.archive,
+  
+              color: Colors.black45,
+  
+            )
+  
+        ),
+  
+      ],
+  
+    ),
+  
   ),
+  onDismissed: (direction)
+  {
+     AppCubit.get(context).DeleteData(id: model['id'],);
+  },
 );
