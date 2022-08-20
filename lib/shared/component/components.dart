@@ -1,6 +1,9 @@
+import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:project1/shared/cubit/cubit.dart';
+
+import 'constants.dart';
 // ignore: non_constant_identifier_names
 Widget DefaultButton({
   double width = double.infinity,
@@ -228,4 +231,39 @@ Widget BuildTaskItem(Map model,context) => Dismissible(
   {
      AppCubit.get(context).DeleteData(id: model['id'],);
   },
+);
+
+Widget TasksBuilder({
+  required List<Map> tasks,
+}) => ConditionalBuilder(
+  condition: tasks.isNotEmpty,
+  builder: (context) => ListView.separated(
+    itemBuilder: (context, index) => BuildTaskItem(tasks[index],context),
+    separatorBuilder: (context ,index) => Container(
+      width: double.infinity,
+      height: 1.0,
+      color: Colors.grey[300],
+    ),
+    itemCount: tasks.length,
+  ),
+  fallback: (context) => Center(
+    child: Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Icon(
+          Icons.menu,
+          size: 100.0,
+          color: Colors.grey,
+        ),
+        Text(
+          'No Tasks Yet',
+          style: TextStyle(
+              fontSize: 16.0,
+              fontWeight: FontWeight.bold,
+              color: Colors.black
+          ),
+        )
+      ],
+    ),
+  ),
 );

@@ -16,14 +16,8 @@ class ArchivedtodoScreen extends StatelessWidget {
 
         var tasks = AppCubit.get(context).ArchivedTasks;
 
-        return ListView.separated(
-          itemBuilder: (context, index) => BuildTaskItem(tasks[index],context),
-          separatorBuilder: (context ,index) => Container(
-            width: double.infinity,
-            height: 1.0,
-            color: Colors.grey[300],
-          ),
-          itemCount: tasks.length,
+        return TasksBuilder(
+          tasks: tasks,
         );
       },
 

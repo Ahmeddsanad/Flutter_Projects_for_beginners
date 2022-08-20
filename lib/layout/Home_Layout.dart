@@ -7,18 +7,21 @@ import 'package:project1/modules/TasksScreen/TasksToDoScreen.dart';
 import 'package:project1/shared/component/components.dart';
 import 'package:project1/shared/cubit/states.dart';
 import 'package:sqflite/sqflite.dart';
-
 import '../shared/component/constants.dart';
 import '../shared/cubit/cubit.dart';
+import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
+import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
 
 class ScreensLayout extends StatelessWidget {
 
   var scaffoldKey = GlobalKey<ScaffoldState>();
+
   var formKey = GlobalKey<FormState>();
 
   var titleController = TextEditingController();
 
   var timeController = TextEditingController();
+
   var dateController = TextEditingController();
 
 
