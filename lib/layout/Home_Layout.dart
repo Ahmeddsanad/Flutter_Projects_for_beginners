@@ -1,16 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
-import 'package:project1/modules/ArchivedScreen/ArchivedToDoScreen.dart';
-import 'package:project1/modules/DoneScreen/DoneToDoScreen.dart';
-import 'package:project1/modules/TasksScreen/TasksToDoScreen.dart';
 import 'package:project1/shared/component/components.dart';
 import 'package:project1/shared/cubit/states.dart';
-import 'package:sqflite/sqflite.dart';
-import '../shared/component/constants.dart';
 import '../shared/cubit/cubit.dart';
-import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
-import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
 
 class ScreensLayout extends StatelessWidget {
 
