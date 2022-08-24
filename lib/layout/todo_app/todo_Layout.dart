@@ -3,7 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
 import 'package:project1/shared/component/components.dart';
 import 'package:project1/shared/cubit/states.dart';
-import '../shared/cubit/cubit.dart';
+import '../../shared/cubit/cubit.dart';
 
 class ScreensLayout extends StatelessWidget {
 
