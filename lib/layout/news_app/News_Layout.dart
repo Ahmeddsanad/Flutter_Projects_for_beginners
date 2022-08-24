@@ -1,3 +1,4 @@
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -22,9 +23,17 @@ class NewsLayout extends StatelessWidget {
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
                     color: Colors.black,
-                  fontSize: 16.0
+                  fontSize: 20.0,
                 ),
               ),
+              actions: [
+                IconButton(
+                    onPressed: (){},
+                    icon: Icon(
+                      Icons.search
+                    )
+                ),
+              ],
             ),
             body: Cubit.Screens[Cubit.currentIndex],
             bottomNavigationBar: BottomNavigationBar(

@@ -32,6 +32,9 @@ class MyApp extends StatelessWidget{
           backwardsCompatibility: false,
           backgroundColor: Colors.white,
           elevation: 0.0,
+          iconTheme: IconThemeData(
+            color: Colors.black
+          ),
           systemOverlayStyle: SystemUiOverlayStyle(
             statusBarColor: Colors.white,
             statusBarIconBrightness: Brightness.dark
@@ -39,7 +42,7 @@ class MyApp extends StatelessWidget{
         ),
         bottomNavigationBarTheme: BottomNavigationBarThemeData(
           type: BottomNavigationBarType.fixed,
-          selectedItemColor: Colors.teal
+          selectedItemColor: Colors.teal,
         )
       ),
         debugShowCheckedModeBanner:false ,
