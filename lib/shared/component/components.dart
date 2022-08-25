@@ -152,11 +152,7 @@ Widget TasksBuilder({
       condition: tasks.isNotEmpty,
       builder: (context) => ListView.separated(
         itemBuilder: (context, index) => BuildTaskItem(tasks[index], context),
-        separatorBuilder: (context, index) => Container(
-          width: double.infinity,
-          height: 1.0,
-          color: Colors.grey[300],
-        ),
+        separatorBuilder: (context, index) => MyDivider(),
         itemCount: tasks.length,
       ),
       fallback: (context) => Center(
@@ -180,4 +176,67 @@ Widget TasksBuilder({
       ),
     );
 
+Widget MyDivider() => Container(
+  width: double.infinity,
+  height: 1.0,
+  color: Colors.grey[300],
+);
+
+Widget BuildArticleItem() => Padding(
+  padding: const EdgeInsets.all(20.0),
+  child: Row(
+    children: [
+      Container(
+        width: 100.0,
+        height: 100.0,
+        decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(10.0),
+            image: DecorationImage(
+                image: NetworkImage(
+                  'https://www.mob4me.com/Assets/front/images/mobile/iphone-11-large.jpg',
+                ),
+                fit: BoxFit.cover
+            )
+        ),
+      ),
+      SizedBox(
+        width: 15.0,
+        // width: 30.0
+      ),
+      Expanded(
+        child: Container(
+          height: 100.0,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            // mainAxisSize: MainAxisSize.min,
+            children: [
+              Expanded(
+                child: Text(
+                  'Title',
+                  style: TextStyle(
+                      fontWeight: FontWeight.w600,
+                      fontSize: 20.0
+                  ),
+                  maxLines: 4,
+                  overflow: TextOverflow.ellipsis,
+                ),
+              ),
+              Text(
+                '2022-08-23T13:19:56Z',
+                style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    color: Colors.black45,
+                    fontSize: 14.0
+                ),
+                maxLines: 4,
+                overflow: TextOverflow.ellipsis,
+              ),
+            ],
+          ),
+        ),
+      ),
+    ],
+  ),
+);
 //Component file

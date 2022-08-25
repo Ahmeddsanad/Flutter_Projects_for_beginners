@@ -3,7 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:project1/layout/news_app/cubit/states.dart';
-
+import 'package:project1/shared/network/remote/dio_helper.dart';
 import 'cubit/cubit.dart';
 
 class NewsLayout extends StatelessWidget {
@@ -11,7 +11,7 @@ class NewsLayout extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (BuildContext context) => AppNewsCubit(),
+      create: (BuildContext context) => AppNewsCubit()..getBusiness(),
       child: BlocConsumer<AppNewsCubit,NewsStates>(
         listener: (context,state){},
         builder: (context,state){
@@ -36,6 +36,15 @@ class NewsLayout extends StatelessWidget {
               ],
             ),
             body: Cubit.Screens[Cubit.currentIndex],
+            floatingActionButton: FloatingActionButton(
+              onPressed: ()
+              {
+
+              },
+              child: Icon(
+                Icons.add
+              ),
+            ),
             bottomNavigationBar: BottomNavigationBar(
               items: Cubit.bottomItems,
               currentIndex: Cubit.currentIndex,

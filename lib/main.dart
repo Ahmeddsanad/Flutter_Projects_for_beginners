@@ -15,11 +15,14 @@ import 'package:project1/modules/BmiScreen/bmiScreen.dart';
 import 'package:project1/modules/testing/t1.dart';
 import 'package:project1/modules/withListView/withListView.dart';
 import 'package:project1/shared/bloc_observer.dart';
+import 'package:project1/shared/network/remote/dio_helper.dart';
 import 'modules/testing/LoginScreen2.dart';
 import 'modules/testing/Messenger2.dart';
 
 void main() {
   Bloc.observer = MyBlocObserver();
+  DioHelper.init();
+
   runApp(MyApp());
 }
 class MyApp extends StatelessWidget{
@@ -27,6 +30,10 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
+        primarySwatch: Colors.teal,
+        floatingActionButtonTheme: FloatingActionButtonThemeData(
+          backgroundColor: Colors.teal
+        ),
         scaffoldBackgroundColor: Colors.white,
         appBarTheme: AppBarTheme(
           backwardsCompatibility: false,
