@@ -182,7 +182,7 @@ Widget MyDivider() => Container(
   color: Colors.grey[300],
 );
 
-Widget BuildArticleItem() => Padding(
+Widget BuildArticleItem(articles) => Padding(
   padding: const EdgeInsets.all(20.0),
   child: Row(
     children: [
@@ -193,7 +193,7 @@ Widget BuildArticleItem() => Padding(
             borderRadius: BorderRadius.circular(10.0),
             image: DecorationImage(
                 image: NetworkImage(
-                  'https://www.mob4me.com/Assets/front/images/mobile/iphone-11-large.jpg',
+                  '${articles['urlToImage']}',
                 ),
                 fit: BoxFit.cover
             )
@@ -213,17 +213,17 @@ Widget BuildArticleItem() => Padding(
             children: [
               Expanded(
                 child: Text(
-                  'Title',
+                  '${articles['title']}',
                   style: TextStyle(
                       fontWeight: FontWeight.w600,
-                      fontSize: 20.0
+                      fontSize: 18.0
                   ),
                   maxLines: 4,
                   overflow: TextOverflow.ellipsis,
                 ),
               ),
               Text(
-                '2022-08-23T13:19:56Z',
+                '${articles['publishedAt']}',
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
                     color: Colors.black45,

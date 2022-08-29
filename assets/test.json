@@ -1,435 +1,58 @@
 {
   "status": "ok",
-  "totalResults": 12274,
+  "totalResults": 1799,
   "articles": [
     {
       "source": {
         "id": null,
-        "name": "CNBC"
+        "name": "Lifehacker.com"
       },
-      "author": "Todd Haselton, Lauren Feiner",
-      "title": "Twitter whistleblower alleges execs misled board and public on spam, security",
-      "description": "A Twitter whistleblower is alleging \"extreme, egregious deficiencies by Twitter\" related to privacy, security and content moderation.",
-      "url": "https://www.cnbc.com/2022/08/23/twitter-whistleblower-alleges-execs-misled-board-and-public-on-spam-security.html",
-      "urlToImage": "https://image.cnbcfm.com/api/v1/image/106982380-1638297659893-gettyimages-187232512-77236713.jpeg?v=1649666146&w=1920&h=1080",
-      "publishedAt": "2022-08-23T13:19:56Z",
-      "content": "A Twitter whistleblower is alleging \"extreme, egregious deficiencies by Twitter\" related to privacy, security and content moderation, according to complaints filed with the Securities and Exchange Co… [+3917 chars]"
+      "author": "Jake Peterson",
+      "title": "DuckDuckGo Can Now Block Your Emails From Being Tracked",
+      "description": "When you open an email, there’s no obvious indication the sender will know. It’s not like Facebook Messenger, which sends an overt read receipt any time you open a message. However, the sender can include a small, pixel-sized image in the email, which identif…",
+      "url": "https://lifehacker.com/duckduckgo-can-now-block-your-emails-from-being-tracked-1849461485",
+      "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/5758c693104b44f8cf8144b278e84c0b.png",
+      "publishedAt": "2022-08-26T16:00:00Z",
+      "content": "When you open an email, theres no obvious indication the sender will know. Its not like Facebook Messenger, which sends an overt read receipt any time you open a message. However, the sender can incl… [+3799 chars]"
     },
     {
       "source": {
-        "id": "la-nacion",
-        "name": "La Nacion"
+        "id": "engadget",
+        "name": "Engadget"
       },
-      "author": null,
-      "title": "Exjefe de seguridad de twitter alega que compañía engañó a reguladores sobre seguridad, reportes de bots",
-      "description": "Exjefe de seguridad de twitter alega que compañía engañó a reguladores sobre seguridad, reportes de bots",
-      "url": "https://www.lanacion.com.ar/agencias/exjefe-de-seguridad-de-twitter-alega-que-compania-engano-a-reguladores-sobre-seguridad-reportes-de-nid23082022/",
-      "urlToImage": "https://resizer.glanacion.com/resizer/3RtWgCP--RAvm_gVQCN60D8EDIs=/768x0/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/67GCK7VVHRH5JDZJTNRRSP7NEI.jpg",
-      "publishedAt": "2022-08-23T13:08:31Z",
-      "content": "23 ago (Reuters) - Twitter Inc engañó a los reguladores\r\nfederales sobre sus defensas de seguridad y cuentas de spam,\r\ninformaron el martes CNN y el Washington Post, citando denuncias\r\ndel exjefe de … [+1458 chars]"
+      "author": "Valentina Palladino",
+      "title": "Google's Pixel Buds Pro drop to $175, plus the rest of the week's best tech deals",
+      "description": "Labor Day deals are already starting to pop up across the web. Both Ooni and Solo Stove have early holiday sales that slash prices of some of their most popular machines, so now's the time to consider getting a pizza oven or a fire pit while you can save some…",
+      "url": "https://www.engadget.com/google-pixel-buds-pro-drop-to-175-best-tech-deals-this-week-153057158.html",
+      "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2022-07/d209c570-0e7d-11ed-bdb2-ad63f9179873",
+      "publishedAt": "2022-08-26T15:30:57Z",
+      "content": "Labor Day deals are already starting to pop up across the web. Both Ooni and Solo Stove have early holiday sales that slash prices of some of their most popular machines, so now's the time to conside… [+6945 chars]"
     },
     {
       "source": {
-        "id": null,
-        "name": "Business Standard"
+        "id": "engadget",
+        "name": "Engadget"
       },
-      "author": "Reuters",
-      "title": "Twitter's ex-security chief says company lied about security, bots: Report",
-      "description": "Twitter executives don't have the resources to fully understand the true number of bots on the platform, and were not motivated to, says Peiter Zatko",
-      "url": "https://www.business-standard.com/article/international/twitter-s-ex-security-chief-says-company-lied-about-security-bots-report-122082300993_1.html",
-      "urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2022-04/15/full/1650041508-3227.jpg",
-      "publishedAt": "2022-08-23T13:07:35Z",
-      "content": "Twitter Inc misled federal regulators about its security defenses and spam accounts, CNN and the Washington Post reported on Tuesday, citing whistleblower disclosures by the social media company's fo… [+2562 chars]"
+      "author": "Billy Steele",
+      "title": "Galaxy Buds 2 Pro review: Big sound in a tiny package",
+      "description": "At this point, Samsung has a lot of experience making true wireless earbuds. While the company flexed its design muscle early with the Galaxy Buds line, it hasn’t always nailed the details. It rebounded quickly with its second installment, the Galaxy Buds+, a…",
+      "url": "https://www.engadget.com/samsung-galaxy-buds-2-pro-review-160057740.html",
+      "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2022-08/d62c55e0-254e-11ed-befe-c70c7227aa66",
+      "publishedAt": "2022-08-26T16:00:57Z",
+      "content": "At this point, Samsung has a lot of experience making true wireless earbuds. While the company flexed its design muscle early with the Galaxy Buds line, it hasnt always nailed the details. It rebound… [+7890 chars]"
     },
     {
       "source": {
-        "id": null,
-        "name": "International Business Times"
+        "id": "the-verge",
+        "name": "The Verge"
       },
-      "author": "AFP News",
-      "title": "Ex-security Chief Accuses Twitter Of Hiding Major Flaws",
-      "description": "Ex-security chief accuses Twitter of hiding major flaws",
-      "url": "https://www.ibtimes.com/ex-security-chief-accuses-twitter-hiding-major-flaws-3604839",
-      "urlToImage": "https://d.ibtimes.com/en/full/3807258/twitter-has-dismissed-allegations-whistleblower-complaint-which-could-affect-its-legal-battle.jpg",
-      "publishedAt": "2022-08-23T13:06:07Z",
-      "content": "Twitter has dismissed the allegations in the whistleblower complaint, which could affect its legal battle with Elon Musk\r\nTwitter misled users and federal regulators about glaring weaknesses in its a… [+3147 chars]"
-    },
-    {
-      "source": {
-        "id": "newsweek",
-        "name": "Newsweek"
-      },
-      "author": "Jake Lingeman",
-      "title": "Sports Cars Still Capture the Imagination, But Not Sales",
-      "description": "The market for sports cars is shrinking, but passionate enthusiasts are still buying.",
-      "url": "https://www.newsweek.com/sports-cars-still-capture-imagination-not-sales-1730659",
-      "urlToImage": "https://d.newsweek.com/en/full/2091305/2022-mazda-mx-5-miata.jpg",
-      "publishedAt": "2022-08-23T13:02:39Z",
-      "content": "The definition of sports car is a controversial subject. The term was first used in 1928 in the United States when roadsters, sports cars without a roof, started becoming popular. Generally, it means… [+9179 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Autoblog"
-      },
-      "author": "Reuters",
-      "title": "Tesla loses race bias lawsuit challenge to California Department of Civil Rights",
-      "description": "Filed under:\n Government/Legal,Green,Hirings/Firings/Layoffs,Plants/Manufacturing,Tesla\n Continue reading Tesla loses race bias lawsuit challenge to California Department of Civil Rights\nTesla loses race bias lawsuit challenge to California Department of Civi…",
-      "url": "https://www.autoblog.com/2022/08/23/tesla-race-bias-lawsuit-civil-rights-california/",
-      "urlToImage": "https://o.aolcdn.com/images/dims3/GLOB/legacy_thumbnail/1062x597/format/jpg/quality/100/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-images/2020-04/064b7cb0-87cc-11ea-b6fa-5786697f993c",
-      "publishedAt": "2022-08-23T13:02:00Z",
-      "content": "A California administrative agency has declined to review Tesla Inc's claim that the state's civil rights watchdog suing the company for race bias at an assembly plant is rushing to sue businesses wi… [+2052 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Begeek.fr"
-      },
-      "author": "Morgan Fromentin",
-      "title": "Tesla augmente (encore) le tarif de son option de conduite entièrement autonome",
-      "description": "Tesla augmente encore le tarif de la conduite entièrement autonome, passant de 12 000 à 15 000 $ à partir du 5 septembre. Et ce n'est probablement pas terminé.",
-      "url": "https://www.begeek.fr/tesla-augmente-encore-le-tarif-de-son-option-de-conduite-entierement-autonome-372319",
-      "urlToImage": "https://www.begeek.fr/wp-content/uploads/2022/08/Tesla.jpg",
-      "publishedAt": "2022-08-23T13:00:28Z",
-      "content": "Tesla augmente encore le tarif de la conduite entièrement autonome, passant de 12 000 à 15 000 $ à partir du 5 septembre. Et ce n'est probablement pas terminé.\r\nTesla a apporté de grands changements … [+1848 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "KQED"
-      },
-      "author": "KQED News Staff and Wires",
-      "title": "You Can Get a $7,500 Tax Credit to Buy an Electric Car, But It’s Really Complicated",
-      "description": "The Biden administration's climate and health care bill revamps the available tax credits for buyers of electric cars. Here's what to know about how they work.",
-      "url": "https://www.kqed.org/news/11923224/you-can-get-a-7500-tax-credit-to-buy-an-electric-car-but-its-really-complicated",
-      "urlToImage": "https://ww2.kqed.org/app/uploads/sites/10/2022/08/gettyimages-1232464481-bf200986fcc5c2b3277d97edd495ddd6381625b7-1020x765.jpg",
-      "publishedAt": "2022-08-23T13:00:01Z",
-      "content": "Only singles with incomes up to $150,000 a year and couples who file taxes jointly who earn up to $300,000 will qualify.\r\nThis income cap requirement is meant to help less affluent people afford elec… [+4695 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "PRNewswire"
-      },
-      "author": null,
-      "title": "Global Electric Vehicle Market Analysis & Forecasts, 2017-2021 & 2023-2027 with 2022 as the Base Year",
-      "description": "DUBLIN, Aug. 23, 2022 /PRNewswire/ -- The 'Electric Vehicle Market - Global Industry Size, Share, Trends, Opportunity, and Forecast, 2017-2027 Segmented By Vehicle Type, Medium & Heavy Commercial Vehicle), By Propulsion, By Range, By Battery Capacity, By Comp…",
-      "url": "https://www.prnewswire.com/news-releases/global-electric-vehicle-market-analysis--forecasts-2017-2021--2023-2027-with-2022-as-the-base-year-301610662.html",
-      "urlToImage": "https://mma.prnewswire.com/media/539438/Research_and_Markets_Logo.jpg?p=facebook",
-      "publishedAt": "2022-08-23T13:00:00Z",
-      "content": "DUBLIN, Aug. 23, 2022 /PRNewswire/ -- The 'Electric Vehicle Market - Global Industry Size, Share, Trends, Opportunity, and Forecast, 2017-2027 Segmented By Vehicle Type, Medium &amp; Heavy Commercial… [+6489 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Motley Fool"
-      },
-      "author": "newsfeedback@fool.com (Keith Speights)",
-      "title": "Why Tesla's Stock Split Could Be a Bigger Deal Than Amazon's",
-      "description": "Stock splits are more effective when investors are eager to buy stocks than when they aren't.",
-      "url": "https://www.fool.com/investing/2022/08/23/why-teslas-stock-split-bigger-deal-than-amazons/",
-      "urlToImage": "https://g.foolcdn.com/editorial/images/697342/person-smiling-and-looking-at-laptop.jpg",
-      "publishedAt": "2022-08-23T13:00:00Z",
-      "content": "Amazon(AMZN -3.62%) is bigger than Tesla(TSLA -2.28%) in nearly every way. Market cap, revenue, profits, number of employees -- you name it, and Amazon outsizes Tesla.\r\nBut there's at least one way t… [+3682 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "PRNewswire"
-      },
-      "author": null,
-      "title": "Transportation Battery Recycling Market Estimated to Surpass $9,947.5 Million and Grow at 8.2% CAGR During the 2022 to 2030 Forecast Timeframe [150-Pages] | Published by Research Dive",
-      "description": "Transportation battery recycling market is expected to grow by 2030 due to rising use of EVs. The lead-acid battery sub-segment is predicted to be highly lucrative. Market in the Europe region is projected to witness better growth opportunities. NEW YORK, Aug…",
-      "url": "https://www.prnewswire.com/news-releases/transportation-battery-recycling-market-estimated-to-surpass-9-947-5-million-and-grow-at-8-2-cagr-during-the-2022-to-2030-forecast-timeframe-150-pages--published-by-research-dive-301610537.html",
-      "urlToImage": "https://mma.prnewswire.com/media/997523/Research_Dive_Logo.jpg?p=facebook",
-      "publishedAt": "2022-08-23T12:59:00Z",
-      "content": "Transportation battery recycling market is expected to grow by 2030 due to rising use of EVs. The lead-acid battery sub-segment is predicted to be highly lucrative. Market in the Europe region is pro… [+7416 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Phonandroid"
-      },
-      "author": "Kevin Dachez",
-      "title": "Elon Musk compte sur le créateur de Twitter pour gagner son procès",
-      "description": "Dans le cadre de son procès qui l'oppose à Twitter, Elon Musk a inscrit sur la liste des témoins potentiels un nom bien connu de la Tech : Jack Dorsey, le créateur du réseau social. Si les deux milliardaires sont...",
-      "url": "https://www.phonandroid.com/elon-musk-compte-sur-le-createur-de-twitter-pour-gagner-son-proces.html",
-      "urlToImage": "https://img.phonandroid.com/2022/08/jack-dorsey-twitter-proces.jpg",
-      "publishedAt": "2022-08-23T12:54:30Z",
-      "content": "Dans le cadre de son procès qui l'oppose à Twitter, Elon Musk a inscrit sur la liste des témoins potentiels un nom bien connu de la Tech : Jack Dorsey, le créateur du réseau social. Si les deux milli… [+2859 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "MarketWatch"
-      },
-      "author": "Greg Steinmetz",
-      "title": "BookWatch: 10 powerful (and legal) investing lessons you can learn from the most ruthless Gilded Age robber baron",
-      "description": "The most important lesson from Jay Gould is one his victims learned the hard way: watch what people do, not what they say.",
-      "url": "https://www.marketwatch.com/story/10-powerful-and-legal-investing-lessons-you-can-learn-from-the-most-ruthless-gilded-age-robber-baron-11661258491",
-      "urlToImage": "https://images.mktw.net/im-608880/social",
-      "publishedAt": "2022-08-23T12:51:25Z",
-      "content": "About the only thing people remember about Jay Gould, the biggest robber of the Robber Barons, is Black Friday, the day in September 1869 when he blew up the stock market and just about every other m… [+6117 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "FX Empire"
-      },
-      "author": "Reuters",
-      "title": "Twitter’s former security head claims company misled regulators about bot accounts – reports",
-      "description": "(Reuters) -   Twitter Inc misled federal regulators about its security defenses and spam accounts, CNN and the Washington Post reported on Tuesday, citing whistleblower disclosures by the social media company&#039;s former security chief Peiter Zatko.",
-      "url": "https://www.fxempire.com/news/article/twitters-former-security-head-alleges-company-misled-regulators-about-security-bots-reports-1104151",
-      "urlToImage": "https://responsive.fxempire.com/width/600/webp-lossy-70.q50/_fxempire_/2021/10/Depositphotos_24448463_S-1-3.jpg",
-      "publishedAt": "2022-08-23T12:50:07Z",
-      "content": "The social media company is embroiled in a legal battle with Tesla Inc Chief Executive Elon Musk after the worlds richest person said in July he was ending an agreement to buy the company in a $44 bi… [+870 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Génération NT"
-      },
-      "author": "Christian D.",
-      "title": "Twitter : Elon Musk tente de passer par l'ex-CEO Jack Dorsey pour obtenir des documents",
-      "description": "Le milliardaire Elon Musk a adressé une injonction à Jack Dorsey, co-fondateur et ancien patron de Twitter, pour obtenir des documents sur le fonctionnement du réseau social et la problématique des faux comptes.",
-      "url": "https://www.generation-nt.com/twitter-acquisition-elon-musk-jack-dorsey-injonction-documents-actualite-2004259.html",
-      "urlToImage": "https://img.generation-nt.com/twitter_04B0032001681662.webp",
-      "publishedAt": "2022-08-23T12:50:01Z",
-      "content": "Si Elon Musk a finalement renoncé à racheter Twitter, c'est maintenant l'heure des batailles juridiques et la préparation des procès dont le premier, initié par le réseau social pour le forcer à alle… [+1685 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Techinsider.ru"
-      },
-      "author": "Никита Шевцев",
-      "title": "Сколько стоит самый дешевый автомобиль Tesla: он по карману очень многим",
-      "description": "У Tesla в линейке есть уже много моделей с разными комплектациями, но цены на них постоянно меняются. Какой же автомобиль Tesla самый дешевый на сегодняшний день?",
-      "url": "https://www.techinsider.ru/vehicles/1552395-skolko-stoit-samyy-deshevyy-avtomobil-tesla-on-po-karmanu-ochen-mnogim/",
-      "urlToImage": "https://images.techinsider.ru/upload/img_cache/b18/b185c8056207933ad6c2d80619ac7404_ce_1622x1080x149x0_cropped_1200x628.jpg",
-      "publishedAt": "2022-08-23T12:50:00Z",
-      "content": "2021  Tesla    .    Cybertruck    Model Y Dual Motor  10 000 . ,  Model 3    35 000 (2 ), .   Tesla?\r\n,   .  Tesla  50 000 (2 987 000 ), ,   , Model 3   .  Model Y Dual Motor ( )  58 990 (3,5 ), Mode… [+179 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Gagadget.com"
-      },
-      "author": "gagadget.com",
-      "title": "Армия Австралии протестирует электрическую версию бронемашины Bushmaster – это первый в мире военный электромобиль",
-      "description": "Австралийская армия намерена провести испытания бронированного автомобиля&nbsp;Bushmaster&nbsp;с электрическим двигателем.",
-      "url": "https://gagadget.com/ru/160023-armiya-avstralii-protestiruet-elektricheskuyu-versiyu-bronemashinyi-bushmaster-eto-pervyij-v-mire-voennyij-elektromobi/",
-      "urlToImage": "https://gagadget.com/media/cache/a2/db/a2dbd23ec72c2f19aaf57df1424a15a0.jpg",
-      "publishedAt": "2022-08-23T12:49:41Z",
-      "content": "Bushmaster .\r\nBushmaster . . . - . 2 , 12 .\r\nBushmaster ePMV . 60 / . 100 / 12 , Bushmaster 42 .\r\nBushmaster ePMV 100 , - 350 . , , 1000 . 180 , Tesla, 420 .\r\n: Army Recognition\r\n , :"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Motley Fool"
-      },
-      "author": "newsfeedback@fool.com (Lawrence Nga)",
-      "title": "2 Important Things Investors Should Know About Tencent",
-      "description": "Tencent has a resilient business model thanks to the diversity of its income base.",
-      "url": "https://www.fool.com/investing/2022/08/23/2-important-things-investors-should-know-about-ten/",
-      "urlToImage": "https://g.foolcdn.com/editorial/images/697402/woman-looking-at-smarphone.jpg",
-      "publishedAt": "2022-08-23T12:49:00Z",
-      "content": "Once a darling among investors, Tencent Holdings Limited(TCEHY -1.29%) has seen enormous selling pressure lately. The Chinese government crackdown on tech companies, the weaker economy, and reduction… [+4960 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Frandroid"
-      },
-      "author": "Ulrich Rozier",
-      "title": "Voici 8 voitures 100 % électriques américaines à surveiller de près",
-      "description": "On parle souvent de la Chine, mais les États-Unis sont très prolifiques concernant les voitures électriques. 100 % électriques, bourrées de technologies, les voitures électriques américaines arrivent au compte-goutte en Europe. Voici une sélection de huit voi…",
-      "url": "https://www.frandroid.com/produits-android/automobile/voitures-electriques/1435765_voici-8-voitures-100-electriques-americaines-a-surveiller-de-pres",
-      "urlToImage": "https://images.frandroid.com/wp-content/uploads/2022/08/lucid-air-frandroid-img-0709.jpg",
-      "publishedAt": "2022-08-23T12:45:36Z",
-      "content": "On parle souvent de la Chine, mais les États-Unis sont très prolifiques concernant les voitures électriques. 100 % électriques, bourrées de technologies, les voitures électriques américaines arrivent… [+11119 chars]"
-    },
-    {
-      "source": {
-        "id": "nbc-news",
-        "name": "NBC News"
-      },
-      "author": "Kevin Collier",
-      "title": "Twitter whistleblower alleges major security issues",
-      "description": "Peiter \"Mudge\" Zatko, a veteran cybersecurity expert widely respected in the industry, filed the complaint with the Securities and Exchange Commission, Federal Trade Commission and the Department of Justice in July.",
-      "url": "https://www.nbcnews.com/tech/tech-news/twitter-whistleblower-alleges-major-security-issues-rcna44361",
-      "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2022-04/220423-twitter-logo-mjf-1008-84154a.jpg",
-      "publishedAt": "2022-08-23T12:44:13Z",
-      "content": "Twitters former head of cybersecurity has accused the company of a number of egregious security flaws and oversights, according to a whistleblower complaint filed with the U.S. government earlier thi… [+1865 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Motley Fool"
-      },
-      "author": "newsfeedback@fool.com (Daniel Sparks)",
-      "title": "Why Tesla's Rapid Growth Could Accelerate in Q3",
-      "description": "The electric car maker has defied gravity in a challenging auto market, and Q3 could see even faster growth.",
-      "url": "https://www.fool.com/investing/2022/08/23/why-teslas-rapid-growth-could-accelerate-in-q3/",
-      "urlToImage": "https://g.foolcdn.com/editorial/images/697539/tesla-stock-tsla-factory.jpg",
-      "publishedAt": "2022-08-23T12:41:00Z",
-      "content": "With the third quarter more than half over, Tesla(TSLA -2.28%) investors have more visibility into how the electric car maker's deliveries might be faring. Unfortunately, any forecast at this time sh… [+3563 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "NDTV News"
-      },
-      "author": null,
-      "title": "Twitter Misled Regulators On Bots, Alleges Former Security Head: Report",
-      "description": "Twitter Inc misled federal regulators about its security defenses and spam accounts, CNN and the Washington Post reported on Tuesday, citing whistleblower disclosures by the social media company's former security chief Peiter Zatko.",
-      "url": "https://www.ndtv.com/business/twitters-former-security-head-alleges-company-misled-regulators-about-security-bots-reports-3279449",
-      "urlToImage": "https://c.ndtvimg.com/2021-02/alobemt_twitter-generic-reuters_650x400_10_February_21.jpg",
-      "publishedAt": "2022-08-23T12:40:26Z",
-      "content": "Twitter Inc misled federal regulators about its security defenses and spam accounts, CNN and the Washington Post reported on Tuesday, citing whistleblower disclosures by the social media company's fo… [+1338 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Www.df.cl"
-      },
-      "author": "Diario Financiero, Financial Times, traducido por Diario Financiero",
-      "title": "Elon Musk cita al cofundador de Twitter, Jack Dorsey, para declarar a su favor en juicio con Twitter",
-      "description": "Multimillonario busca comunicaciones del ex CEO con otros ejecutivos sobre los usuarios de la plataforma.",
-      "url": "https://www.df.cl/empresas/telecom-tecnologia/elon-musk-cita-al-cofundador-de-twitter-jack-dorsey-para-declarar-a-su",
-      "urlToImage": "https://www.df.cl/noticias/site/artic/20220823/imag/foto_0000000120220823082341/musk.jpeg",
-      "publishedAt": "2022-08-23T12:40:00Z",
-      "content": "Elon Musk citó al cofundador de Twitter, Jack Dorsey, por sus comunicaciones con los ejecutivos del sitio de redes sociales sobre la prevalencia de cuentas falsas o bots en la plataforma.\r\nLa present… [+2709 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "New York Post"
-      },
-      "author": "Ariel Zilber",
-      "title": "Famed hacker blows whistle on Twitter, claims app is risk to national security",
-      "description": "Zatko was named head of security by Twitter two years ago after the company was victimized by embarrassing glitches.",
-      "url": "https://nypost.com/2022/08/23/famed-hacker-blows-whistle-on-twitter-claims-national-security-risks/",
-      "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2022/08/newspress-collage-23570134-1661258968879.jpg?quality=75&strip=all&1661244671&w=1024",
-      "publishedAt": "2022-08-23T12:39:18Z",
-      "content": "A well-known “ethical hacker” who was hired by Twitter to overhaul its cybersecurity alleged that the social media giant has become a security risk for the US after it reneged on a deal with the fede… [+4040 chars]"
-    },
-    {
-      "source": {
-        "id": "mashable",
-        "name": "Mashable"
-      },
-      "author": "James Paul",
-      "title": "Amid Legal Dispute With Elon Musk Over Bots, Twitter Threatens To Revoke Bot Sentinel’s Data Access",
-      "description": "Amid Legal Dispute With Elon Musk Over Bots, Twitter Threatens To Revoke Bot Sentinel’s Data Accessmashable.com",
-      "url": "https://in.mashable.com/tech/37215/amid-legal-dispute-with-elon-musk-over-bots-twitter-threatens-to-revoke-bot-sentinels-data-access",
-      "urlToImage": "https://sm.mashable.com/mashable_in/seo/default/twitter_1nsv.jpg",
-      "publishedAt": "2022-08-23T12:37:11Z",
-      "content": "<ul><li>Bot Sentinel is an automated program that tracks harmful and sock-puppet accounts</li><li>The app monitors and flags bots (obviously) and targeted hate content quiet effectively </li><li>Deve… [+3479 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "The Guardian"
-      },
-      "author": "Arwa Mahdawi",
-      "title": "Why are Tesla fanatics putting their children in the path of moving cars?",
-      "description": "Some superfans are so determined to prove that Elon Musk’s ‘autonomous’ driving technology works that they are willing to put their kids in harm’s way, writes Arwa Mahdawi",
-      "url": "https://amp.theguardian.com/technology/commentisfree/2022/aug/23/tesla-fanatics-elon-musk-children-moving-cars",
-      "urlToImage": "https://i.guim.co.uk/img/media/c68a8fc0087fadc177b585a7e198ee9707712967/0_139_4096_2458/master/4096.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctb3BpbmlvbnMucG5n&enable=upscale&s=9374812d4b44ac9cb07ae9c256aa0d8f",
-      "publishedAt": "2022-08-23T12:36:36Z",
-      "content": "Ive been a mum for a relatively short time; Im not exactly an expert when it comes to this whole parenting thing. Still, there is one piece of advice I can confidently dole out: dont instruct your ch… [+3642 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "AutoExpress"
-      },
-      "author": "Richard Ingram",
-      "title": "Electric car battery swapping: inside NIO's game-changing tech",
-      "description": "We sample Chinese brand NIO’s innovative battery-swap technology in Norway to see if it could be the future of electric-car charging",
-      "url": "https://www.autoexpress.co.uk/nio/358663/electric-car-battery-swapping-inside-nios-game-changing-tech",
-      "urlToImage": "https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-image-full-desktop@1/v1661257757/autoexpress/2022/08/Nio battery swapping-7.jpg",
-      "publishedAt": "2022-08-23T12:35:15Z",
-      "content": "The time it takes to charge an electric car and indeed, how far you can travel on a top-up has been steadily improving over the past decade. Rewind to 2011 and a 30-minute rapid charge in a Mk1 Nissa… [+8062 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "La Tribune.fr"
-      },
-      "author": null,
-      "title": "Pour s'extirper de l'accord de rachat, Elon Musk met la pression sur l'ex-patron de Twitter",
-      "description": "Elon Musk, qui cherche toujours à se retirer de l'accord latéral de rachat de Twitter à 44 milliards de dollars du réseau social signé fin avril, a envoyé à l'ancien patron du réseau social, Jack Dorsey, qui a quitté ses fonctions en novembre dernier, une inj…",
-      "url": "https://www.latribune.fr/technos-medias/internet/pour-s-extirper-de-l-accord-de-rachat-elon-musk-met-la-pression-sur-l-ex-patron-de-twitter-928423.html",
-      "urlToImage": "https://static.latribune.fr/full_width/1969913/twitter-attaque-elon-musk-en-justice-pour-rupture-de-l-accord-de-rachat.jpg",
-      "publishedAt": "2022-08-23T12:35:00Z",
-      "content": "C'est une bataille acharnée que se livrent les deux parties dans cette affaire, à coups d'assignations à comparaître et d'injonctions à fournir des documents : le conflit qui oppose Elon Musk à Twitt… [+3046 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Usine-digitale.fr"
-      },
-      "author": "Raphaële Karayan",
-      "title": "Le Royaume-Uni lance les travaux législatifs sur les véhicules autonomes",
-      "description": "Le secrétariat britannique aux Transports a annoncé un plan d'investissement de 100 millions de livres sterling pour paver la route aux véhicules autonomes en 2025. Le gouvernement prévoit de rendre les constructeurs responsables en cas d'accident d'un véhicu…",
-      "url": "https://www.usine-digitale.fr/article/le-royaume-uni-lance-les-travaux-legislatifs-sur-les-vehicules-autonomes.N2035827",
-      "urlToImage": "https://www.usine-digitale.fr/mediatheque/7/2/7/001326727_pageListeTypeACropped/tesla-model-s-autopilot-left-turn-jpg.png",
-      "publishedAt": "2022-08-23T12:34:00Z",
-      "content": "Le gouvernement britannique a annoncé le 19 août un plan d'investissement de 100 millions de livres sterling (118 millions d'euros) pour le développement de la voiture autonome d'ici 2025. Afin de pr… [+1655 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Computerhoy.com"
-      },
-      "author": "Chema Carvajal",
-      "title": "¿Y si Elon Musk tiene razón? Ex-ejecutivo de Twitter denuncia políticas de ciberseguridad imprudentes y negligentes",
-      "description": "Si echamos la vista atrás, a hace unos pocos meses, lo que abría los telefiarios y ocupaba las primeras planas de los periódicos era el acuerdo de Elon Musk, CEO de Tesla y SpaceX, con Twitter para compra la red social por unos 44.000 millones de dólares.\r\n\n …",
-      "url": "https://computerhoy.com/noticias/tecnologia/elon-musk-tiene-razon-ex-ejecutivo-twitter-denuncia-politicas-ciberseguridad-imprudentes-negligentes-1113193",
-      "urlToImage": "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2022/04/elon-musk-twitter-2671041.jpg?itok=iAEwBTl6",
-      "publishedAt": "2022-08-23T12:33:34Z",
-      "content": "Si echamos la vista atrás, a hace unos pocos meses, lo que abría los telefiarios y ocupaba las primeras planas de los periódicos era el acuerdo de Elon Musk, CEO de Tesla y SpaceX, con Twitter para c… [+2605 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Ilfattoquotidiano.it"
-      },
-      "author": "F. Q.",
-      "title": "Twitter, Elon Musk cita in giudizio l’ex Ceo Jack Dorsey che lo aveva sostenuto nella scalata al social",
-      "description": "L’amministratore delegato di Tesla, si legge nell’atto, vuole informazioni in merito al numero di falsi account o bot attivi sul social netowork. I due hanno sempre avuto un ottimo rapporto, tanto che l'ex numero uno della piattaforma si era espresso a favore…",
-      "url": "https://www.ilfattoquotidiano.it/2022/08/23/twitter-elon-musk-cita-in-giudizio-lex-ceo-jack-dorsey-che-lo-aveva-sostenuto-nella-scalata-al-social/6771758/",
-      "urlToImage": "https://st.ilfattoquotidiano.it/wp-content/uploads/2022/04/06/med-1200x630-8.jpg",
-      "publishedAt": "2022-08-23T12:32:49Z",
-      "content": "Il team legale di Elon Musk ha citato in giudizio l’ex-ceo di Twitter, Jack Dorsey. Si tratta dell’ultima mossa della battaglia legale tra Musk e Twitter, esplosa dopo che il numero uno di Tesla e Sp… [+1929 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "CNA"
-      },
-      "author": null,
-      "title": "Twitter's former security head alleges company misled regulators about security, bots-reports",
-      "description": "Twitter Inc misled federal regulators about its security defenses and spam accounts, CNN and the Washington Post reported on Tuesday, citing whistleblower disclosures by the social media company's former security chief Peiter Zatko.Twitter executives don't ha…",
-      "url": "https://www.channelnewsasia.com/business/twitters-former-security-head-alleges-company-misled-regulators-about-security-bots-reports-2895316",
-      "urlToImage": "https://onecms-res.cloudinary.com/image/upload/s--BYIpRKBy--/fl_relative,g_south_east,l_one-cms:core:watermark:reuters,w_0.1/f_auto,q_auto/c_fill,g_auto,h_676,w_1200/v1/one-cms/core/2022-08-23t122738z_1_lynxmpei7m0fb_rtroptp_3_twitter-m-a-musk.jpg?itok=FWI3fs91",
-      "publishedAt": "2022-08-23T12:27:38Z",
-      "content": "Twitter Inc misled federal regulators about its security defenses and spam accounts, CNN and the Washington Post reported on Tuesday, citing whistleblower disclosures by the social media company's fo… [+1226 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "CNA"
-      },
-      "author": null,
-      "title": "Twitter's former security head alleges company misled regulators about security, bots-reports",
-      "description": "Twitter Inc misled federal regulators about its security defenses and spam accounts, CNN and the Washington Post reported on Tuesday, citing whistleblower disclosures by the social media company's former security chief Peiter Zatko.Twitter executives don't ha…",
-      "url": "https://www.channelnewsasia.com/business/twitters-former-security-head-claims-company-misled-regulators-about-bot-accounts-reports-2895316",
-      "urlToImage": "https://onecms-res.cloudinary.com/image/upload/s--BYIpRKBy--/fl_relative,g_south_east,l_one-cms:core:watermark:reuters,w_0.1/f_auto,q_auto/c_fill,g_auto,h_676,w_1200/v1/one-cms/core/2022-08-23t122738z_1_lynxmpei7m0fb_rtroptp_3_twitter-m-a-musk.jpg?itok=FWI3fs91",
-      "publishedAt": "2022-08-23T12:27:38Z",
-      "content": "Twitter Inc misled federal regulators about its security defenses and spam accounts, CNN and the Washington Post reported on Tuesday, citing whistleblower disclosures by the social media company's fo… [+1226 chars]"
+      "author": "Jennifer Pattison Tuohy",
+      "title": "New Hue bulbs have leaked and they look amazing",
+      "description": "Philips Hue’s new decorative smart lightbulbs come in globe, ellipse, and triangle shapes, and are dimmable full-color and white ambiance bulbs.",
+      "url": "https://www.theverge.com/23323232/philips-hue-lightguide-smart-led-bulbs-new-pricing-availability",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/IK2_WOvm5VATeUdu42ebqUAfDgg=/0x443:1352x1151/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/23972878/81DQDAK9SJL._AC_SL1500_.jpg",
+      "publishedAt": "2022-08-26T16:46:05Z",
+      "content": "Three new Lightguide smart LED bulbs from Philips Hue appeared on Amazon.de this week.\r\n\n \n\n Signify looks set to release a stunning new line of light bulbs for its Philips Hue brand, as the company … [+2665 chars]"
     },
     {
       "source": {
@@ -437,871 +60,1247 @@
         "name": "Reuters"
       },
       "author": null,
-      "title": "Twitter's former security head alleges company misled regulators about security, bots-reports - Reuters",
-      "description": "Twitter Inc <a href=\"https://www.reuters.com/companies/TWTR.N\" target=\"_blank\">(TWTR.N)</a> misled federal regulators about its security defenses and spam accounts, CNN and the Washington Post reported on Tuesday, citing whistleblower disclosures by the socia…",
-      "url": "https://www.reuters.com/markets/deals/twitters-former-security-head-alleges-company-misled-regulators-about-security-2022-08-23/",
-      "urlToImage": "https://www.reuters.com/resizer/ASE8n6rfWGzi94uQFJNTaDR7mBM=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/XQ3DKRAYTJN4FGKJJGV4FWIDXQ.jpg",
-      "publishedAt": "2022-08-23T12:27:00Z",
-      "content": "Aug 23 (Reuters) - Twitter Inc (TWTR.N) misled federal regulators about its security defenses and spam accounts, CNN and the Washington Post reported on Tuesday, citing whistleblower disclosures by t… [+1475 chars]"
+      "title": "Breakingviews - Electronic Arts won't be a multiplayer M&A game - Reuters",
+      "description": "Electronic Arts <a href=\"https://www.reuters.com/companies/EA.O\" target=\"_blank\">(EA.O)</a> is a tempting target but finding the right players might be harder to master. On Friday, CNBC reported that Amazon.com <a href=\"https://www.reuters.com/companies/AMZN.…",
+      "url": "https://www.reuters.com/breakingviews/electronic-arts-wont-be-multiplayer-ma-game-2022-08-26/",
+      "urlToImage": "https://www.reuters.com/resizer/ja1eMuBP9icSXwgJemBcCxdHt_w=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/FZ75VGAYZRORBNK2EW6XH7GTLY.jpg",
+      "publishedAt": "2022-08-26T16:02:00Z",
+      "content": "NEW YORK, Aug 26 (Reuters Breakingviews) - Electronic Arts (EA.O) is a tempting target but finding the right players might be harder to master. On Friday, CNBC reported that Amazon.com (AMZN.O) is no… [+1555 chars]"
     },
     {
       "source": {
-        "id": null,
-        "name": "Daily Mail"
-      },
-      "author": "Paul Thompson, Lizzie May, Charlotte Mclaughlin, Henry Martin",
-      "title": "Driver who crashed onto Park Royal tracks is jewellery shop manager whose leg 'has been amputated'",
-      "description": "Iraqi-born jewellery store manager Rida Al Mousawi had had only recently bought the super-charged 4x4 when it careered off the road at up to 120mph, smashed onto rail tracks at Park Royal tube station.",
-      "url": "https://www.dailymail.co.uk/news/article-11137767/Driver-crashed-Park-Royal-tracks-jewellery-shop-manager-leg-amputated.html",
-      "urlToImage": "https://i.dailymail.co.uk/1s/2022/08/23/13/61643435-0-image-a-2_1661256236661.jpg",
-      "publishedAt": "2022-08-23T12:18:10Z",
-      "content": "The driver of the 'out of control' Range Rover involved in the horrific crash on the A40 can be named as 24-year-old Rida Al Mousawi and he has since had his leg amputated after the incident, MailOnl… [+18759 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Observador.pt"
-      },
-      "author": "Cátia Rocha",
-      "title": "Musk quer que co-fundador do Twitter apresente documentos sobre contas falsas",
-      "description": "Os advogados de Musk apresentaram uma intimação para tentar obter documentos de Jack Dorsey, co-fundador e ex-CEO do Twitter. O dono da Tesla continua a preparar-se para a batalha judicial.",
-      "url": "https://observador.pt/2022/08/23/musk-quer-que-co-fundador-do-twitter-apresente-documentos-sobre-contas-falsas/",
-      "urlToImage": "https://wm.observador.pt/wm/obs/l/https%3A%2F%2Fbordalo.observador.pt%2Fv2%2Frs%3Afill%3A770%3A403%2Fc%3A2000%3A1126%3Anowe%3A0%3A158%2Fq%3A85%2Fplain%2Fhttps%3A%2F%2Fs3.observador.pt%2Fwp-content%2Fuploads%2F2019%2F02%2F21155800%2FGettyImages-1060578038.jpg",
-      "publishedAt": "2022-08-23T12:13:19Z",
-      "content": "Tem acesso livre a todos os artigos do Observador por ser nosso assinante.\r\nOs advogados que representam Elon Musk apresentaram uma intimação a Jack Dorsey, co-fundador do Twitter, que desempenhou fu… [+1708 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "tagesschau.de"
-      },
-      "author": "tagesschau",
-      "title": "Für Batterien: VW will sich an kanadischen Minen beteiligen",
-      "description": "Volkswagen will sich in Kanada an Minen beteiligen. Der Konzern sichert sich so den Zugriff auf wichtige Rohstoffe für die Batterieproduktion. Das Land verfüge über praktisch alle Rohstoffe, die dafür gebraucht werden, hieß es von VW.",
-      "url": "https://www.tagesschau.de/wirtschaft/volkswagen-absichtserklaerung-kanada-batterieproduktion-101.html",
-      "urlToImage": "https://www.tagesschau.de/multimedia/bilder/nickel-101~_v-original.jpg",
-      "publishedAt": "2022-08-23T12:09:01Z",
-      "content": "Volkswagen will sich in Kanada an Minen beteiligen. Der Konzern sichert sich so den Zugriff auf wichtige Rohstoffe für die Batterieproduktion. Das Land verfüge über praktisch alle Rohstoffe, die dafü… [+3994 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Business Wire"
+        "id": "reuters",
+        "name": "Reuters"
       },
       "author": null,
-      "title": "Lexus Is the ‘Class’ of Luxury, Yet Strong Moves From Acura and Infiniti Make It a Race, ACSI Data Show",
-      "description": "ANN ARBOR, Mich.--(BUSINESS WIRE)-- #acsi--Overall customer satisfaction with automobiles slides 1.3% to a score of 77 (out of 100), according to the ACSI.",
-      "url": "https://www.businesswire.com/news/home/20220823005135/en/Lexus-Is-the-%E2%80%98Class%E2%80%99-of-Luxury-Yet-Strong-Moves-From-Acura-and-Infiniti-Make-It-a-Race-ACSI-Data-Show",
-      "urlToImage": "https://mms.businesswire.com/media/20220823005135/en/1550034/23/22aug_automobile-infographic.jpg",
-      "publishedAt": "2022-08-23T12:05:40Z",
-      "content": "ANN ARBOR, Mich.--(BUSINESS WIRE)--Satisfaction with the auto industry is moving in reverse.\r\nOverall customer satisfaction with automobiles slides 1.3% to a score of 77 (out of 100), according to th… [+4118 chars]"
+      "title": "Futures ebb as Powell's speech nears - Reuters",
+      "description": "U.S. stock index futures slipped on Friday as investors worried about hawkish signals from Federal Reserve Chair Jerome Powell at the annual Jackson Hole symposium amid fears of slowing economic growth.",
+      "url": "https://www.reuters.com/markets/europe/futures-ebb-powells-speech-nears-2022-08-26/",
+      "urlToImage": "https://www.reuters.com/resizer/IqS0WNIjHDHAF8xN8gg1AkrhcAY=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/3KJYECNYSBOUXE4E2FFPLOSLUM.jpg",
+      "publishedAt": "2022-08-26T11:35:00Z",
+      "content": "Aug 26 (Reuters) - U.S. stock index futures slipped on Friday as investors worried about hawkish signals from Federal Reserve Chair Jerome Powell at the annual Jackson Hole symposium amid fears of sl… [+2556 chars]"
     },
     {
       "source": {
-        "id": null,
-        "name": "Excelsior.com.mx"
-      },
-      "author": "magnolia.ramirez",
-      "title": "Elon Musk cita a Jack Dorsey, ex CEO de Twitter, para aportar pruebas en batalla legal",
-      "description": "Magnolia Jocelyn Pacheco Ramírez - afp\r\nElon Musk envió a Jack Dorsey, cofundador y exdirector ejecutivo de Twitter, un requerimiento judicial para que proporcione material que lo ayude a salir del acuerdo de compra de la red social por 44 mil millones de dól…",
-      "url": "https://www.excelsior.com.mx/funcion/elon-musk-cita-a-jack-dorsey-ex-ceo-de-twitter-para-aportar-pruebas-en-batalla-legal/1534835",
-      "urlToImage": "https://cdn2.excelsior.com.mx/media/styles/image1200x630/public/pictures/2022/08/23/2809760.jpg",
-      "publishedAt": "2022-08-23T12:05:37Z",
-      "content": "Elon Musk envió a Jack Dorsey, cofundador y exdirector ejecutivo de Twitter, un requerimiento judicial para que proporcione material que lo ayude a salir del acuerdo de compra de la red social por 44… [+1187 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Hola"
-      },
-      "author": "hola.com",
-      "title": "Nuevo frente abierto para Elon Musk: su primera novia subasta fotos del romance nunca antes vistas",
-      "description": "Jennifer Gwynne fue pareja del magnate cuando este tenía 23 años y empezaba a visualizar cómo lograr el éxito fabricando vehículos eléctricos",
-      "url": "https://www.hola.com/actualidad/20220823215709/primera-novia-elon-musk-subasta-fotos-y-recuerdos-relacion/",
-      "urlToImage": "https://images.hola.com/imagenes/actualidad/20220823215709/primera-novia-elon-musk-subasta-fotos-y-recuerdos-relacion/1-128-533/muskjoven23-t.jpg",
-      "publishedAt": "2022-08-23T12:04:48Z",
-      "content": "En medio de la batalla judicial con Twitter, Elon Musk se ha visto sorprendido por una noticia con la que, probablemente, no contaba: su primera novia ha puesto a subasta fotos de él cuando estuviero… [+3281 chars]"
-    },
-    {
-      "source": {
-        "id": "bbc-news",
-        "name": "BBC News"
-      },
-      "author": "https://www.facebook.com/bbcnews",
-      "title": "Park Royal Tube station partially reopens after deadly car crash",
-      "description": "A Land Rover ended up on the tracks after crashing through a Tesla dealership in west London.",
-      "url": "https://www.bbc.co.uk/news/uk-england-london-62647588",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/17E45/production/_126416879_mediaitem126416877.jpg",
-      "publishedAt": "2022-08-23T12:02:22Z",
-      "content": "The Tube station where a car landed on the tracks after crashing off a west London road has partially reopened.\r\nA woman, 33, died when the car she was travelling in crashed through a barrier, hit a … [+1137 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Motorpasión"
-      },
-      "author": "Daniel Murias",
-      "title": "Han pasado cinco años y el Tesla Semi parece que está un poco más cerca, pero no aporta nada revolucionario",
-      "description": "En principio, el Tesla Semi estará disponible a finales de 2022, pero la marca ha dejado de aceptar reservas para el camión eléctrico. Además, ha actualizado su página web con nuevas especificaciones, imágenes y vídeos del semirremolque eléctrico. Y el Tesla …",
-      "url": "https://www.motorpasion.com/tesla/tesla-semi-anuncia-consumo-que-avergonzaria-a-camiones-electricos-europeos-fuera-cierto",
-      "urlToImage": "https://img.remediosdigitales.com/2b9365/captura-de-pantalla-2022-08-23-a-las-10.36.28/840_560.jpeg",
-      "publishedAt": "2022-08-23T12:01:10Z",
-      "content": "En principio, el Tesla Semi estará disponible a finales de 2022, pero la marca ha dejado de aceptar reservas para el camión eléctrico. Además, ha actualizado su página web con nuevas especificaciones… [+5619 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Business Wire"
+        "id": "reuters",
+        "name": "Reuters"
       },
       "author": null,
-      "title": "Zitara Raises $12M Series A to Make Batteries Safer and More Profitable - Business Wire",
-      "description": "Zitara, a physics and machine-learning powered battery management software company, has announced the close of a $12M Series A round led by Energy Imp",
-      "url": "https://www.businesswire.com/news/home/20220823005180/en/Zitara-Raises-12M-Series-A-to-Make-Batteries-Safer-and-More-Profitable",
-      "urlToImage": "https://mms.businesswire.com/media/20220823005180/en/1550237/23/Zitara_logo.jpg",
-      "publishedAt": "2022-08-23T12:01:00Z",
-      "content": "SAN FRANCISCO--(BUSINESS WIRE)--Zitara, a physics and machine-learning powered battery management software company, has announced the close of a $12M Series A round led by Energy Impact Partners LP (… [+3845 chars]"
+      "title": "Breakingviews - China-U.S. audit deal success is a long way off - Reuters",
+      "description": "Sometimes the hardest yards are put in agreeing deal principles; other times, the real work only starts after that point. American and Chinese officials are nearing an accord allowing U.S. inspections in Hong Kong of mainland audit papers, the Wall Street Jou…",
+      "url": "https://www.reuters.com/breakingviews/china-us-audit-deal-success-is-long-way-off-2022-08-26/",
+      "urlToImage": "https://www.reuters.com/resizer/Z10kPQ9m23PxivSgHwWaRRMoOYU=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/VI6DJLGGCJJRNKWAQQNCEUBENA.jpg",
+      "publishedAt": "2022-08-26T03:55:00Z",
+      "content": "HONG KONG, Aug 26 (Reuters Breakingviews) - Sometimes the hardest yards are put in agreeing deal principles; other times, the real work only starts after that point. American and Chinese officials ar… [+3364 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Forbes"
+        "name": "Android Central"
       },
-      "author": "Trefis Team, Contributor, \n Trefis Team, Contributor\n https://www.forbes.com/sites/greatspeculations/people/trefis/",
-      "title": "Will Tesla Stock Rally Further Post Its Split?",
-      "description": "Tesla stock has gained almost 9% over the past month, outperforming the broader S&P 500 which rose about 6% over the same period.",
-      "url": "https://www.forbes.com/sites/greatspeculations/2022/08/23/will-tesla-stock-rally-further-post-its-split/",
-      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/63044e4ef52ff05fe612b4a0/0x0.jpg?format=jpg&width=1200",
-      "publishedAt": "2022-08-23T12:00:00Z",
-      "content": "Tesla, Inc. electric vehicles charge at supercharger location in Hawthorne, California, on August 9, ... [+] 2022. (Photo by Patrick T. FALLON / AFP) (Photo by PATRICK T. FALLON/AFP via Getty Images)… [+2456 chars]"
+      "author": "andrew.myrick@futurenet.com (Andrew Myrick)",
+      "title": "Samsung Galaxy Watch 5 review: The best Android smartwatch, for now",
+      "description": "With the Galaxy Watch 4, there was a lot of hype surrounding the arrival of Wear OS 3. But with more competition on the horizon, it's definitely plausible to think that the Galaxy Watch 5 might not hold the crown of best Android smartwatch for too long.",
+      "url": "https://www.androidcentral.com/wearables/samsung-galaxy-watch-5-review",
+      "urlToImage": "https://cdn.mos.cms.futurecdn.net/LfJf2YpQpp3em3z7HdhoKa-1200-80.jpg",
+      "publishedAt": "2022-08-26T12:00:00Z",
+      "content": "For the past year, Samsung has enjoyed an increased market share in the smartwatch game thanks to the Galaxy Watch 4 and Watch 4 Classic being the only Wear OS 3 options available. Google even felt g… [+12291 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "WebProNews"
+        "name": "MacRumors"
       },
-      "author": "Staff",
-      "title": "Tesla Raises Price of Full-Self-Driving Software to $15,000",
-      "description": "WebProNews\nTesla Raises Price of Full-Self-Driving Software to $15,000\nTesla's Full-Self-Driving (FSD) software has yet to fully live up to its name, but the company is still raising the price 25% to $15,000.\nTesla Raises Price of Full-Self-Driving Software t…",
-      "url": "https://www.webpronews.com/tesla-raises-price-of-full-self-driving-software-to-15000/",
-      "urlToImage": "https://i0.wp.com/www.webpronews.com/wp-content/uploads/2021/01/Tesla-Model-X-Interior-Credit-Tesla.jpg?fit=1700%2C998&ssl=1",
-      "publishedAt": "2022-08-23T12:00:00Z",
-      "content": "Tesla’s Full-Self-Driving (FSD) software has yet to fully live up to its name, but the company is still raising the price 25% to $15,000.\r\nTesla is just one of many automakers racing to develop auton… [+926 chars]"
+      "author": "Joe Rossignol",
+      "title": "Apple TV+ Now Available on Rogers Ignite TV in Canada",
+      "description": "Canadian carrier Rogers today announced that the Apple TV+ app is now rolling out to its Ignite TV and Ignite Streaming boxes/devices. \n\n\n\n\n\nRogers is also offering a three-month subscription to Apple TV+ free of charge to first-time subscribers to the servic…",
+      "url": "https://www.macrumors.com/2022/08/26/apple-tv-plus-rogers-ignite-canada/",
+      "urlToImage": "https://images.macrumors.com/t/LTqflwbF1v97SZvQGSWGrwihn6I=/1600x/article-new/2022/08/Apple-TV-Plus-Luck.jpeg",
+      "publishedAt": "2022-08-26T18:10:15Z",
+      "content": "Canadian carrier Rogers today announced that the Apple TV+ app is now rolling out to its Ignite TV and Ignite Streaming boxes/devices. \r\nRogers is also offering a three-month subscription to Apple TV… [+1086 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Android.com.pl"
+        "name": "MacRumors"
       },
-      "author": "Adam Lulek",
-      "title": "Przynieś, wynieś, pozamiataj – humanoidalne roboty to coś nie tylko dla obiboków",
-      "description": "Rewolucja technologiczna sprawiła, że człowiek więcej czasu może spędzić na przyjemnościach. Wystarczy spojrzeć na autonomiczne odkurzacze, które wykonują podstawowe czynności sprzątania za użytkownika. Kolejną rewolucją w tym obszarze będą humanoidalne robot…",
-      "url": "https://android.com.pl/tech/508004-humanoidalne-roboty-przyklady-tesla/",
-      "urlToImage": "https://static.android.com.pl/uploads/2022/08/Humanoidalne-roboty-1280x960.jpg",
-      "publishedAt": "2022-08-23T11:56:47Z",
-      "content": "Rewolucja technologiczna sprawia, e czowiek wicej czasu moe spdzi na przyjemnociach. Wystarczy spojrze na autonomiczne odkurzacze, które wykonuj podstawowe czynnoci sprztania za uytkownika. Kolejn re… [+6089 chars]"
+      "author": "Joe Rossignol",
+      "title": "T-Mobile and SpaceX's Satellite Connectivity Likely Won't Require an iPhone 14",
+      "description": "T-Mobile and SpaceX today announced a plan to offer smartphone connectivity nearly anywhere in the U.S. with a new \"satellite-to-cellular\" service.\n\n\n\n\n\nThe new technology will leverage SpaceX's second-generation Starlink satellites in low Earth orbit and T-M…",
+      "url": "https://www.macrumors.com/2022/08/25/tmobile-spacex-satellite-connectivity-iphone/",
+      "urlToImage": "https://images.macrumors.com/t/6ZqFz_qmhqgysnZ1QqMNVwwfC3k=/1600x/article-new/2022/08/tmobile-spacex-satellite-connectivity.jpg",
+      "publishedAt": "2022-08-26T03:51:40Z",
+      "content": "T-Mobile and SpaceX today announced a plan to offer smartphone connectivity nearly anywhere in the U.S. with a new \"satellite-to-cellular\" service.\r\nThe new technology will leverage SpaceX's second-g… [+5552 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Seeking Alpha"
+        "name": "MacRumors"
       },
-      "author": "Joshua Fineman",
-      "title": "Twitter drops following report of whistleblower lawsuit",
-      "description": "Twitter (TWTR) fell 3.5% in premarket trading after a report about a whistleblower complaint that accuses the social media giant about lying about Bots to Elon Musk.&quot; The former head...",
-      "url": "https://seekingalpha.com/news/3875733-twitter-drops-following-report-of-whistleblower-lawsuit",
-      "urlToImage": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1393679775/image_1393679775.jpg?io=getty-c-w750",
-      "publishedAt": "2022-08-23T11:56:31Z",
-      "content": "Scott Olson\r\nTwitter (NYSE:TWTR) fell 5% in premarket trading after a report about a whistleblower complaint that accuses the social media giant about \"lying about Bots to Elon Musk.\"\r\nThe former hea… [+1338 chars]"
-    },
-    {
-      "source": {
-        "id": "the-verge",
-        "name": "The Verge"
-      },
-      "author": "James Vincent",
-      "title": "Twitter’s former security chief says company lied about bots and safety",
-      "description": "Peiter ‘Mudge’ Zatko, Twitter’s former head of security turned whistleblower, alleges the company consistently hid negligent security practices, misled federal regulators about safety, and failed to properly estimate the number of bots.",
-      "url": "https://www.theverge.com/2022/8/23/23317857/twitter-whistleblower-zatko-security-spam-safety",
-      "urlToImage": "https://cdn.vox-cdn.com/thumbor/6OFfE18yYJRID9vUNTmhvN3XncU=/0x215:3000x1786/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/23951434/acastro_STK050_08.jpg",
-      "publishedAt": "2022-08-23T11:55:25Z",
-      "content": "Whistleblower and legendary hacker Peiter Mudge Zatko says he wants to finish the job he was hired for\r\nA tough day for Twitter.\r\nAlex Castro / The Verge\r\nTwitter has hidden negligent security practi… [+5186 chars]"
+      "author": "Mitchel Broussard",
+      "title": "Deals: Apple's 10.2-Inch iPad Drops to Best-Ever Price of $279.99 ($49 Off)",
+      "description": "Amazon has marked down Apple's 10.2-inch iPad to a new all-time low price today, with the 64GB Wi-Fi model available for $279.99, down from $329.00. You can get both the Silver and Space Gray at this price, with fastest delivery options estimated around Septe…",
+      "url": "https://www.macrumors.com/2022/08/26/deals-ipad-best-ever-price/",
+      "urlToImage": "https://images.macrumors.com/t/SS3rARVZyFUQEH6YRBTVOnajBTA=/2500x/article-new/2022/08/ipad-blue-image.png",
+      "publishedAt": "2022-08-26T13:44:27Z",
+      "content": "Amazon has marked down Apple's 10.2-inch iPad to a new all-time low price today, with the 64GB Wi-Fi model available for $279.99, down from $329.00. You can get both the Silver and Space Gray at this… [+607 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Wall-street.ro"
+        "name": "CNET"
       },
-      "author": "office@wall-street.ro (Redactia Wall-Street)",
-      "title": "Criza componentelor pune frână bruscă avâtului luat de mașinile „verzi”",
-      "description": "Criza semiconductorilor, a cipurilor și a altor componente necesare asamblării de automobile se prelungește mai mult decât prognozau chiar și cei mai pesimiști analiști din industria auto. Dacă marea majoritate a sspecialiștilor considerau că în cel mult 2-3 …",
-      "url": "https://www.wall-street.ro/articol/Auto/288849/criza-componentelor-pune-frana-brusca-avatului-luat-de-masinile-verzi.html",
-      "urlToImage": "https://www.wall-street.ro/article_pictures/288849_articol.jpg?v=1661244172",
-      "publishedAt": "2022-08-23T11:48:49Z",
-      "content": "Criza semiconductorilor, a cipurilor i a altor componente necesare asamblrii de automobile se prelungete mai mult decât prognozau chiar i cei mai pesimiti analiti din industria auto. Dac marea majori… [+5017 chars]"
+      "author": "Shelby Brown",
+      "title": "Love You to Bits Space Puzzle Game Is an Adorable Addition to Apple Arcade - CNET",
+      "description": "You can check out Love You To Bits on Apple Arcade now.",
+      "url": "https://www.cnet.com/tech/gaming/love-you-to-bits-space-puzzle-game-is-an-adorable-addition-to-apple-arcade/",
+      "urlToImage": "https://www.cnet.com/a/img/resize/0f66919d102cd2eceae249f1bd6fd6bd3649ab34/2022/08/02/10a55bd2-d92d-4633-a3b5-a36cca6a2664/love-you-to-bits.jpg?auto=webp&fit=crop&height=630&width=1200",
+      "publishedAt": "2022-08-26T15:21:35Z",
+      "content": "Apple Arcade added Love You to Bits, a charming puzzle game with sci-fi adventure elements, to its catalog of games on Friday. The colorful game was already in the App Store for $4, but Arcade subscr… [+876 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Search Engine Journal"
+        "name": "CNET"
       },
-      "author": "Amanda DiSilvestro",
-      "title": "How To Identify Fake News From Real News Online via @sejournal, @ADiSilvestro",
-      "description": "Here are some tips you can do to help determine whether a story is real or fake.\nThe post How To Identify Fake News From Real News Online appeared first on Search Engine Journal.",
-      "url": "https://www.searchenginejournal.com/fake-news-vs-real-news/459719/",
-      "urlToImage": "https://cdn.searchenginejournal.com/wp-content/uploads/2022/08/fake-news-1600-x-840-62e8dd9ad22e7-sej.png",
-      "publishedAt": "2022-08-23T11:45:06Z",
-      "content": "Thanks to modern technology, we live in an era of unprecedented connectivity, real-time updates, and incredible amounts of data at our fingertips.\r\nThe irony is that despite access to reliable inform… [+13402 chars]"
-    },
-    {
-      "source": {
-        "id": "globo",
-        "name": "Globo"
-      },
-      "author": null,
-      "title": "Entenda o que o desdobramento de ações da Tesla significa para os investidores",
-      "description": "Os investidores geralmente interpretam esses planos como sinais de confiança da administração A Tesla vai realizar o desdobramento de suas ações esta semana, a mais recente empresa de mega capitalização a dividir suas ações de alto valor este ano em uma tenta…",
-      "url": "https://valor.globo.com/empresas/noticia/2022/08/23/entenda-o-que-o-desdobramento-de-acoes-da-tesla-significa-para-os-investidores.ghtml",
-      "urlToImage": "https://s2.glbimg.com/hN9LKnbGrGJPiy40Kmtb2hYl3js=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2022/g/n/yKrBNNRqanktskSLznAg/385538131.jpg",
-      "publishedAt": "2022-08-23T11:39:45Z",
-      "content": "A Tesla vai realizar o desdobramento de suas ações esta semana, a mais recente empresa de mega capitalização a dividir suas ações de alto valor este ano em uma tentativa de torná-las mais acessíveis … [+16 chars]"
+      "author": "David Lumb",
+      "title": "Samsung's Galaxy Z Fold 4 Is Too Expensive and That's the Point - CNET",
+      "description": "The Galaxy Z Fold 4 is out of reach for most consumers, but Samsung's okay with its exclusivity.",
+      "url": "https://www.cnet.com/tech/mobile/samsungs-galaxy-z-fold-4-is-too-expensive-and-thats-the-point/",
+      "urlToImage": "https://www.cnet.com/a/img/resize/5897215220c20eac689992e5d3eed46364459032/2022/08/10/5873df54-1639-466b-86e8-b7d166cf8aea/samsung-galaxy-unpacked-081022-30.jpg?auto=webp&fit=crop&height=630&width=1200",
+      "publishedAt": "2022-08-26T14:01:21Z",
+      "content": "Among the devices revealed at its Unpacked event last week, Samsung showed off its new flagship Galaxy Z Fold 4 foldable phone, which packs improvements like better multitasking software, a slimmer d… [+6556 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Cnbeta.com"
+        "name": "MacRumors"
       },
-      "author": "raymon725",
-      "title": "结合现实物理过程的分析模型 可让EV电池在十分钟内极速安全补能",
-      "description": "许多研究都指出，影响人们从传统燃油车向 EV 转型的最大阻碍，就是电动汽车需要耗费更长的补能时间。此外就算有更高功率的超充站点，车主们也很担心频繁使用会导致电池寿命大幅缩短。好消息是，Eric Dufek 博士刚刚在新闻发布会上，介绍了他们提出的一套新颖解决方案。 阅读全文",
-      "url": "https://www.cnbeta.com/articles/science/1307813.htm",
-      "urlToImage": "https://static.cnbetacdn.com/thumb/article/2022/0823/f99753eea8ae3c5.jpg",
-      "publishedAt": "2022-08-23T11:38:26Z",
-      "content": "The Study Find Guy - YouTube\r\nEric Dufek EV \r\n EV 2030 \r\n EV \r\nNew Super-Fast EV Charging Methodvia\r\n Eric Dufek ML\r\n ML \r\nDufek 10 90% \r\n EV\r\n Dufek \r\nHow well do you know Tesla and electric vehicle… [+13 chars]"
+      "author": "Joe Rossignol",
+      "title": "Apple and Globalstar Rumored to Announce Satellite Connectivity Feature for iPhone 14 at September 7 Event",
+      "description": "Apple may announce its long-rumored satellite connectivity feature for the iPhone 14 next month, according to Tim Farrar, a satellite communications consultant at California-based research firm Telecom, Media and Finance Associates.\n\n\n\n\n\nIn a series of tweets…",
+      "url": "https://www.macrumors.com/2022/08/26/apple-globalstar-iphone-14-satellite-rumor/",
+      "urlToImage": "https://images.macrumors.com/t/mOITb6vzHd3KhxErsmbFQXKZCIs=/1600x/article-new/2022/08/Apple-Event-Far-Out-Feature.jpeg",
+      "publishedAt": "2022-08-26T14:27:16Z",
+      "content": "Apple may announce its long-rumored satellite connectivity feature for the iPhone 14 next month, according to Tim Farrar, a satellite communications consultant at California-based research firm Telec… [+2268 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Neowin"
+        "name": "MacRumors"
       },
-      "author": "Stephen Bennett",
-      "title": "Phone verification badges for Twitter confirmed to be in the works",
-      "description": "It was recently discovered that Twitter is testing out a verification badge for users who have verified their phone numbers, and Twitter has now confirmed that it is testing this feature. Read more...",
-      "url": "https://www.neowin.net/news/phone-verification-badges-for-twitter-confirmed-to-be-in-the-works/",
-      "urlToImage": "https://cdn.neow.in/news/images/uploaded/2021/03/1614717401_1614717141036_story.jpg",
-      "publishedAt": "2022-08-23T11:38:01Z",
-      "content": "Twitter has confirmed that it is working on a profile badge for users who have verified their accounts with their phone number. This feature was first discovered on the 19th August by Jane Manchun Wo… [+831 chars]"
+      "author": "Juli Clover",
+      "title": "Everything New With Spotlight Search in iOS 16",
+      "description": "The iPhone and iPad have a built-in intelligent search feature called Spotlight, which is designed to search through apps, files, and the web to help you find what you're looking for. Apple improves Spotlight Search with every iteration of iOS, and iOS 16 is …",
+      "url": "https://www.macrumors.com/guide/ios-16-spotlight/",
+      "urlToImage": "https://images.macrumors.com/t/GiM8E0Vy0rk2QWuMB0_ED9YGYZs=/2500x/article-new/2022/08/iOS-Search-Guide-Feature.jpg",
+      "publishedAt": "2022-08-26T21:18:20Z",
+      "content": "The iPhone and iPad have a built-in intelligent search feature called Spotlight, which is designed to search through apps, files, and the web to help you find what you're looking for. Apple improves … [+3378 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "24/7 Wall St."
+        "name": "MacRumors"
       },
-      "author": "Douglas A. McIntyre",
-      "title": "Layoff Tracker 2022",
-      "description": "24/7 Wall St. has developed this layoff tracker to keep track of the notable job cuts.",
-      "url": "https://247wallst.com/jobs/2022/08/23/layoff-tracker-2022/",
-      "urlToImage": "https://247wallst.com/wp-content/uploads/2021/09/imageForEntry23-lZQ.jpg",
-      "publishedAt": "2022-08-23T11:30:06Z",
-      "content": "The recession, which is here or is coming, has caused the start of large numbers of layoffs. Some economists believe unemployment will go much higher. Former Treasury Secretary Larry Summers expects … [+1569 chars]"
-    },
-    {
-      "source": {
-        "id": "abc-news-au",
-        "name": "ABC News (AU)"
-      },
-      "author": "ABC News",
-      "title": "Woman dies after car crashes and goes onto railway track in London",
-      "description": "Police said the car left the road after crashing into a Tesla and went onto the railway track.",
-      "url": "https://www.abc.net.au/news/2022-08-23/woman-dies-in-crash-on-railway-track-in-london/101363252",
-      "urlToImage": "https://live-production.wcms.abc-cdn.net.au/33352e7070dbf619b9e9361dfc55f1a9?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=269&width=862&height=485",
-      "publishedAt": "2022-08-23T11:24:25Z",
-      "content": "A 33-year-old woman has died after the car she was travelling in crashed into a Tesla, left the road and went onto a railway track in London, police say.  \r\n<ul><li>A 33-year-old woman has died after… [+1504 chars]"
+      "author": "Joe Rossignol",
+      "title": "Kuo: New MacBook Pro and iPad Pro Models to Enter Mass Production This Year",
+      "description": "Apple suppliers will begin mass production of new 14-inch MacBook Pro, 16-inch MacBook Pro, and iPad Pro models in the fourth quarter of 2022, and all of the devices will likely remain equipped with 5nm chips, according to Apple analyst Ming-Chi Kuo. \n\n\n\n\n\nIn…",
+      "url": "https://www.macrumors.com/2022/08/26/kuo-macbook-pro-ipad-pro-mass-2022-production/",
+      "urlToImage": "https://images.macrumors.com/t/lyB4c1iPX6XBNTsqFd19N14goLQ=/2672x/article-new/2022/08/14-vs-16-inch-mbp-m2-pro-and-max-feature-1.jpg",
+      "publishedAt": "2022-08-26T16:32:54Z",
+      "content": "Apple suppliers will begin mass production of new 14-inch MacBook Pro, 16-inch MacBook Pro, and iPad Pro models in the fourth quarter of 2022, and all of the devices will likely remain equipped with … [+841 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Seeking Alpha"
+        "name": "MacRumors"
       },
-      "author": "Thomas Prescott",
-      "title": "ICLN, QCLN, TAN: High Risk/Reward Renewable Funds",
-      "description": "ICLN, QCLN, and TAN each follow renewable energy indexes but their holdings are concentrated in different sectors, market caps, and regions. Read more here.",
-      "url": "https://seekingalpha.com/article/4536350-icln-qcln-tan-high-risk-reward-renewable-etf",
-      "urlToImage": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/104502371/image_104502371.jpg?io=getty-c-w750",
-      "publishedAt": "2022-08-23T11:23:38Z",
-      "content": "Hulton Archive/Hulton Archive via Getty Images\r\nIntroduction\r\n Historically, whale oil was a notable energy source, a lubricant, and a crucial manufacturing feedstock. Whale oil was used as lamp fuel… [+10409 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Phonandroid"
-      },
-      "author": "Kevin Dachez",
-      "title": "Neuralink : l’implant cérébral sera présenté le 31 octobre 2022",
-      "description": "Elon Musk vient de confirmer la nouvelle sur Twitter : une nouvelle conférence Neuralink se tiendra le 31 octobre 2022. Visiblement, il faudra s'attendre à une présentation/démonstration du fameux implant cérébral développé par la société depuis plusieurs ann…",
-      "url": "https://www.phonandroid.com/neuralink-limplant-cerebral-sera-presente-le-31-octobre-2022.html",
-      "urlToImage": "https://img.phonandroid.com/2022/08/neulalink-conference-octobre.jpg",
-      "publishedAt": "2022-08-23T11:21:09Z",
-      "content": "Elon Musk vient de confirmer la nouvelle sur Twitter : une nouvelle conférence Neuralink se tiendra le 31 octobre 2022. Visiblement, il faudra s'attendre à une présentation/démonstration du fameux im… [+2428 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "CryptoSlate"
-      },
-      "author": "Zeynep Geylan",
-      "title": "Bitcoin mining energy consumption estimated to rise 10x if price hits $2M – Arcane Research",
-      "description": "Bitcoin (BTC) mining’s energy consumption will rise 10x and hit 894 Terawatt-hours (TWh) annually if the flagship crypto’s price reaches $2 million by 2040, according to an Arcane Research report published August 22. \nThe post Bitcoin mining energy consumptio…",
-      "url": "https://cryptoslate.com/arcane-report-shows-bitcoin-will-consume-894-twh-if-the-price-reaches-2m-by-2040/",
-      "urlToImage": "https://cryptoslate.com/wp-content/uploads/2022/08/image_2022-08-23_154805141.png",
-      "publishedAt": "2022-08-23T11:15:55Z",
-      "content": "Bitcoin (BTC) mining’s energy consumption will rise 10x and hit 894 Terawatt-hours (TWh) annually if the flagship crypto’s price reaches $2 million by 2040, according to an Arcane Research report pub… [+4201 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Frandroid"
-      },
-      "author": "Vincent Sergère",
-      "title": "BMW i4 M50 : un problème de surchauffe réduit drastiquement ses performances sur autoroute",
-      "description": "La première BMW M électrique, l'i4 M50, fait l'objet d'un comportement anormal sur longues distances. En effet, sa puissance maximale est réduite de moitié et le temps de recharge sur borne rapide allongé.Les longs trajets en voitures électriques ne sont pas …",
-      "url": "https://www.frandroid.com/marques/bmw/1439145_bmw-i4-m50-un-probleme-de-surchauffe-reduit-drastiquement-ses-performances-sur-autoroute",
-      "urlToImage": "https://images.frandroid.com/wp-content/uploads/2022/08/bmw-i4-m50.jpg",
-      "publishedAt": "2022-08-23T11:15:33Z",
-      "content": "La première BMW M électrique, l'i4 M50, fait l'objet d'un comportement anormal sur longues distances. En effet, sa puissance maximale est réduite de moitié et le temps de recharge sur borne rapide al… [+2699 chars]"
-    },
-    {
-      "source": {
-        "id": "rt",
-        "name": "RT"
-      },
-      "author": "RT",
-      "title": "China’s economic hub goes dark",
-      "description": "Shanghai authorities have ordered decorative lights off on the city’s trademark riverfront buildings as a heatwave sees power demand soaring Read Full Article at RT.com",
-      "url": "https://www.rt.com/news/561366-shanghai-lights-off-heatwave/",
-      "urlToImage": "https://cdni.russiatoday.com/files/2022.08/article/6304ac4585f5402e8d270ce4.jpg",
-      "publishedAt": "2022-08-23T11:13:23Z",
-      "content": "The lights are off on Shanghai’s riverfront skyscrapers and other buildings that give China’s economic hub its iconic look. City officials have said the measure is aimed at alleviating pressure on th… [+1651 chars]"
-    },
-    {
-      "source": {
-        "id": "newsweek",
-        "name": "Newsweek"
-      },
-      "author": "Jamie Burton",
-      "title": "Elon Musk's Ex-Girlfriend Auctions Off Relationship Mementos From The '90s",
-      "description": "Jennifer Gwynne dated Musk in 1994 and is now selling off pictures, gifts and handwritten notes she received during their relationship.",
-      "url": "https://www.newsweek.com/elon-musk-ex-girlfriend-auctions-off-mementoes-keepsakes-relationships-90s-1735997",
-      "urlToImage": "https://d.newsweek.com/en/full/2102327/elon-musk-2022-2044.jpg",
-      "publishedAt": "2022-08-23T11:12:23Z",
-      "content": "You could become the proud owner of some of Elon Musk's personal items as they've been put up for auction by his ex-girlfriend.\r\nJennifer Gwynne started dating Musk in 1994, and she has decided to ca… [+2413 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Gagadget.com"
-      },
-      "author": "gagadget.com",
-      "title": "Lucid Air Sapphire: конкурент Tesla Model S Plaid с разгоном до 100 км/ч менее чем за 2 секунды, мощностью 1200+ л.с. и ценой в $250 000",
-      "description": "Американский производитель электромобилей&nbsp;Lucid представил новый спортивный электрический седан.",
-      "url": "https://gagadget.com/ru/announce/159975-lucid-air-sapphire-konkurent-tesla-model-s-plaid-s-razgonom-do-100-kmch-menee-chem-za-2-sekundyi-moschnostyu-/",
-      "urlToImage": "https://gagadget.com/media/cache/39/3c/393cdc4252ee1f5468e1d9069b2ddceb.jpg",
-      "publishedAt": "2022-08-23T11:08:58Z",
-      "content": "Lucid .\r\n Lucid Air Sapphire.  Lucid Air.   , «». \r\nSapphire    1200 .. 100 / 2 . 160 / 4 . , - , 20- , 21-  Michelin PS4S. Lucid Air Sapphire ,  ABS, , ,   . \r\nLucid Air Sapphire  Tesla Model S Plai… [+36 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Businessinsider.com.pl"
-      },
-      "author": "Beata Michalik",
-      "title": "W Rosji kwitnie handel \"szarymi towarami\". Państwo gwarantuje ochronę",
-      "description": "Po inwazji armii Putina na Ukrainę z rosyjskiego rynku zniknęło wiele międzynarodowych firm, ograniczając Rosjanom dostęp do lubianych przez nich markowych produktów. Jednak Rosja szybko znalazła wyjście z tej niewygodnej sytuacji, legalizując tzw. import rów…",
-      "url": "https://businessinsider.com.pl/wiadomosci/tak-rosja-obchodzi-sankcje-kupuja-co-chca-nowe-iphoney-playstation/61chddr",
-      "urlToImage": "https://ocdn.eu/pulscms-transforms/1/-qIk9kpTURBXy9lNWM0OGI0MGQ1NGNiZDFkZWQ5NzhjZDIxNDNlNDY3OC5qcGeSlQMAMM0D6M0CMpMFzQSwzQJ2gaEwAQ",
-      "publishedAt": "2022-08-23T11:07:32Z",
-      "content": "<ul><li>Rosjanie maj dostp do wielu produktów zachodnich marek, które po wybuchu konfliktu w Ukrainie zaprzestay dziaalnoci na rosyjskim rynku</li><li>Sprzeda dóbr konsumpcyjnych, takich jak elektron… [+4475 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "MarketWatch"
-      },
-      "author": "Barbara Kollmeyer",
-      "title": "Bill Ackman says fast-food chains are an inflationary shield. Here’s two he likes, and one he just sold.",
-      "description": "Our call of the day comes from Bill Ackman's European listed portfolio, which has some insight on how investors can fight inflation with fast-food companies.",
-      "url": "https://www.marketwatch.com/story/bill-ackman-says-fast-food-chains-are-an-inflationary-shield-heres-two-he-likes-and-one-he-just-sold-11661252802",
-      "urlToImage": "https://images.mktw.net/im-608857/social",
-      "publishedAt": "2022-08-23T11:06:00Z",
-      "content": "A cautious session is ahead for Tuesday, following the worst smackdown since June for major indexes. Thats as an increasing number of investors see the Fed pivoting from rate hikes to be a tall order… [+6097 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Demilked.com"
-      },
-      "author": "Saumya Ratan",
-      "title": "20 Brands Tried To Redesign Something But It Wasn’t Worth The Effort",
-      "description": "Well, some people aren't happy about these redesigns!\nThe post 20 Brands Tried To Redesign Something But It Wasn’t Worth The Effort appeared first on DeMilked.\n\n\nRelated posts:<ol>\n<li>How The Pandemic Changed Our Lives, Illustrated By Artist Irina Blok (20 N…",
-      "url": "https://www.demilked.com/funny-bad-redesigns/",
-      "urlToImage": "https://static.demilked.com/wp-content/uploads/2022/08/funny-bad-redesigns.png",
-      "publishedAt": "2022-08-23T11:00:54Z",
-      "content": "Sometimes, people’s sentiments get attached to brand logos and certain animated characters. So, when the designer decides to redesign them, the change is not appreciated by many folks. Truth be told,… [+1869 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Expansion.com"
-      },
-      "author": "Expansión.com",
-      "title": "Musk cita al cofundador de Twitter, Jack Dorsey, para declarar a su favor en el juicio",
-      "description": "El fundador de Tesla ha citado ante el juez al ex consejero delegado y cofundador de la empresa Jack Dorsey como parte de su defensa, según informa Bloomberg. Dorsey, que dimitió",
-      "url": "https://www.expansion.com/empresas/2022/08/23/6304b32ae5fdea245d8b4602.html",
-      "urlToImage": "https://phantom-expansion.unidadeditorial.es/e4d37d80ae5bf187c2039b4882656606/f/jpg/assets/multimedia/imagenes/2022/08/23/16612516099457.jpg",
-      "publishedAt": "2022-08-23T11:00:50Z",
-      "content": "Elon Musk (izquierda) y Jack Dorsey.\r\nRamin Talaie / Paul Morris Bloomberg News\r\nNuevo capítulo en la batalla legal que el multimillonario Elon Musk mantiene con Twitter, que le reclama mantener la o… [+560 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "BMWBLOG"
-      },
-      "author": "Nico DeMattia",
-      "title": "BMW M5 CS Clocked at 2.7 Seconds to 60 MPH With Rollout",
-      "description": "It’s been a long time since I’ve driven a BMW M5 CS but it’s still my favorite performance sedan in the world. During my time with it, I recorded a 2.88-second 0-60 mph time and...",
-      "url": "https://www.bmwblog.com/2022/08/23/bmw-m5-cs-0-60/",
-      "urlToImage": "https://cdn.bmwblog.com/wp-content/uploads/2021/08/bmw-m5-cs-0-60.jpg",
-      "publishedAt": "2022-08-23T11:00:11Z",
-      "content": "It’s been a long time since I’ve driven a BMW M5 CS but it’s still my favorite performance sedan in the world. During my time with it, I recorded a 2.88-second 0-60 mph time and a 10.89-second quarte… [+1624 chars]"
-    },
-    {
-      "source": {
-        "id": "the-washington-post",
-        "name": "The Washington Post"
-      },
-      "author": "washington post",
-      "title": "Could upend Musk trial...",
-      "description": "A whistleblower complaint from a recently fired Twitter executive could boost Elon Musk's case that the company is understating the prevalence of spam bots.",
-      "url": "https://www.washingtonpost.com/technology/2022/08/23/twitter-musk-trial-whistleblower/",
-      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/F7JLKI3G4VFJ5ELYQ4HSWNQBBI.jpg&w=1440",
-      "publishedAt": "2022-08-23T11:00:07Z",
-      "content": "Comment on this story\r\nSAN FRANCISCO Elon Musk alleges Twitter is vastly undercounting the number of spam and bot accounts on its platform. A new whistleblower complaint from a recently fired topTwit… [+8958 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Rg.ru"
-      },
-      "author": null,
-      "title": "Американец вживил ключ от Tesla себе в руку, чтобы никогда его не потерять",
-      "description": "Владелец Tesla Model 3 Брэндон Далали рассказал о том, что вживил себе в руку два чипа, которые работают как ключ: нужно всего лишь прислонить конечность с электроникой к стойке авто",
-      "url": "https://rg.ru/2022/08/23/amerikanec-vzhivil-kliuch-ot-tesla-sebe-v-ruku-chtoby-nikogda-ego-ne-poteriat.html",
-      "urlToImage": "https://cdnstatic.rg.ru/images/rg-social-dummy-logo-650x360.jpg",
-      "publishedAt": "2022-08-23T11:00:00Z",
-      "content": "Tesla Model 3 , , : . 39- , .\r\n, , Vivokey. , , .\r\n , - . Vivokey , , , .\r\n , , , , . , , , , , .\r\n , Vivokey, 300 , , 100 ."
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Diariomotor.com"
-      },
-      "author": "Elena Sanz Bartolomé",
-      "title": "El Škoda Vision 7S desvela cómo será la nueva Škoda",
-      "description": "El Škoda Vision 7S no es un prototipo más: juega un doble papel. Por un lado, y a pesar de ser un concept, es una vista previa bastante concreta de lo que sería un SUV eléctrico de siete asientos. Y por otro muestra un nuevo lenguaje de diseño. Con el Škoda V…",
-      "url": "https://www.diariomotor.com/noticia/skoda-vision-7s-nuevo-lenguaje-diseno-marca/",
-      "urlToImage": "https://www.diariomotor.com/imagenes/2022/08/skoda-vsion-7s-noresizing-01-6304b08aa2f36.jpg",
-      "publishedAt": "2022-08-23T10:58:37Z",
-      "content": "El koda Vision 7S no es un prototipo más: juega un doble papel. Por un lado, y a pesar de ser un concept, es una vista previa bastante concreta de lo que sería un SUV eléctrico de siete asientos. Y p… [+2108 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Elespanol.com"
-      },
-      "author": "Marta Sanz Romero",
-      "title": "El exjefe de seguridad de Twitter denuncia sus \"atroces deficiencias\" frente a hackeos y spam",
-      "description": "Peiter Zatko denuncia en un informe que la empresa está más preocupada por conseguir usuarios que por limpiar la red social de spam; Twitter lo niega.",
-      "url": "https://www.elespanol.com/omicrono/software/20220823/exjefe-seguridad-twitter-denuncia-atroces-deficiencias-hackeos/697680363_0.html",
-      "urlToImage": "https://s1.eestatic.com/2018/05/17/actualidad/actualidad_307984541_174564004_600x315.jpg",
-      "publishedAt": "2022-08-23T10:58:26Z",
-      "content": "Twitter sería incapaz de proteger adecuadamente a sus 238 millones de usuarios diarios según el informe que ha presentado su exjefe de seguridad, Peiter Zatko. Describe a la red social como una compa… [+3723 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Ritholtz.com"
-      },
-      "author": "Barry Ritholtz",
-      "title": "10 Tuesday AM Reads",
-      "description": "My Two-for-Tuesday morning train WFH reads: • Inflation Is Up Everywhere, But How Much Depends on Where You Live: The Northeast isn’t feeling the pain as much as the South or Mountain West,. This could have political implications in the 2022 midterms. (Busine…",
-      "url": "https://ritholtz.com/2022/08/10-tuesday-am-reads-393/",
-      "urlToImage": "https://ritholtz.com/wp-content/uploads/2022/08/returntonormal.jpeg",
-      "publishedAt": "2022-08-23T10:55:07Z",
-      "content": "Inflation Is Up Everywhere, But How Much Depends on Where You Live: The Northeast isnt feeling the pain as much as the South or Mountain West,. This could have political implications in the 2022 midt… [+3163 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Daily Mail"
-      },
-      "author": "Lizzie May, Charlotte Mclaughlin, Paul Thompson, Henry Martin",
-      "title": "Flowers laid for 'mother of six-year-old' who died in crash after driver ploughed through fence",
-      "description": "Inside the vehicle was a woman, 33 who died at the scene, the male driver, 23, who is in critical condition in hospital, and another female passenger, 26, who was treated for non-life threatening injuries.",
-      "url": "https://www.dailymail.co.uk/news/article-11137353/Flowers-laid-mother-six-year-old-died-crash-driver-ploughed-fence.html",
-      "urlToImage": "https://i.dailymail.co.uk/1s/2022/08/23/11/61640763-0-image-a-2_1661249826319.jpg",
-      "publishedAt": "2022-08-23T10:45:50Z",
-      "content": "The woman who died in the Range Rover horror crash which saw the £120,000 car mangled on a London tube track after 'racing' down the A40 at 120mph 'apparently [is] a young mother with a six-year-old … [+15795 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Daily Mail"
-      },
-      "author": "Jack Newman",
-      "title": "Twitter has 'extreme deficiencies' that are a risk to national security, whistleblower claims",
-      "description": "Peiter 'Mudge' Zatko, the social media firm's former head of security, made a disclosure to Congress and federal agencies last month.",
-      "url": "https://www.dailymail.co.uk/news/article-11137619/Twitter-extreme-deficiencies-risk-national-security-whistleblower-claims.html",
-      "urlToImage": "https://i.dailymail.co.uk/i/pix/m_logo_636x382px.png",
-      "publishedAt": "2022-08-23T10:43:58Z",
-      "content": "Twitter has 'extreme, egregious deficiencies' in its security that make it a huge risk to national security and democracy, a whistleblower has claimed.\r\nPeiter 'Mudge' Zatko, the social media firm's … [+1022 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Wykop.pl"
-      },
-      "author": "anonimowy_programista",
-      "title": "Autonomiczna Tesla vs. skrzyżowanie będące koszmarem niedzielnych kierowców",
-      "description": "Sytacja: 3 pasy w każdą stronę, ograniczona widoczność, brak świateł drogowych, ruch na drodze ~80km/h, duże natężenie ruchu i LEWO SKRĘT.",
-      "url": "https://www.wykop.pl/link/6787785/autonomiczna-tesla-vs-skrzyzowanie-bedace-koszmarem-niedzielnych-kierowcow/",
-      "urlToImage": "https://www.wykop.pl/cdn/c3397993/link_1661251282N1MmVQGmVgvZ2RiGxFUanA,w1200h627f.jpg",
-      "publishedAt": "2022-08-23T10:41:19Z",
-      "content": "Drogi Wykopowiczu\r\nw zaczonym linku do Polityki Prywatnoci przypominamy podstawowe informacje z zakresu przetwarzania danych osobowych dostarczanych przez Ciebie podczas korzystania z naszego serwisu… [+108 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Barron's"
-      },
-      "author": "Al Root",
-      "title": "EV Winners and Losers From Inflation Reduction Act. Hint: Tesla Is a Winner.",
-      "description": "Wall Street is still digesting all the beneficiaries from the Inflation Reduction Act. Tesla is a winner, as are GM and Ford.",
-      "url": "https://www.barrons.com/articles/tesla-gm-ford-inflation-reduction-act-winners-losers-51661250213",
-      "urlToImage": "https://images.barrons.com/im-608188/social",
-      "publishedAt": "2022-08-23T10:40:57Z",
-      "content": "The electric-vehicle industry is one of the obvious winners from the Inflation Reduction Act, the law that advances President Bidens climate change agenda. But the allocation of new government handou… [+3648 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Barron's"
-      },
-      "author": null,
-      "title": "Wall Street Swings From Greed to Fear as the Fed’s Message Sinks in",
-      "description": "Twitter co-founder Jack Dorsey roped into Musk court battle, Ford cutting 3,000 jobs worldwide in EV transition, volatile stock markets keep IPOs on the back burner, and other things to start your day.",
-      "url": "https://www.barrons.com/articles/things-to-know-today-51661251094",
-      "urlToImage": "https://images.barrons.com/im-608847/social",
-      "publishedAt": "2022-08-23T10:40:57Z",
-      "content": "Investors who felt the pain of the worst trading day for months might feasibly ask what changed.The 1.9% retreat in the Dow Jones Industrial Average and 2.6% slide in the Nasdaq Composite can be expl… [+10157 chars]"
-    },
-    {
-      "source": {
-        "id": "the-washington-post",
-        "name": "The Washington Post"
-      },
-      "author": "Joseph Menn",
-      "title": "Peiter 'Mudge' Zatko's journey from hacker to Twitter whistleblower",
-      "description": "From the L0pht and Cult of the Dead Cow to DARPA and Google, Peiter « Mudge » Zatko took unorthodox approaches to « make a dent in the universe. »",
-      "url": "https://www.washingtonpost.com/technology/2022/08/23/peiter-mudge-zatko-twitter-whistleblower/",
-      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/VZ3D5O7LXRHIJLHSLRV66KPNQQ.jpg&w=1440",
-      "publishedAt": "2022-08-23T10:38:48Z",
-      "content": "Comment on this story\r\nFor three decades, security pioneer Peiter Mudge Zatko has exposed the risks facing technology users as a hacker. Now hes doing it as a whistleblower.\r\nZatko, the former head o… [+10678 chars]"
+      "author": "Juli Clover",
+      "title": "Video Review: One Month With the New M2 MacBook Air",
+      "description": "Apple in July released the redesigned MacBook Air, one of the first machines to feature the second-generation M2 chip. MacRumors videographer Dan has been using the new MacBook on a daily basis, so we thought we'd do a deep dive into his experience for MacRum…",
+      "url": "https://www.macrumors.com/2022/08/26/m2-macbook-air-video-review/",
+      "urlToImage": "https://images.macrumors.com/t/4ZTr9NblP8Lm6JKLTeNBRMXAUj4=/2000x/article-new/2022/08/m2-macbook-air.jpg",
+      "publishedAt": "2022-08-26T18:52:49Z",
+      "content": "Apple in July released the redesigned MacBook Air, one of the first machines to feature the second-generation M2 chip. MacRumors videographer Dan has been using the new MacBook on a daily basis, so w… [+565 chars]"
     },
     {
       "source": {
         "id": null,
         "name": "Slashdot.org"
       },
-      "author": "feedfeeder",
-      "title": "Shanghai Skyline at the Bund Goes Dark as Drought Causes Sichuan Power Shortage - Bloomberg",
-      "description": "Shanghai Skyline at the Bund Goes Dark as Drought Causes Sichuan Power ShortageBloomberg Shanghai to switch off lights along Bund riverfront as China heatwave forces more power cutsCNA China is facing another power crunch. But this time it's likely to be diff…",
-      "url": "https://slashdot.org/firehose.pl?op=view&amp;id=165484375",
-      "urlToImage": null,
-      "publishedAt": "2022-08-23T10:33:04Z",
-      "content": "The Fine Print: The following comments are owned by whoever posted them. We are not responsible for them in any way."
+      "author": "msmash",
+      "title": "Amazon Is Looking To Buy Electronic Arts, Report Says",
+      "description": "An anonymous reader shares a report: According to GLHF sources, Amazon will announce today that it has put in a formal offer to acquire Electronic Arts (EA), the publisher behind Apex Legends, FIFA, Madden, and more. Rumors have been circling online for a few…",
+      "url": "https://slashdot.org/story/22/08/26/1127257/amazon-is-looking-to-buy-electronic-arts-report-says",
+      "urlToImage": "https://a.fsdn.com/sd/topics/business_64.png",
+      "publishedAt": "2022-08-26T11:28:00Z",
+      "content": "Never ask two questions in a business letter. The reply will discuss\r\nthe one you are least interested, and say nothing about the other."
     },
     {
       "source": {
-        "id": null,
-        "name": "Raw Story"
+        "id": "business-insider",
+        "name": "Business Insider"
       },
-      "author": "Agence France-Presse",
-      "title": "Elon Musk subpoenas former Twitter chief Jack Dorsey",
-      "description": "Elon Musk has served former Twitter boss Jack Dorsey with a subpoena in a hunt for material to help him get out of buying the giant social media platform for $44 billion as agreed.Records made public on Monday show Dorsey was served with a legal order to give…",
-      "url": "https://www.rawstory.com/elon-musk-subpoenas-former-twitter-chief-jack-dorsey/",
-      "urlToImage": "https://www.rawstory.com/media-library/twitter-ceo-jack-dorsey-pictured-in-september-2018-says-he-believes-the-platform-made-the-right-decision-to-ban-us-president-donald-trump-but-that-it-sets-a-dangerous-precedent-jim-watson-afp-file.jpg?id=28128052&width=1200&height=600&coordinates=0%2C23%2C0%2C24",
-      "publishedAt": "2022-08-23T10:32:47Z",
-      "content": "Elon Musk has served former Twitter boss Jack Dorsey with a subpoena in a hunt for material to help him get out of buying the giant social media platform for $44 billion as agreed.\r\nRecords made publ… [+2670 chars]"
+      "author": "jerb@insider.com (Jordan Parker Erb)",
+      "title": "Oracle's new marketing team leader has been dubbed 'hatchet man'",
+      "description": "Oracle insiders said Jason Maynard, the company's new marketing group leader, is tasked with cutting costs and has been dubbed 'hatchet man.'",
+      "url": "https://www.businessinsider.com/jason-maynard-oracles-hatchet-man-the-new-marketing-team-leader-2022-8",
+      "urlToImage": "https://i.insider.com/6307ff3c58ebf60018c7cada?width=1200&format=jpeg",
+      "publishedAt": "2022-08-26T10:10:00Z",
+      "content": "Howdy, tech friends. Jordan Parker Erb here, reporting from Montana.\r\nDid y'all have nicknames growing up? Recently, my team members have taken to calling me \"Jerb,\" a play on my email address (which… [+4396 chars]"
     },
     {
       "source": {
-        "id": null,
-        "name": "Sozcu.com.tr"
+        "id": "business-insider",
+        "name": "Business Insider"
       },
-      "author": "Sözcü",
-      "title": "Apple’ın eski mühendisi ticari sırları çaldığını itiraf etti",
-      "description": "Teknoloji şirketlerinin üretim sırasında yaşadıkları en büyük sorunlardan biri olan gizlilik, eski bir Apple çalışanının bilgi çalmasıyla yeniden gündemde. Xiaolang Zhang, 2015ten 2018e kadar kendi kendini süren araba projesinde Apple için çalışıyordu. Ancak …",
-      "url": "https://www.sozcu.com.tr/2022/teknoloji/applein-eski-muhendisi-ticari-sirlari-caldigini-itiraf-etti-7323970/",
-      "urlToImage": "https://i01.sozcucdn.com/wp-content/uploads/2022/08/23/iecrop/depophotos_15334009_16_9_1661250538-670x371.jpg",
-      "publishedAt": "2022-08-23T10:31:06Z",
-      "content": "Üç yl boyunca AppleCar için çalan bir mühendis, irketin ticari srlarn çalmaktan suçlu bulundu. Eski Apple çalan, AirDrop araclyla önemli bilgileri çaldn itiraf etti.\r\n<ul><li>Yazlar büyüt</li><li>Yaz… [+1874 chars]"
+      "author": "aweinman@businessinsider.com (Aaron Weinman)",
+      "title": "Doctored bank statements and a decade-long graft. This banker has been accused of stealing $50 million in a lawsuit that claims the money went toward hotels in New York, Miami, and land in the Catskills.",
+      "description": "The Gupta family from India who control shipping company Astra Global have accused Ganesh Narayan in a lawsuit of doctoring bank statements and concealing a long-running grift that robbed the family of millions of dollars.",
+      "url": "https://www.businessinsider.com/wealth-lawsuit-astra-global-graft-ganesh-narayan-2022-8",
+      "urlToImage": "https://i.insider.com/6307f69e830ed800183fd9fb?width=1200&format=jpeg",
+      "publishedAt": "2022-08-26T11:35:00Z",
+      "content": "Hi. Aaron Weinman here. Today's top story digs into a wealth-management banker who is being accused of stealing $50 million and investing that money in luxury hotels.\r\nOver some 10 years, Dubai-based… [+4947 chars]"
     },
     {
       "source": {
-        "id": null,
-        "name": "NPR"
+        "id": "business-insider",
+        "name": "Business Insider"
       },
-      "author": "Greg Rosalsky",
-      "title": "Someone stole my truck. I got a crash course on the wild black market for stolen cars",
-      "description": "In the late 1990s and early 2000s, automakers began adopting an anti-theft technology that dramatically reduced car thefts. But why did it take so long?",
-      "url": "https://www.npr.org/sections/money/2022/08/23/1118457271/someone-stole-my-truck-i-got-a-crash-course-on-the-wild-black-market-for-stolen-",
-      "urlToImage": "https://media.npr.org/assets/img/2022/08/19/img_2328_wide-a358593f719d97f1684ad2c4eeed809e7108310a.jpg?s=1400",
-      "publishedAt": "2022-08-23T10:30:47Z",
-      "content": "My 1999 Toyota Tacoma was stolen, crashed, and stripped for parts.\r\nGreg Rosalsky/NPR\r\nA couple weeks ago, my truck was stolen. This wasn't just any truck. It was a 1999 Toyota Tacoma that I owned fo… [+11625 chars]"
+      "author": "insider@insider.com (Bethany Biron)",
+      "title": "Scammers are posing as fake recruiters, conducting staged interviews - and hiring - as part of an ID theft scheme. Here's how to avoid getting swindled.",
+      "description": "A recent MBA graduate went viral on LinkedIn after she was targeted by scammers who pretended to hire her in a ploy to steal her personal information.",
+      "url": "https://www.businessinsider.com/how-to-avoid-scammers-posing-job-recruiters-id-theft-2022-8",
+      "urlToImage": "https://i.insider.com/630924b7d266820019ff418b?width=1200&format=jpeg",
+      "publishedAt": "2022-08-26T21:04:37Z",
+      "content": "When Narisa Kiattaweesup checked her email earlier this month, she was pleased to see an invitation to interview for a product design manager position at software company Splunk.\r\nHer delight turned … [+5548 chars]"
     },
     {
       "source": {
-        "id": null,
-        "name": "Shiftdelete.net"
+        "id": "business-insider",
+        "name": "Business Insider"
       },
-      "author": "Gökberk Baycan",
-      "title": "Tesla, kaza sayısını önemli oranda azaltabilir!",
-      "description": "Son dönemde meydana gelen kazalar nedeniyle tartışılan Autopilot özelliğinin kazaları önemli ölçüde önleyebileceği belirtiliyor.\nBu içerik ilk olarak Tesla, kaza sayısını önemli oranda azaltabilir! adresinde yayınlandı Teknoloji Haberleri - ShiftDelete.Net.",
-      "url": "https://shiftdelete.net/tesla-kaza-sayisini-onemli-oranda-azaltabilir",
-      "urlToImage": "https://shiftdelete.net/wp-content/uploads/2022/08/Tesla-Autopilot-kaza.jpg",
-      "publishedAt": "2022-08-23T10:30:01Z",
-      "content": "Tesla’nn Autopilot sistemi nedeniyle meydana gelen kazalar son dönemde oldukça fazla konuulmaya baland. ABD merkezli elektrikli otomobil üreticisi, bu nedenle tartmalarn oda hâline gelmi durumda. irk… [+2002 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Forbes"
-      },
-      "author": "Jabari Young, Forbes Staff, \n Jabari Young, Forbes Staff\n https://www.forbes.com/sites/jabariyoung/",
-      "title": "Hyperice Targets Weekend Warriors With New Version Of Injury-Recovery Device Favored By NBA Stars",
-      "description": "Hyperice is unveiling Normatec Go, a mobile version of an injury-recovery device that's a favorite of NBA stars like LeBron James and Kevin Durant. It will cost $399. That’s less expensive than the larger, stationary Normatec 3, which goes for roughly $800.",
-      "url": "https://www.forbes.com/sites/jabariyoung/2022/08/23/hyperice-targets-weekend-warriors-with-new-version-of-injury-recovery-device-favored-by-nba-stars/",
-      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/63036e6fa666000e6612b4a2/0x0.jpg?format=jpg&width=1200",
-      "publishedAt": "2022-08-23T10:30:00Z",
-      "content": "Memphis Grizzlies star Ja Morant will be the face of Hyperice's new recovery device, Normatec Go.\r\nPhoto provided by Hyperice. \r\nIn September 2019, Gilad Jacobs, the CEO of Normatec, a maker of devic… [+4227 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Observador.pt"
-      },
-      "author": "Alfredo Lavrador",
-      "title": "Lucid mostra o Air Sapphire trimotor com 1217 cv",
-      "description": "A Lucid apresentou a versão mais potente do Air. A luxuosa berlina com 5 metros passa a montar três motores e a usufruir de 1217 cv, que podem tornar o Air Sapphire no familiar eléctrico mais rápido.",
-      "url": "https://observador.pt/2022/08/23/lucid-mostra-o-air-sapphire-trimotor-com-1217-cv/",
-      "urlToImage": "https://wm.observador.pt/wm/obs/l/https%3A%2F%2Fbordalo.observador.pt%2Fv2%2Frs%3Afill%3A770%3A403%2Fc%3A1920%3A1079%3Anowe%3A0%3A0%2Fq%3A85%2Fplain%2Fhttps%3A%2F%2Fs3.observador.pt%2Fwp-content%2Fuploads%2F2022%2F08%2F23100352%2Fsapphire-salt-flats-3q-front-epk-2.jpg",
-      "publishedAt": "2022-08-23T10:20:17Z",
-      "content": "Tem acesso livre a todos os artigos do Observador por ser nosso assinante.\r\nDepois do Air Grand Touring Performance, que extrai dos seus dois motores 1050 cv, a Lucid dá mais um passo em frente na te… [+2804 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Jornaleconomico.pt"
-      },
-      "author": "Nuno Braga",
-      "title": "JE Podcast: Ouça aqui as notícias mais importantes desta terça-feira",
-      "description": "Da economia à política, das empresas aos mercados, ouça aqui as principais notícias que marcam o dia informativo desta terça-feira.",
-      "url": "https://jornaleconomico.pt/noticias/je-podcast-ouca-aqui-as-noticias-mais-importantes-desta-terca-feira-31-928503",
-      "urlToImage": "https://jornaleconomico.pt/wp-content/uploads/2022/06/DOC.20220621.38807405.AP9I8081-scaled.jpg",
-      "publishedAt": "2022-08-23T10:15:48Z",
-      "content": "Ouça e acompanhe o podcast “JE Notícias” em:\r\nSpotify | Google Podcasts | Apple Podcasts\r\n A TAP prevê gastar um total de quase mil milhões de euros em combustível durante o ano de 2022. Este valor r… [+3139 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Appgefahren.de"
-      },
-      "author": "Mel",
-      "title": "Apple: Ingenieur gibt Diebstahl von Geschäftsgeheimnissen zu",
-      "description": "Der frühere Apple-Ingenieur Xiaolang Zhang hat sich schuldig bekannt, Geschäftsgeheimnisse von Apple gestohlen zu haben. Von 2015 bis 2018 arbeitete er bei Apple an einem Projekt für selbstfahrende Autos, allgemein bekannt als „Apple Car“. Als er seinen Job b…",
-      "url": "https://www.appgefahren.de/apple-ingenieur-gibt-diebstahl-von-geschaeftsgeheimnissen-zu-323513.html",
-      "urlToImage": "https://www.appgefahren.de/wp-content/uploads/2021/10/apple-event-icon.jpg",
-      "publishedAt": "2022-08-23T10:15:09Z",
-      "content": "Der frühere Apple-Ingenieur Xiaolang Zhang hat sich schuldig bekannt, Geschäftsgeheimnisse von Apple gestohlen zu haben. Von 2015 bis 2018 arbeitete er bei Apple an einem Projekt für selbstfahrende A… [+2285 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Elconfidencial.com"
-      },
-      "author": "EFE",
-      "title": "La nueva movilidad urbana generará 145.000 millones en Europa en el año 2030",
-      "description": "Un informe de Oliver Wyman prevé que alcance un crecimiento promedio de casi el 10% anual hasta ese año, frente al 5% que estima para el sector de la movilidad en general",
-      "url": "https://www.elconfidencial.com/mercados/2022-08-23/nueva-movilidad-urbana-generara-145-000-m-europa_3479502/",
-      "urlToImage": "https://images.ecestaticos.com/_VE6NBWJ7a1nTw6qvJjeAfeQdRg=/0x0:2150x1209/600x315/filters:fill(white):format(jpg):quality(99):watermark(f.elconfidencial.com/file/bae/eea/fde/baeeeafde1b3229287b0c008f7602058.png,0,274,1)/f.elconfidencial.com/original/6ce/65b/e31/6ce65be319b3b4d3056f7d3266c2a347.jpg",
-      "publishedAt": "2022-08-23T10:15:00Z",
-      "content": "La nueva movilidad urbana, es decir, los modos de transporte compartido y servicios digitales más allá del transporte público convencional y los automóviles privados, generarán unos ingresos en Europ… [+2632 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Grist"
-      },
-      "author": "Blanca Begert",
-      "title": "As drought dries up the Yangtze river, China loses hydropower",
-      "description": "No rain and a 70-day heat wave spur crop failures, power cuts, and dangerously-low reservoirs across parts of China.",
-      "url": "http://grist.org/drought/as-drought-dries-up-the-yangtze-river-china-loses-hydropower/",
-      "urlToImage": "https://grist.org/wp-content/uploads/2022/08/GettyImages-1415695140_resized_Chinadrought.jpg",
-      "publishedAt": "2022-08-23T10:15:00Z",
-      "content": "A historic drought in the southwest of China is drying up rivers, intensifying forest fires, damaging crops, and severely curtailing electricity in a region highly dependent on hydropower. \r\nThe Yang… [+3772 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Interia.pl"
-      },
-      "author": "INTERIA.PL",
-      "title": "Stare samochody miażdżą te nowoczesne. Szwedzki test to potwierdza",
-      "description": "Żaden nowoczesny samochód nie może się dziś obyć bez ogromnego ekranu dotykowego pełniącego rolę \"centrum zarządzania pojazdem\". Niestety ich obsługa potrafi nastręczać kierowcom wielu problemów. W jaki sposób przekłada się to na bezpieczeństwo jazdy?",
-      "url": "https://motoryzacja.interia.pl/wiadomosci/ciekawostki/news-stare-samochody-miazdza-te-nowoczesne-szwedzki-test-to-potwi,nId,6238707",
-      "urlToImage": "https://i.iplsc.com/-/000AQUXR25MNE4DH-C429.jpg",
-      "publishedAt": "2022-08-23T10:14:41Z",
-      "content": "Spis treci:\r\nNa pocztek warto zdawa sobie spraw, e popularno ekranów, które w powszechnej opinii kojarz si z nowoczesnoci i prestiem, wynika z... oszczdnoci. \r\n Od kiedy - stosowane niegdy do obsugi … [+3553 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Visordown.com"
-      },
-      "author": "Alex Whitworth",
-      "title": "Could UK roads be filled with unsupervised self-driving cars?",
-      "description": "Image: \r\n\n \n \n \r\n\n accImages.createImage();\r\n\n \r\n\n \r\n\nThe UK government has announced that it is planning to introduce self-driving vehicles from next year, with full implementation planned for 2025.",
-      "url": "https://www.visordown.com/news/general/could-uk-roads-be-filled-unsupervised-self-driving-cars",
-      "urlToImage": "https://cdn.visordown.com/cadillac.png",
-      "publishedAt": "2022-08-23T10:11:32Z",
-      "content": "Plans have been announced by the UK government that would see self-driving cars on the countrys roads from 2025.\r\nThe UK government is planning to allow fully-self-driving vehicles on the countrys ro… [+6799 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Lamarea.com"
-      },
-      "author": "The Conversation",
-      "title": "¿Está mal robar a las grandes empresas?",
-      "description": "\"Si entendemos que las empresas tienen una deuda tácita con las sociedades a las que sirven, los filósofos podrían argumentar que no siempre es inmoral robar a una corporación que rompe el contrato social\"\nLa entrada ¿Está mal robar a las grandes empresas? se…",
-      "url": "https://www.lamarea.com/2022/08/23/esta-mal-robar-a-las-grandes-empresas/",
-      "urlToImage": "https://agqcvcudno.cloudimg.io/v7/https://www.lamarea.com/wp-content/uploads/2022/08/PIXNIO-2290440-1200x800-1.jpg",
-      "publishedAt": "2022-08-23T10:10:19Z",
-      "content": "Este artículo se ha publicado originalmente en The Conversation. Puedes leerlo aquí.\r\nEMMA BORG* | Si se pregunta a la gente si está bien robar, lo más probable es que la mayoría diga que no. El enfo… [+6775 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Tech Times"
-      },
-      "author": "Joaquin Victor Tacla",
-      "title": "This Tesla Fanboy Implants Car Key In The Flesh of His Right Hand!",
-      "description": "Tesla fanboy Brand Dalaly does not have to worry about losing his car keys anymore as he has implanted them in his right hand!",
-      "url": "https://www.techtimes.com/articles/279518/20220823/tesla-fanboy-implants-car-key-flesh-right-hand.htm",
-      "urlToImage": "https://1734811051.rsc.cdn77.org/data/images/full/410158/investigation-continues-into-tesla-drivers-death-while-in-autopilot-mode.jpg",
-      "publishedAt": "2022-08-23T10:10:00Z",
-      "content": "Losing your car keys can be worrisome, but Tesla owner Brand Dalaly does not have to worry about losing his keys anymore.\r\nDalaly took extraordinary measures to guarantee that he always had his keys … [+3035 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Designtaxi.com"
-      },
-      "author": "Alexa Heah",
-      "title": "Elon Musk’s Neuralink To ‘Show-And-Tell’ Brain Chip Tech At Halloween Event",
-      "description": "Illustration ID 172827240 © via Daniil Peshkov | Dreamstime.com\n\n \nApart from running Tesla, SpaceX, and The Boring Company, mogul Elon Musk still finds time to advance brain chip technology at Neuralink. \nThe firm first made a splash in the news when it unve…",
-      "url": "https://designtaxi.com/news/420055/Elon-Musk-s-Neuralink-To-Show-And-Tell-Brain-Chip-Tech-At-Halloween-Event/",
-      "urlToImage": "https://editorial.designtaxi.com/images/Neuralink-Event-1-1661245160.jpeg",
-      "publishedAt": "2022-08-23T10:09:01Z",
-      "content": "Illustration ID 172827240 © via Daniil Peshkov | Dreamstime.com\r\nApart from running Tesla, SpaceX, and The Boring Company, mogul Elon Musk still finds time to advance brain chip technology at Neurali… [+1569 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Jornada.com.mx"
-      },
-      "author": "DEMOS, Desarrollo de Medios, S.A. de C.V.",
-      "title": "Ford Motor Company anuncia 3 mil despidos; el recorte afectará a América del Norte e India",
-      "description": "Ford informó que recortará 3 mil puestos de trabajo asalariados y contratados, sobre todo en América del Norte e India, a medida que se restructura para ponerse al día con Tesla en la carrera por desarrollar vehículos eléctricos operados por software. “Estamo…",
-      "url": "https://www.jornada.com.mx/2022/08/23/economia/020n3eco",
-      "urlToImage": "https://www.jornada.com.mx/2022/08/23/fotos/020n3eco-1.jpg",
-      "publishedAt": "2022-08-23T10:08:55Z",
-      "content": "Periódico La JornadaMartes 23 de agosto de 2022, p. 20\r\nFord informó que recortará 3 mil puestos de trabajo asalariados y contratados, sobre todo en América del Norte e India, a medida que se restruc… [+708 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Tech-wd.com"
-      },
-      "author": "خالد",
-      "title": "مهندس يعترف بأنه سرق الأسرار التجارية أثناء عمله على سيارة آبل",
-      "description": "أقر Xiaolang Zhang بأنه مذنب لسرقة أسرار تجارية من آبل، حيث عمل في مشروع سيارة ذاتية القيادة من 2015 إلى 2018. عندما ترك وظيفته في آبل، بعد الانتقال للعمل في شركة Guangzhou Xiaopeng Motors Technology ، وهي شركة EV صينية ناشئة تُعرف أيضًا باسم Xpeng. أثناء الت…",
-      "url": "https://www.tech-wd.com/wd/2022/08/23/%d9%85%d9%87%d9%86%d8%af%d8%b3-%d9%8a%d8%b9%d8%aa%d8%b1%d9%81-%d8%a8%d8%a3%d9%86%d9%87-%d8%b3%d8%b1%d9%82-%d8%a7%d9%84%d8%a3%d8%b3%d8%b1%d8%a7%d8%b1-%d8%a7%d9%84%d8%aa%d8%ac%d8%a7%d8%b1%d9%8a%d8%a9/",
-      "urlToImage": "https://www.tech-wd.com/wd/wp-content/uploads/2022/08/106967633-1635506491361-gettyimages-1236193308-AA_29102021_503698.jpeg",
-      "publishedAt": "2022-08-23T10:08:22Z",
-      "content": "Xiaolang Zhang 2015 2018. Guangzhou Xiaopeng Motors Technology EV Xpeng.\r\n 24 “ ” AirDrop .\r\n Zhang . 14 .\r\n 10 CNBC .\r\n Xpeng. 2019 . CNBC.\r\n Tesla iCloud Xpeng.\r\n . 2025 ."
+      "author": "sacevedo@insider.com (Sophia Acevedo, CEPF)",
+      "title": "Atmos Financial review: Eco-friendly online banking platform with a competitive high-yield savings account",
+      "description": "Atmos Financial is an online banking platform focused on fighting climate change. It has a high-yield savings account and a cashback checking account.",
+      "url": "https://www.businessinsider.com/personal-finance/atmos-financial-banking-review",
+      "urlToImage": "https://i.insider.com/6307d2fc58ebf60018c7c1d1?width=1200&format=jpeg",
+      "publishedAt": "2022-08-26T14:31:36Z",
+      "content": "Insider's experts choose the best products and services to help make smart decisions with your money (heres how). In some cases, we receive a commission from our our partners, however, our opinions a… [+7080 chars]"
     },
     {
       "source": {
         "id": null,
         "name": "Yahoo Entertainment"
       },
-      "author": "The Telegraph",
-      "title": "Energy bills to hit £6,500 a year by April, new forecast warns - live updates",
-      "description": "British Airways axes 10,000 flights and warns travel chaos to last until March FTSE 100 falls 0.4pc Ben Marlow: Felixstowe strike exposes the true colours of militant union barons Sign up here for our daily business briefing newsletter",
-      "url": "https://ca.finance.yahoo.com/news/britain-faces-catastrophic-winter-energy-065133034.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/qNGo70ugj4kI_.BM6io9pA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD03NTA-/https://media.zenfs.com/en/the_telegraph_818/8206f8f3b6c78f3a5b28229472a2301c",
-      "publishedAt": "2022-08-23T10:04:13Z",
-      "content": "Ofgem energy price cap October bills crisis gas prices Russia Putin Nord Stream - Jacob King/PA Wire\r\nThe energy price cap will hit £6,500 a year in April after a fresh surge in gas prices added to t… [+16236 chars]"
+      "author": "Alexandra Semenova",
+      "title": "Stock market news live updates: Stocks fall as Powell delivers speech in Jackson Hole - Yahoo Canada Finance",
+      "description": "<ol><li>Stock market news live updates: Stocks fall as Powell delivers speech in Jackson Hole  Yahoo Canada Finance\r\n</li><li>Futures dip, bonds fall as clock ticks to Powell  BNN Bloomberg\r\n</li><li>U.S. stocks rise, but remain stuck in the red for the week …",
+      "url": "https://ca.finance.yahoo.com/news/stock-market-news-live-updates-august-26-2022-113623725.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/TLJ8HS6mjByZMEjm0dXIQg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2022-08/5921d960-252d-11ed-bc4b-a87ccdcd5bd4",
+      "publishedAt": "2022-08-26T14:13:19Z",
+      "content": "Stocks fell sharply Friday as Federal Reserve Chair Jerome Powell doubled down on the U.S. central bank's commitment to fight inflation in a hawkish speech at the Jackson Hole economic symposium.\r\nTh… [+2817 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Design-milk.com"
+      },
+      "author": "Gregory Han",
+      "title": "Listen Up to Some of Our Favorite Designs for the Aspiring Audiophile",
+      "description": "Check out some of our current favorite audio picks, each highlighted by designs that look as good as they sound.",
+      "url": "https://design-milk.com/listen-up-to-some-of-our-favorite-designs-for-the-aspiring-audiophile/",
+      "urlToImage": "https://design-milk.com/images/2022/08/BangOlufsen__Beogram.jpg",
+      "publishedAt": "2022-08-26T14:00:59Z",
+      "content": "Several years ago I found myself being invited into an old darkened stone wall building located in the outskirts of Struer, Denmark. I was led to sit facing toward two gargantuan faceted Bang &amp; O… [+4676 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "ReadWrite"
+      },
+      "author": "Jonathan Siddharth",
+      "title": "Turing Distinguished Leader Series: With Partner David Zhang, TVC",
+      "description": "How to Scale Unicorns With Partner David Zhang, TVC The theme of this episode is how to scale unicorns. Joining us for this episode is our partner David Zhang, Partner at TCV ((Technology Crossover Ventures). He focuses on investments in fintech, the internet…",
+      "url": "https://readwrite.com/turing-distinguished-leader-series-how-to-scale-unicorns/",
+      "urlToImage": "https://images.readwrite.com/wp-content/uploads/2022/08/Turing-Distinguished-Leader-Series-How-to-Scale-Unicorns.jpg",
+      "publishedAt": "2022-08-26T18:00:53Z",
+      "content": "The theme of this episode is how to scale unicorns. Joining us for this episode is our partner David Zhang, Partner at TCV ((Technology Crossover Ventures). He focuses on investments in fintech, the … [+28262 chars]"
     },
     {
       "source": {
         "id": null,
         "name": "Hipertextual"
       },
-      "author": "Hipertextual (Redacción)",
-      "title": "Se implanta las llaves de su Tesla en la mano y sorprendentemente le sale bien (y sí, hay vídeo)",
-      "description": "Los fans de Tesla son bastante particulares. Y uno en especial ha ido un paso más allá en eso de fusionarse al máximo con su coche eléctrico. Tanto como para implantarse la llave de su Tesla en la mano para no tener que acercar el móvil ni la tarjeta. Y, sobr…",
-      "url": "https://hipertextual.com/2022/08/se-implanta-las-llaves-de-su-tesla-en-la-mano-y-sorprendentemente-le-sale-bien-la-jugada-y-si-hay-video",
-      "urlToImage": "https://imgs.hipertextual.com/wp-content/uploads/2022/08/Captura-de-Pantalla-2022-08-23-a-las-12.02.38.png",
-      "publishedAt": "2022-08-23T10:04:12Z",
-      "content": "Los fans de Tesla son bastante particulares. Y uno en especial ha ido un paso más allá en eso de fusionarse al máximo con su coche eléctrico. Tanto como para implantarse la llave de su Tesla en la ma… [+1852 chars]"
+      "author": "Alberto Martín",
+      "title": "El iPhone 14 morado se deja ver en un vídeo real",
+      "description": "El iPhone 14 está a la vuelta de la esquina. Apple ya ha enviado las invitaciones para su evento de presentación y, a diferencia de otros años, los rumores nos han traído pocas imágenes filtradas de cómo podrá ser el nuevo terminal de Apple. No obstante, con …",
+      "url": "https://hipertextual.com/2022/08/iphone-14-morado-filtrado",
+      "urlToImage": "https://imgs.hipertextual.com/wp-content/uploads/2022/07/iPhone-14-Pro-Purple-Side-by-Side-Black-scaled.jpg",
+      "publishedAt": "2022-08-26T10:19:47Z",
+      "content": "El iPhone 14 está a la vuelta de la esquina. Apple ya ha enviado las invitaciones para su evento de presentación y, a diferencia de otros años, los rumoresnos han traído pocas imágenes filtradas de c… [+1852 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "INSIDER"
+      },
+      "author": "Andrea Michelson",
+      "title": "Lightning struck a teenage girl in her chest on her first day of college — melting her clothes and exploding her Apple Watch",
+      "description": "Emma Eggler, an 18-year-old freshman, was temporarily paralyzed by the strike but she's planning to attend class next week.",
+      "url": "https://www.insider.com/lightning-struck-college-student-on-her-first-day-of-class-2022-8",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/ZRNqlX_uB93yltE.IHOe7g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD05MDA-/https://media.zenfs.com/en/insider_articles_922/64184b865bc4d8dc4bbe8eeb52bbe7e7",
+      "publishedAt": "2022-08-26T20:16:07Z",
+      "content": "Getty Images/Ethan Miller\r\n<ul><li>Emma Eggler was struck by lightning on her way to class at the University of West Florida.\r\n</li><li>The strike melted her shirt, fried her electronics, and left he… [+3357 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Boing Boing"
+      },
+      "author": "Mark Frauenfelder",
+      "title": "Attention Blondie fans: Incredible box set of demos and oddities released today",
+      "description": "I just started listening to the new release of Blondie's Against The Odds 1974 -1982, a 3-disc set with 52 rarely and never-heard-before Blondie tracks! It includes a 1974 version of \"Heart of Glass\" (called \"The Disco Song\"), a private stock version of \"X Of…",
+      "url": "https://boingboing.net/2022/08/26/attention-blondie-fans-incredible-box-set-of-demos-and-oddities-released-today.html",
+      "urlToImage": "https://i0.wp.com/boingboing.net/wp-content/uploads/2022/08/against-the-odds.jpeg?fit=1200%2C794&ssl=1",
+      "publishedAt": "2022-08-26T17:45:37Z",
+      "content": "I just started listening to the new release of Blondie's Against The Odds 1974 -1982, a 3-disc set with 52 rarely and never-heard-before Blondie tracks! It includes a 1974 version of \"Heart of Glass\"… [+1565 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Xataka.com"
+      },
+      "author": "Eva Rodríguez de Luis",
+      "title": "Cazando Gangas en TV, domótica y hogar: la LG OLED C1 con gran relación calidad precio es un chollo, el robot aspirador de Xiaomi de oferta y más",
+      "description": "Esta edición de Cazando Gangas está protagonizada por campañas como El Regreso de MediaMarkt, Volver de El Corte Inglés y Ofertas Limite. Así que si te toca cambiar de televisor y buscas un smart TV 4K a buen precio, necesitas un robot aspirador para limpiar …",
+      "url": "https://www.xataka.com/cazando-gangas/cazando-gangas-tv-domotica-hogar-lg-oled-c1-gran-relacion-calidad-precio-chollo-robot-aspirador-xiaomi-oferta",
+      "urlToImage": "https://i.blogs.es/25c10c/gangga/840_560.jpeg",
+      "publishedAt": "2022-08-26T08:00:45Z",
+      "content": "Esta edición de Cazando Gangas está protagonizada por campañas como El Regreso de MediaMarkt, Volver de El Corte Inglés y Ofertas Limite. Así que si te toca cambiar de televisor y buscas un smart TV … [+6024 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Digital Trends"
+      },
+      "author": "Tushar Mehta",
+      "title": "Samsung’s Galaxy Watch is great, but the S Pen would make it amazing",
+      "description": "Samsung's ecosystem is the next best thing to Apple's walled garden, and S Pen support on the Galaxy Watch can make it more unified and completely gapless.",
+      "url": "https://www.digitaltrends.com/mobile/samsung-galaxy-watch-needs-s-pen-support-why/",
+      "urlToImage": "https://www.digitaltrends.com/wp-content/uploads/2022/08/Galaxy-Watch-S22-Ultra-Stylus.jpg?p=1",
+      "publishedAt": "2022-08-26T10:00:01Z",
+      "content": "The Samsung Galaxy Watch is one of the best smartwatches around. Until 2021, Samsungs smartwatches ran on a custom operating system called Tizen. But with the launch of the Galaxy Watch 4 series, the… [+7280 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Digital Trends"
+      },
+      "author": "George Yang",
+      "title": "Rumors of Amazon acquiring Electronic Arts cause confusion",
+      "description": "A report claimed that Amazon would acquire Electronic Arts, but another source quickly refuted that statement.",
+      "url": "https://www.digitaltrends.com/gaming/amazon-electronic-arts-rumor/",
+      "urlToImage": "https://www.digitaltrends.com/wp-content/uploads/2022/08/battlefield-2042.jpg?p=1",
+      "publishedAt": "2022-08-26T14:37:17Z",
+      "content": "Consolidation surrounding the video game industry has been happening more frequently, and the latest rumor involves Amazon and Electronic Arts. GLHF and USA Today reported that Amazon would announce … [+2056 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Digital Trends"
+      },
+      "author": "Michael Allison",
+      "title": "Google’s Tensor 3 chip for Pixel 8 may have this in common with the Pixel 6",
+      "description": "Google's continuing to collaborate with Samsung for Tensor for the Pixel 8, according to a new report.",
+      "url": "https://www.digitaltrends.com/mobile/google-pixel-8-tensor-3-samsung-partnership-report/",
+      "urlToImage": "https://www.digitaltrends.com/wp-content/uploads/2021/10/google_tensor_photo_3_dqt1yaw-max.png?p=1",
+      "publishedAt": "2022-08-26T17:46:22Z",
+      "content": "Google is continuing to work with Samsung for the Pixel 8 series, according to a new report from the Samsung-focused tech blog, Galaxy Club. The report claims that Google is developing this new chip … [+1872 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Digital Trends"
+      },
+      "author": "Andy Boxall",
+      "title": "Samsung Galaxy Watch 5 Pro review: buy with your heart, not your head",
+      "description": "The Samsung Galaxy Watch 5 Pro is big, powerful, and has a long-lasting battery. But is it worth the steep price tag? We find out in our review.",
+      "url": "https://www.digitaltrends.com/mobile/samsung-galaxy-watch-5-pro-review/",
+      "urlToImage": "https://www.digitaltrends.com/wp-content/uploads/2022/08/Galaxy-Watch-5-Pro-Pocket.jpg?p=1",
+      "publishedAt": "2022-08-26T17:45:01Z",
+      "content": "The Samsung Galaxy Watch 5 Pro is the biggest and most expensive Samsung smartwatch you can buy this year. Its justified (by Samsung, at least) by its luxurious materials and overall toughness, along… [+17068 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Digital Trends"
+      },
+      "author": "Michael Bizzaco",
+      "title": "Break out of a rut with these useful summer-focused smart home routines",
+      "description": "From managing your air conditioning to adding life and color to your outdoor ambiance, here are the best smart home routines you can use throughout the summer.",
+      "url": "https://www.digitaltrends.com/home/best-smart-home-routines-for-summer/",
+      "urlToImage": "https://www.digitaltrends.com/wp-content/uploads/2021/09/amz-smart-thermostat_media_lifestyle_03-copy.jpg?p=1",
+      "publishedAt": "2022-08-26T12:45:06Z",
+      "content": "Glorious summertime. Those three to four months of the year when the beach is a constant destination, the kids are free to roam, and your residence becomes the key spot for all your friends and famil… [+14207 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Github.com"
+      },
+      "author": "262588213843476",
+      "title": "Jonathan Blow on Societal Collapse (2019)",
+      "description": "GitHub Gist: instantly share code, notes, and snippets.",
+      "url": "https://gist.github.com/clumma/4c5016f808adde034a575f1dd7d401a8",
+      "urlToImage": "https://github.githubassets.com/images/modules/gists/gist-og-image.png",
+      "publishedAt": "2022-08-26T22:41:12Z",
+      "content": "2019-05-18\r\nJonathan Blow on societal collapse\r\nIt's uncanny how closely this talk follows a line of reasoning I've been working on lately. If you're copied here, we may have discussed one or more of… [+10698 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "heise online"
+      },
+      "author": "Malte Kirchner",
+      "title": "iPhone mit Satelliten-Kommunikation: SpaceX wollte Apple angeblich zuvorkommen",
+      "description": "Das nächste iPhone soll angeblich auch über Satellit kommunizieren können. Das behauptet ein Experte, nachdem SpaceX einen ähnlichen Dienst angekündigt hat.",
+      "url": "https://www.heise.de/news/iPhone-mit-Satelliten-Kommunikation-SpaceX-wollte-Apple-angeblich-zuvorkommen-7245789.html",
+      "urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.png-lossy-85.webp-lossy-85.foil1/_www-heise-de_/imgs/18/3/5/9/9/1/8/6/shutterstock_360478484-c33ebae461af6297.jpg",
+      "publishedAt": "2022-08-26T16:29:00Z",
+      "content": "Ein Experte für Satellitenkommunikation aus dem Silicon Valley behauptet, dass Apple zusammen mit der Vorstellung des iPhone 14 auch einen Satellitendienst startet. Dieser soll es ermöglichen, mit de… [+1967 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "9to5Mac"
+      },
+      "author": "Benjamin Mayo",
+      "title": "Apple TV+ Guide: Every Apple TV show and movie available now",
+      "description": "Apple TV+ offers exclusive Apple original TV shows and movies in 4K HDR quality. You can watch across all of your screens and pick up where you left off on any device. Apple TV+ costs $4.99 per month. Here’s every Apple original television show and movie avai…",
+      "url": "https://9to5mac.com/2022/08/26/apple-tv-plus-tv-shows-movies-guide/",
+      "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2019/12/apple-tv-plus.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2022-08-26T08:04:31Z",
+      "content": "Apple TV+ offers exclusive Apple original TV shows and movies in 4K HDR quality. You can watch across all of your screens and pick up where you left off on any device. Apple TV+ costs $4.99 per month… [+50020 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "9to5Mac"
+      },
+      "author": "Michael Potuck",
+      "title": "Apple Arcade games for iPhone, Mac, Apple TV [New 8/26: Love You to Bits+]",
+      "description": "Apple Arcade launched with close to 100 titles and the service is seeing new games added regularly with over 200 games now in the library. Follow along with our guide on Apple Arcade games.\nNew for 8/26: The sci-fi puzzle adventure Love You to Bits+ is now on…",
+      "url": "https://9to5mac.com/2022/08/26/apple-arcade-games/",
+      "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2022/08/apple-arcade-love-you-to-bits.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2022-08-26T12:57:00Z",
+      "content": "Apple Arcade launched with close to 100 titles and the service is seeing new games added regularly with over 200 games now in the library. Follow along with our guide on Apple Arcade games.\r\nNew for … [+78991 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "9to5Mac"
+      },
+      "author": "Seth Kurkowski",
+      "title": "9to5Mac Daily: August 26, 2022 – AppleCare lawsuit, Apple Music Classical",
+      "description": "Listen to a recap of the top stories of the day from 9to5Mac. 9to5Mac Daily is available on iTunes and Apple’s Podcasts app, Stitcher, TuneIn, Google Play, or through our dedicated RSS feed for Overcast and other podcast players.\nSponsored by Kolide: With Kol…",
+      "url": "https://9to5mac.com/2022/08/26/9to5mac-daily-august-26-2022/",
+      "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2021/12/9to5Mac-Daily-art-lead.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2022-08-26T15:42:01Z",
+      "content": "Listen to a recap of the top stories of the day from 9to5Mac. 9to5Mac Daily is available on iTunes and Apples Podcasts app, Stitcher, TuneIn, Google Play, or through our dedicated RSS feed for Overca… [+991 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "9to5Mac"
+      },
+      "author": "Filipe Espósito",
+      "title": "Hands-on: First generation iPad mini disassembled and framed by GRID",
+      "description": "As we previously covered, GRID Studios is known for recycling old Apple products and turning them into art. More specifically, the company frames disassembled products. And while some of you may already be familiar with the framed iPhone and Apple Watch, GRID…",
+      "url": "https://9to5mac.com/2022/08/26/first-generation-ipad-mini-framed-by-grid/",
+      "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2022/08/GRID-iPad-mini-1.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2022-08-26T23:10:29Z",
+      "content": "As we previously covered, GRID Studios is known for recycling old Apple products and turning them into art. More specifically, the company frames disassembled products. And while some of you may alre… [+2328 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "9to5Mac"
+      },
+      "author": "Chance Miller",
+      "title": "US Department of Justice begins drafting antitrust lawsuit against Apple, report says",
+      "description": "A major antitrust lawsuit could soon be headed Apple’s way in the United States. A new report from Politico today says that the Department of Justice antitrust division is in the “early stages” of drafting an antitrust lawsuit against Apple, and it hopes to “…",
+      "url": "https://9to5mac.com/2022/08/26/apple-antitrust-doj-lawsuit/",
+      "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2022/05/apple-park-employees-back-to-work-9to5mac-6.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2022-08-26T17:33:57Z",
+      "content": "A major antitrust lawsuit could soon be headed Apple’s way in the United States. A new report from Politicotoday says that the Department of Justice antitrust division is in the “early stages” of dra… [+2867 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "9to5Mac"
+      },
+      "author": "Chance Miller",
+      "title": "Kuo reiterates next MacBook Pro and iPad Pro will use 5nm chips, 3nm upgrade in 2023",
+      "description": "Reliable Apple analyst Ming-Chi Kuo is doubling down on his prediction that new MacBook Pro and iPad hardware entering mass production this year won’t use new 3nm chip technology. Kuo says these devices will feature “new” chips, but ones still using a 5nm fab…",
+      "url": "https://9to5mac.com/2022/08/26/kuo-new-macbook-pro-5nm/",
+      "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2022/08/macbook-pro-2022.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2022-08-26T16:51:53Z",
+      "content": "Reliable Apple analyst Ming-Chi Kuo is doubling down on his prediction that new MacBook Pro and iPad hardware entering mass production this year won’t use new 3nm chip technology. Kuo says these devi… [+2262 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "9to5Mac"
+      },
+      "author": "Seth Kurkowski",
+      "title": "9to5Mac Happy Hour 396: iPhone 14 event announced, self-service Mac repairs, iPadOS 16 officially delayed",
+      "description": "Benjamin and Chance break down this week’s Apple’s news including the announcement of the iPhone 14 event, set for September 7. Also, Cook, Ive, and Laurene Powell-Jobs will appear at the Code Conference the day before. Also, Apple officially announced the iP…",
+      "url": "https://9to5mac.com/2022/08/26/9to5mac-happy-hour-396/",
+      "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2018/04/9to5mac-happy-hour-lead1.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2022-08-26T15:14:50Z",
+      "content": "Benjamin and Chance break down this weeks Apples news including the announcement of the iPhone 14 event, set for September 7. Also, Cook, Ive, and Laurene Powell-Jobs will appear at the Code Conferen… [+833 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "9to5Mac"
+      },
+      "author": "Ben Lovejoy",
+      "title": "iPhone Lockdown Mode can be easily detected, could make you a target",
+      "description": "iPhone Lockdown Mode is an extreme form of security designed to protect people who might find themselves targets of state-sponsored spyware, like Pegasus. However, a privacy activist says it also makes it easy for a website to detect when someone is using it …",
+      "url": "https://9to5mac.com/2022/08/26/iphone-lockdown-mode-2/",
+      "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2022/08/iPhone-Lockdown-Mode.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2022-08-26T11:14:35Z",
+      "content": "iPhone Lockdown Mode is an extreme form of security designed to protect people who might find themselves targets of state-sponsored spyware, like Pegasus. However, a privacy activist says it also mak… [+3653 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "9to5Mac"
+      },
+      "author": "Rikka Altland",
+      "title": "Deals: 10.2-inch iPad low at $280, iPhone 12/Pro Max/mini refurb from $370, more",
+      "description": "Heading into the weekend, all of today’s best deals are now live and headlined by a refurbished iPhone 12/Pro Max/mini sale from $370. Alongside the previous-generation handsets, you can score an all-time low on 10.2-inch iPad at $280 as well as a collection …",
+      "url": "https://9to5mac.com/2022/08/26/10-2-inch-ipad-iphone-12-series-sale/",
+      "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2022/08/ipad-10.2-iphone-12-series.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2022-08-26T15:50:56Z",
+      "content": "Heading into the weekend, all of today’s best deals are now live and headlined by a refurbished iPhone 12/Pro Max/mini sale from $370. Alongside the previous-generation handsets, you can score an all… [+4113 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "9to5Mac"
+      },
+      "author": "Chance Miller",
+      "title": "Instagram refutes viral post claiming it shares your precise location with followers",
+      "description": "Multiple viral posts are making their way around social media claiming that Instagram is sharing your precise location with your followers. Instagram has denied these claims, and there are actually protections in place within iOS to further protect your data.…",
+      "url": "https://9to5mac.com/2022/08/26/instagram-precise-location/",
+      "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2022/08/instagram-precise-location-ios.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2022-08-26T18:53:22Z",
+      "content": "Multiple viral posts are making their way around social media claiming that Instagram is sharing your precise location with your followers. Instagram has denied these claims, and there are actually p… [+3510 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "9to5Mac"
+      },
+      "author": "Filipe Espósito",
+      "title": "Instagram will now restrict even more sensitive content for teens by default",
+      "description": "Instagram currently offers options for teens to restrict how much sensitive content they see on the social network. In June, the platform added an option that further limits such content. Soon, this option will come enabled by default for teen Instagram users…",
+      "url": "https://9to5mac.com/2022/08/25/instagram-restrict-sensitive-content-for-teens/",
+      "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2022/08/Instagram-will-now-restrict-even-more-sensitive-content-for-teens-by-default.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2022-08-26T00:49:48Z",
+      "content": "Instagram currently offers options for teens to restrict how much sensitive content they see on the social network. In June, the platform added an option that further limits such content. Soon, this … [+1843 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "9to5Mac"
+      },
+      "author": "Michael Potuck",
+      "title": "T-Mobile vs Verizon: Which carrier is the best pick for iPhone 14 buyers?",
+      "description": "Considering switching carriers as you think about upgrading to iPhone 14? With market competition strong, the major US carriers are offering compelling incentives for new customers. Below we’ll specifically focus on T-Mobile vs Verizon including how they comp…",
+      "url": "https://9to5mac.com/2022/08/26/t-mobile-vs-verizon/",
+      "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2022/08/t-mobile-vs-verizon.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2022-08-26T18:53:22Z",
+      "content": "Considering switching carriers as you think about upgrading to iPhone 14? With market competition strong, the major US carriers are offering compelling incentives for new customers. Below we’ll speci… [+6262 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "9to5Mac"
+      },
+      "author": "Ben Lovejoy",
+      "title": "DoorDash hack sees customer contact details exposed; LastPass attacker didn’t access user data",
+      "description": "A DoorDash hack has been confirmed by the company, with full customer contact details exposed by the security breach: name, address, and phone numbers.\nSeparately, LastPass has also confirmed an attack on its own systems, but says it doesn’t believe that any …",
+      "url": "https://9to5mac.com/2022/08/26/doordash-hack/",
+      "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2022/08/DoorDash-hack.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2022-08-26T13:00:22Z",
+      "content": "A DoorDash hack has been confirmed by the company, with full customer contact details exposed by the security breach: name, address, and phone numbers.\r\nSeparately, LastPass has also confirmed an att… [+4239 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "9to5Mac"
+      },
+      "author": "Chance Miller",
+      "title": "New Philips Hue ‘Lightguide’ bulbs leak with clever glowstick-style design",
+      "description": "Philips Hue is set to expand its lineup of HomeKit-capable accessories, at least according to the latest leak. The company appears to be prepping three new smart lights that it brands as “Philips Hue Lightguide” and are described as offering “unique shapes to…",
+      "url": "https://9to5mac.com/2022/08/26/philips-hue-lightguide-homekit/",
+      "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2022/08/philips-hue-lightguide.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2022-08-26T20:28:47Z",
+      "content": "Philips Hue is set to expand its lineup of HomeKit-capable accessories, at least according to the latest leak. The company appears to be prepping three new smart lights that it brands as “Philips Hue… [+1831 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "9to5Mac"
+      },
+      "author": "Filipe Espósito",
+      "title": "Duolingo announces new ‘Math’ app focused on kids and more features coming to other apps",
+      "description": "Duolingo on Friday announced a new “Math” app during its fourth annual Duocon conference. Duolingo Math, as the name suggests, will help people (especially children) learn and improve their math skills in a fun and intuitive way.\n more…\nThe post Duolingo anno…",
+      "url": "https://9to5mac.com/2022/08/26/duolingo-new-app-math-focused-on-kids/",
+      "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2022/08/Duolingo-Math.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2022-08-26T21:57:51Z",
+      "content": "Duolingo on Friday announced a new “Math” app during its fourth annual Duocon conference. Duolingo Math, as the name suggests, will help people (especially children) learn and improve their math skil… [+1822 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Spaceexplored.com"
+      },
+      "author": "Space Explored",
+      "title": "SpaceX & T-Mobile to bring direct satellite connection to cell phones with ‘Coverage Above and Beyond’",
+      "description": "Yesterday, SpaceX and T-Mobile announced they would be holding a big event. With Musk hyping up the event as “something special” and “big news,” speculation was rife on Twitter with guesses as to what the big announcement could be. Now, it is clear that the a…",
+      "url": "https://spaceexplored.com/2022/08/25/starlink-direct-cell-phone-connection/",
+      "urlToImage": "https://i0.wp.com/spaceexplored.com/wp-content/uploads/sites/10/2022/08/SpaceX-T-Mobile.jpg?resize=1200%2C628&ssl=1",
+      "publishedAt": "2022-08-26T00:25:52Z",
+      "content": "Yesterday, SpaceX and T-Mobile announced they would be holding a big event. With Musk hyping up the event as something special and big news, speculation was rife on Twitter with guesses as to what th… [+3129 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "9to5Mac"
+      },
+      "author": "Bradley Chambers",
+      "title": "HomeKit Weekly: Meross desk lamp improves video meeting quality with a flexible arm, has HomeKit automation support",
+      "description": "Improving your video meeting quality might include upgrading your webcam, but it most definitely should include upgrading your desk lighting. If you want a budget upgrade that works with HomeKit, you’ll want to check out the . With a flexible arm for adjustin…",
+      "url": "https://9to5mac.com/2022/08/26/meross-desk-lamp/",
+      "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2022/08/Meross-desk-lamp.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2022-08-26T18:00:00Z",
+      "content": "Improving your video meeting quality might include upgrading your webcam, but it most definitely should include upgrading your desk lighting. If you want a budget upgrade that works with HomeKit, you… [+2659 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "9to5Mac"
+      },
+      "author": "Ben Lovejoy",
+      "title": "Twitter COVID-19 errors; Jack Dorsey’s regret; minor victory for Musk",
+      "description": "Twitter COVID-19 misinformation labeling has got the company more into trouble as it made literally dozens of embarrassing errors this week. It mistakenly applied the label to factually correct tweets from doctors and scientists, in some cases suspending thei…",
+      "url": "https://9to5mac.com/2022/08/26/twitter-covid/",
+      "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2022/08/Twitter-COVID.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2022-08-26T12:08:54Z",
+      "content": "Twitter COVID-19 misinformation labeling has got the company more into trouble as it made literally dozens of embarrassing errors this week. It mistakenly applied the label to factually correct tweet… [+3614 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "9to5Mac"
+      },
+      "author": "Ben Lovejoy",
+      "title": "Tested: Excitrus 100W Magnetic Wireless Power Bank",
+      "description": "With power banks available these days, it can be hard for a company to make theirs stand out – but the Excitrus 100W Magnetic Wireless Power Bank achieves this in a couple of ways.\nFirst, the green fabric finish makes it visually distinctive. But more importa…",
+      "url": "https://9to5mac.com/2022/08/26/excitrus/",
+      "urlToImage": "https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2022/08/Excitrus-100W-Magnetic-Wireless-Power-Bank-review.jpeg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2022-08-26T14:55:54Z",
+      "content": "With so many power banks available these days, it can be hard for a company to make theirs stand out  but the Excitrus 100W Magnetic Wireless Power Bank achieves this in a couple of ways.\r\nFirst, the… [+5812 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Android Police"
+      },
+      "author": "Chandraveer Mathur",
+      "title": "Line up now to talk to Google's definitely not sentient chatbot",
+      "description": "An early chance to get in the good books of humankind’s future rulers",
+      "url": "https://www.androidpolice.com/talk-google-sentient-lamda-chatbot-beta-test/",
+      "urlToImage": "https://static1.anpoimages.com/wordpress/wp-content/uploads/2022/06/chrome_vz2yLHNSh6.jpg",
+      "publishedAt": "2022-08-26T18:23:21Z",
+      "content": "Big tech companies like Google and Microsoft are at the forefront of efforts to make human-computer interactions consumer-ready using technologies like natural language processing (NLP). One of Googl… [+2282 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Android Police"
+      },
+      "author": "Phillip Moyer",
+      "title": "How to update to the latest version of Google Chrome",
+      "description": "Yes, app updates are annoying, but you don't want to skip them. Here's how to update your browser to prevent security and privacy vulnerabilities.",
+      "url": "https://www.androidpolice.com/how-to-update-google-chrome/",
+      "urlToImage": "https://static1.anpoimages.com/wordpress/wp-content/uploads/2022/08/Update-Google-Chrome.jpg",
+      "publishedAt": "2022-08-26T10:52:13Z",
+      "content": "Google Chrome, like many modern browsers, can automatically update itself. This increases the browser's security to keep you safe and makes sure that everyone has access to the latest web features. H… [+2882 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Genbeta.com"
+      },
+      "author": "Marcos Merino",
+      "title": "SerenityOS, el sistema Unix con aspecto de Windows de los 90 creado desde cero por un solo hombre como proyecto terapéutico",
+      "description": "En estos últimos cuatro años, un antiguo desarrollador de Apple llamado Andreas Kling ha estado trabajando en un proyecto personal (de hecho, en origen nació como un proyecto 'de terapia') que, en las últimas semanas, está cosechando una popularidad creciente…",
+      "url": "https://www.genbeta.com/sistemas-operativos/serenityos-sistema-unix-aspecto-windows-90-creado-cero-solo-hombre-como-proyecto-terapeutico-1",
+      "urlToImage": "https://i.blogs.es/c44f30/screenshot-b36968c/840_560.jpg",
+      "publishedAt": "2022-08-26T13:42:54Z",
+      "content": "En estos últimos cuatro años, un antiguo desarrollador de Apple llamado Andreas Kling ha estado trabajando en un proyecto personal (de hecho, en origen nació como un proyecto 'de terapia') que, en la… [+5222 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Rock Paper Shotgun"
+      },
+      "author": "CJ Wheeler",
+      "title": "Report: Amazon are announcing plans to buy EA today",
+      "description": "Amazon are intending to announce they’ve made an offer to buy publishing colossus Electronic Arts later today, according to a new report from USA Today’s For The Win. No clue yet as to how much they’d be paying, but it’s likely to be ranging in the hundreds o…",
+      "url": "https://www.rockpapershotgun.com/report-amazon-are-announcing-plans-to-buy-ea-today",
+      "urlToImage": "https://assets2.rockpapershotgun.com/Amazon-Locker-Image-2-EA.jpg/BROK/thumbnail/1600x900/format/jpg/quality/80/Amazon-Locker-Image-2-EA.jpg",
+      "publishedAt": "2022-08-26T12:04:51Z",
+      "content": "Amazon are intending to announce they’ve made an offer to buy publishing colossus Electronic Arts later today, according to a new report from USA Today’s For The Win. No clue yet as to how much they’… [+1529 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Autoblog"
+      },
+      "author": "Autoblog Staff, Autoblog",
+      "title": "Dodge goes electric in style | Autoblog Podcast #744",
+      "description": "Filed under:\n Green,Podcasts,Dodge,Nissan,Volkswagen,Car Buying,Truck,Coupe,Crossover,SUV,Concept Cars,Electric,Future Vehicles,Hybrid,Luxury,Off-Road Vehicles,Performance,Sedan,Rivian\n Plus a Pebble Beach recap, and an electric 'Spend My Money' segmentContin…",
+      "url": "https://www.autoblog.com/2022/08/26/podcast-dodge-charger-daytona-srt-ev-hornet-challenger-pebble-beach/",
+      "urlToImage": "https://o.aolcdn.com/images/dims3/GLOB/legacy_thumbnail/1062x597/format/jpg/quality/100/https://s.aolcdn.com/os/ab/_cms/2022/08/23165500/p744.jpg",
+      "publishedAt": "2022-08-26T15:00:00Z",
+      "content": "In this episode of the Autoblog Podcast, Editor-in-Chief Greg Migliore is joined by Senior Editor, Green, John Beltz Snyder. There's been a lot for Dodge news recently, including the reveal of the Ch… [+1373 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Autoblog"
+      },
+      "author": "James Riswick",
+      "title": "2023 Subaru Ascent Review: For those who've outgrown an Outback",
+      "description": "Filed under:\n Subaru,Buying Guide,New Car Reviews,Crossover,SUV\n Continue reading 2023 Subaru Ascent Review: For those who've outgrown an Outback\n2023 Subaru Ascent Review: For those who've outgrown an Outback originally appeared on Autoblog on Fri, 26 Aug 20…",
+      "url": "https://www.autoblog.com/article/2023-subaru-ascent-review/",
+      "urlToImage": "https://o.aolcdn.com/images/dims3/GLOB/legacy_thumbnail/1062x597/format/jpg/quality/100/https://s.aolcdn.com/os/ab/_cms/2022/06/14110801/23MY_Ascent_-2.jpeg",
+      "publishedAt": "2022-08-26T10:00:00Z",
+      "content": "Pros: Standard all-wheel drive; above-average ground clearance; useful roof rails; simple controls; great visibility\r\nCons: Plain interior; disconnected driving experience; helicopter parent safety t… [+11971 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Toprankblog.com"
+      },
+      "author": "Lane Ellis",
+      "title": "B2B Marketing News: Thought Leadership Connections, Google’s People-First Search Update, Digital Ad Revenue Climbs, & YouTube’s New Podcast Site",
+      "description": "Digital Advertising Hits $189 Billion In 2021, Global Forecasts Predict 5% Yearly Growth Through 2027\nU.S. digital advertising revenue of $189 billion in 2021 was the biggest increase since 2006, including audio advertising with a leading 57.9 percent growth …",
+      "url": "https://www.toprankblog.com/2022/08/b2b-marketing-news-082622/",
+      "urlToImage": "https://www.toprankblog.com/wp-content/uploads/2022August25MarketingChartsChart600w.png",
+      "publishedAt": "2022-08-26T12:59:47Z",
+      "content": "Digital Advertising Hits $189 Billion In 2021, Global Forecasts Predict 5% Yearly Growth Through 2027U.S. digital advertising revenue of $189 billion in 2021 was the biggest increase since 2006, incl… [+5144 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "AppleInsider"
+      },
+      "author": "news@appleinsider.com (Wesley Hilliard)",
+      "title": "iPhone 14 Event, iPadOS 16.1 Delays, and Mac Self-Service Repair on the AppleInsider Podcast",
+      "description": "Apple's \"Far Out\" iPhone 14 event has been announced, plus iPadOS 16.1 is now officially delayed, and Apple launches self-service repair for Macs.Apple self-repair program, Apple event invite, and sharing locations in Find My on the AppleInsider PodcastIt's u…",
+      "url": "https://appleinsider.com/articles/22/08/26/iphone-14-event-ipados-161-delays-and-mac-self-service-repair-on-the-appleinsider-podcast",
+      "urlToImage": "https://photos5.appleinsider.com/gallery/50063-98197-Podcast-xl.jpg",
+      "publishedAt": "2022-08-26T13:11:14Z",
+      "content": "AppleInsider is supported by its audience and may earn commission as an Amazon Associate and affiliate partner on qualifying purchases. These affiliate partnerships do not influence our editorial con… [+2525 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "AppleInsider"
+      },
+      "author": "news@appleinsider.com (Andrew Orr)",
+      "title": "US DOJ prepping antitrust case against Apple",
+      "description": "An anti-trust lawsuit from the Department of Justice is reportedly in the early stages of construction, further amping up the government's efforts to rein in Apple.Apple AirTagsThe US Department of Justice suit is reportedly largely focused on complaints from…",
+      "url": "https://appleinsider.com/articles/22/08/26/us-doj-prepping-antitrust-case-against-apple",
+      "urlToImage": "https://photos5.appleinsider.com/gallery/41567-80608-000-d2-lead-AirTag-xl.jpg",
+      "publishedAt": "2022-08-26T18:01:34Z",
+      "content": "AppleInsider is supported by its audience and may earn commission as an Amazon Associate and affiliate partner on qualifying purchases. These affiliate partnerships do not influence our editorial con… [+2163 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "AppleInsider"
+      },
+      "author": "news@appleinsider.com (Mike Peterson)",
+      "title": "Apple releases fourth macOS Ventura public beta",
+      "description": "A day after seeding a developer version, Apple has released the fourth beta build of its upcoming macOS Ventura update to members of its public software testing program.macOS VenturaThe new public beta version can be downloaded from Apple's Beta Software Prog…",
+      "url": "https://appleinsider.com/articles/22/08/26/apple-releases-fourth-macos-ventura-public-beta",
+      "urlToImage": "https://photos5.appleinsider.com/gallery/50081-98272-49005-95888-macOS-Ventura-Header-xl-xl.jpg",
+      "publishedAt": "2022-08-26T17:38:59Z",
+      "content": "AppleInsider is supported by its audience and may earn commission as an Amazon Associate and affiliate partner on qualifying purchases. These affiliate partnerships do not influence our editorial con… [+1008 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "AppleInsider"
+      },
+      "author": "news@appleinsider.com (Barry Porter)",
+      "title": "How to manage Apple Mail previous recipients on iOS 15",
+      "description": "Cleaning up the Apple Mail previous recipients will make things a lot simpler for folks that rely on the iPhone to get the job done. Here's how to get it done on iOS.The Mail application on iPhones and iPads automatically builds a list of recent email recipie…",
+      "url": "https://appleinsider.com/inside/ios-15/tips/how-to-manage-apple-mail-previous-recipients-on-ios-15",
+      "urlToImage": "https://photos5.appleinsider.com/gallery/50069-98206-Mail-icon-16by9-iOS-xl.jpg",
+      "publishedAt": "2022-08-26T16:03:52Z",
+      "content": "AppleInsider is supported by its audience and may earn commission as an Amazon Associate and affiliate partner on qualifying purchases. These affiliate partnerships do not influence our editorial con… [+1980 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "AppleInsider"
+      },
+      "author": "news@appleinsider.com (William Gallagher)",
+      "title": "Apple TV+ wins first Edinburgh Television Festival award with 'Pachinko'",
+      "description": "The prestigious annual Edinburgh Television Festival has given its Best International Drama award to Apple TV+ hit \"Pachinko.\"It's the international-set multi-generational drama that its writer Soo Hugh says only Apple TV+ was willing to finance. Now the dram…",
+      "url": "https://appleinsider.com/articles/22/08/26/apple-tv-wins-first-edinburgh-television-festival-award-with-pachinko",
+      "urlToImage": "https://photos5.appleinsider.com/gallery/47143-91852-000-lead-Pachinko-xl.jpg",
+      "publishedAt": "2022-08-26T09:38:29Z",
+      "content": "AppleInsider is supported by its audience and may earn commission as an Amazon Associate and affiliate partner on qualifying purchases. These affiliate partnerships do not influence our editorial con… [+1390 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "AppleInsider"
+      },
+      "author": "news@appleinsider.com (William Gallagher)",
+      "title": "Apple's talent scouting Platoon firm launches app for artists",
+      "description": "Apple has quietly released Platoon for Artists, an app from its music talent division aimed at helping musicians manage their careers.Four years after Apple bought Platoon, the UK-based talent-scouting company, it has now released an official app. Solely aime…",
+      "url": "https://appleinsider.com/articles/22/08/26/apples-talent-scouting-platoon-firm-launches-app-for-artists",
+      "urlToImage": "https://photos5.appleinsider.com/gallery/50075-98255-000-lead-Platoon-for-Artists-xl.jpg",
+      "publishedAt": "2022-08-26T11:00:47Z",
+      "content": "AppleInsider is supported by its audience and may earn commission as an Amazon Associate and affiliate partner on qualifying purchases. These affiliate partnerships do not influence our editorial con… [+1121 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "AppleInsider"
+      },
+      "author": "news@appleinsider.com (Andrew Orr)",
+      "title": "Apple's CSAM detection system may not be perfect, but it is inevitable",
+      "description": "Over a year ago, Apple announced plans to scan for child sexual abuse material (CSAM) with the iOS 15.2 release. The technology is inevitable despite imperfections and silence about it.Logos for Messages, Siri, and PhotosApple announced this scanning technolo…",
+      "url": "https://appleinsider.com/articles/22/08/26/apples-csam-detection-system-may-not-be-perfect-but-it-is-inevitable",
+      "urlToImage": "https://photos5.appleinsider.com/gallery/50078-98268-messages-siri-photos-xl.jpg",
+      "publishedAt": "2022-08-26T18:51:19Z",
+      "content": "AppleInsider is supported by its audience and may earn commission as an Amazon Associate and affiliate partner on qualifying purchases. These affiliate partnerships do not influence our editorial con… [+9365 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "AppleInsider"
+      },
+      "author": "news@appleinsider.com (William Gallagher)",
+      "title": "Elon Musk and T-Mobile try beating Apple with satellite vaporware",
+      "description": "Just in case Apple unveils satellite communications for the iPhone 14, Elon Musk and T-Mobile have tried to beat it to the punch by investing in vaporware heralded by a press event.T-Mobile CEO Mike Sievert (left) and SpaceX's Elon Musk (right)We won't know u…",
+      "url": "https://appleinsider.com/articles/22/08/26/elon-musk-and-t-mobile-try-beating-apple-with-satellite-vaporware",
+      "urlToImage": "https://photos5.appleinsider.com/gallery/50076-98262-000-lead-T-Mobile-and-SpaceX-xl.jpg",
+      "publishedAt": "2022-08-26T15:34:09Z",
+      "content": "AppleInsider is supported by its audience and may earn commission as an Amazon Associate and affiliate partner on qualifying purchases. These affiliate partnerships do not influence our editorial con… [+6071 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "AppleInsider"
+      },
+      "author": "news@appleinsider.com (Christine McKee)",
+      "title": "This M1 Max MacBook Pro 14-inch with 32GB RAM is $354 off, plus $60 off AppleCare",
+      "description": "An exclusive $354 discount brings the cost of the high-end M1 Max MacBook Pro 14-inch down to just $2,545. Plus, save $60 on three years of AppleCare.Take advantage of the cheapest price available on Apple's high-end 14-inch MacBook Pro M1 Max with 32GB of me…",
+      "url": "https://appleinsider.com/articles/22/08/26/this-m1-max-macbook-pro-14-inch-with-32gb-ram-is-354-off-plus-60-off-applecare",
+      "urlToImage": "https://photos5.appleinsider.com/gallery/50077-98261-macbook-pro-14-inch-354-off-xl.jpg",
+      "publishedAt": "2022-08-26T14:37:32Z",
+      "content": "AppleInsider is supported by its audience and may earn commission as an Amazon Associate and affiliate partner on qualifying purchases. These affiliate partnerships do not influence our editorial con… [+1920 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "AppleInsider"
+      },
+      "author": "news@appleinsider.com (William Gallagher)",
+      "title": "Elon Musk and T-Mobile announce universal cell coverage via satellite",
+      "description": "SpaceX and T-Mobile are partnering on a long-term plan to bring cellphone coverage to even the most remote US locations, currently unreachable by traditional cell signals.Elon MuskAccording to the companies, over half a million square miles of US land — plus …",
+      "url": "https://appleinsider.com/articles/22/08/26/elon-musk-and-t-mobile-announce-universal-cell-coverage-via-satellite",
+      "urlToImage": "https://photos5.appleinsider.com/gallery/48232-94214-Musk-Tesla-xl.jpg",
+      "publishedAt": "2022-08-26T10:31:44Z",
+      "content": "AppleInsider is supported by its audience and may earn commission as an Amazon Associate and affiliate partner on qualifying purchases. These affiliate partnerships do not influence our editorial con… [+2823 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "AppleInsider"
+      },
+      "author": "news@appleinsider.com (AppleInsider Staff)",
+      "title": "Daily deals Aug. 26: 10.2-inch iPad for $279, $250 off 1TB MacBook Pro, M2 MacBook Air $1099, more!",
+      "description": "Friday's best deals include triple-digit discounts on Apple's current 14-inch MacBook Pro and M2 MacBook Air, plus the lowest price in 30 days on a 43-inch LG monitor and a Pokemon trading card set for $18.99.Every day, AppleInsider searches online retailers …",
+      "url": "https://appleinsider.com/articles/22/08/26/daily-deals-aug-26-102-inch-ipad-for-279-250-off-1tb-macbook-pro-m2-macbook-air-1099-more",
+      "urlToImage": "https://photos5.appleinsider.com/gallery/50064-98258-deals-26-August-2022-d2-xl.jpg",
+      "publishedAt": "2022-08-26T11:50:34Z",
+      "content": "AppleInsider is supported by its audience and may earn commission as an Amazon Associate and affiliate partner on qualifying purchases. These affiliate partnerships do not influence our editorial con… [+3273 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "AppleInsider"
+      },
+      "author": "news@appleinsider.com (Nathaniel Pangaro)",
+      "title": "How Markup and the Files app on iOS or iPadOS works for students",
+      "description": "With documents increasingly having an all-digital flow from assignment to submission, Markup and the Files app in iOS and iPadOS are great for students. Here's how to get the most out of them.Students bringing an iPad to school will be able to have an easier …",
+      "url": "https://appleinsider.com/inside/ipados/tips/how-markup-and-the-files-app-on-ios-or-ipados-works-for-students",
+      "urlToImage": "https://photos5.appleinsider.com/gallery/50072-98252-IMG_1826-xl.jpg",
+      "publishedAt": "2022-08-26T12:49:17Z",
+      "content": "AppleInsider is supported by its audience and may earn commission as an Amazon Associate and affiliate partner on qualifying purchases. These affiliate partnerships do not influence our editorial con… [+6467 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "AppleInsider"
+      },
+      "author": "news@appleinsider.com (Mike Peterson)",
+      "title": "TSMC's 3nm chips won't be ready in time for 2022 MacBook Pros, Kuo says",
+      "description": "Well-connected analyst Ming-Chi Kuo is doubling down on his forecast that Apple's upcoming MacBook Pro and iPad Pro models won't sport processors built on a 3nm chipmaking process.14-inch and 16-inch MacBook ProsIn a tweet on Friday, Kuo reiterated his predic…",
+      "url": "https://appleinsider.com/articles/22/08/26/tsmcs-3nm-chips-wont-be-ready-in-time-for-2022-macbook-pros-kuo-says",
+      "urlToImage": "https://photos5.appleinsider.com/gallery/50079-98269-51687877052_70e4ddc8b3_k(2)-xl.jpg",
+      "publishedAt": "2022-08-26T16:46:21Z",
+      "content": "AppleInsider is supported by its audience and may earn commission as an Amazon Associate and affiliate partner on qualifying purchases. These affiliate partnerships do not influence our editorial con… [+1783 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "AppleInsider"
+      },
+      "author": "news@appleinsider.com (AppleInsider Staff)",
+      "title": "How to downgrade from iOS 16 to iOS 15 without losing data",
+      "description": "If you don't like iOS 16 after updating your iPhone, you can always undo all the damage. Here's how you can downgrade iOS 16 to iOS 15 without losing data.Apple regularly releases updates to iOS that introduce new features, but also makes changes to how the o…",
+      "url": "https://appleinsider.com/articles/22/08/26/how-to-downgrade-from-ios-16-to-ios-15-without-losing-data",
+      "urlToImage": "https://photos5.appleinsider.com/gallery/49910-97821-downgrade-ios-16-to-15-xl.jpg",
+      "publishedAt": "2022-08-26T16:39:37Z",
+      "content": "AppleInsider is supported by its audience and may earn commission as an Amazon Associate and affiliate partner on qualifying purchases. These affiliate partnerships do not influence our editorial con… [+5773 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gizmodo.jp"
+      },
+      "author": "湯木進悟",
+      "title": "米国でMacBookも自分で修理できるようになりました｡ただし､特殊な道具のレンタルや購入が必要です",
+      "description": "Apple（アップル）は、iPhoneをユーザーが自由にパーツ交換修理できる「Self Service Repair」のプログラムを、今春より米国でスタート。ここにM1チップを搭載する「MacBook Pro」ならびに「MacBook Air」が加わったことが、Appleからアナウンスされていますよ！",
+      "url": "https://www.gizmodo.jp/2022/08/apple-to-expand-self-service-repair-program-to-macbooks.html",
+      "urlToImage": "https://assets.media-platform.com/gizmodo/dist/images/2022/08/25/220825ifixit-w960.jpg",
+      "publishedAt": "2022-08-26T11:00:00Z",
+      "content": "AppleiPhoneSelf Service RepairM1MacBook ProMacBook AirApple\r\nSelf Service RepairMacBook ProMacBook AirAppleMacBookAppleGenius BarApple\r\nSelf Service RepairMacBook1496,700Apple\r\nSelf Service RepairMac… [+88 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Lifehacker.jp"
+      },
+      "author": "junior",
+      "title": "ワイヤレス充電にも対応。黒も選べるiPad用スタイラスペン「A7Pro」",
+      "description": "「A7 Pro」は、リーズナブルな価格のiPad専用の多機能タッチペン。価格は抑えながら、パームリジェクションなどタブレットペンとしての各種機能も備えたコストパフォーマンスが高そうな製品です。",
+      "url": "https://www.lifehacker.jp/article/machi-ya-a7pro-review/",
+      "urlToImage": "https://assets.media-platform.com/gizmodo/dist/images/2022/08/23/DSCF0156-w960.jpg",
+      "publishedAt": "2022-08-26T06:45:00Z",
+      "content": "Apple\r\nmachi-yaiPadA7Pro\r\nApple Pencil\r\niPad\r\nPhoto: junior\r\nA7ProiPad\r\niPad mini 6A7Pro Photo: junior\r\nApple Pencil()\r\niPad MiniAir\r\nPhoto: junior\r\nBluetoothA7 pro\r\nPhoto: junior\r\nApp\r\nPhoto: junior… [+179 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gizmodo.jp"
+      },
+      "author": "satomi",
+      "title": "秋のAppleイベントは「Far Out（はるか彼方）」。もしやあれが来る…のか？",
+      "description": "宇宙のはるかかなたでAppleが回ってます…。\n\nこれは9月7日（現地時間）のiPhone 14発表イベントのロゴ。Appleマーケティング部門上級VPのGreg Joswiakさんがイベントに先駆けて公開しました！\n\n音源はゲリラトスの「Wild Fantasy」って曲です。\n\nそれにしても気になるのはこの「Far Out」ってやつですよね。どういう意味なん⁉⁉",
+      "url": "https://www.gizmodo.jp/2022/08/apple-event-far-out.html",
+      "urlToImage": "https://assets.media-platform.com/gizmodo/dist/images/2022/08/26/20220825FarOut-w960.png",
+      "publishedAt": "2022-08-26T12:30:00Z",
+      "content": "Apple\r\n97iPhone 14AppleVPGreg Joswiak\r\nWild Fantasy\r\nFar Out\r\nFar out. September 7. #AppleEvent ? pic.twitter.com/bw5Lxf3eQ9\r\n Greg Joswiak (@gregjoz) August 24, 2022\r\n60 \r\niPhone 14\r\nGlobalstarIoT17… [+82 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Lifehacker.jp"
+      },
+      "author": "伊藤貴之",
+      "title": "「iPhoneがない！」困らないために確認しておくべき設定とは？",
+      "description": "Image:shutterstockライフハッカー［日本版］2021年8月19日掲載の記事より転載。記事中の情報は掲載時点でのものです。iPhoneを紛失したら大変です。カフェに忘れたり、駅で盗まれたり…。でも幸いなことに、失くしたiPhoneを探すのは簡単です（ただし、電源が入っていて、必要な設定が有効になっている場合）。パスコードが有効になっていれば、自動的に「探す」機能も有効になっています。",
+      "url": "https://www.lifehacker.jp/article/240480check-these-settings-before-you-lose-your-iphone-so-you/",
+      "urlToImage": "https://assets.media-platform.com/gizmodo/dist/images/2022/08/26/shutterstock_2060613686-2-w960.jpg",
+      "publishedAt": "2022-08-26T06:00:00Z",
+      "content": "2021819\r\niPhone\r\niPhone\r\niPhone\r\niPhone\r\nScreenshot: Khamosh Pathak\r\niPhoneiPhone\r\nicloud.com/findiPhoneiCloud\r\niPhoneiPhoneiPhone\r\niCloudiPhone\r\niPhoneiPhoneiPhone\r\niPhone\r\niPhone\r\niPhone\r\niPhoneWal… [+152 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gizmodo.jp"
+      },
+      "author": "メディアジーンメディアコマース",
+      "title": "【Amazonタイムセール中！】Belkinの3 in 1ワイヤレス充電器が4,910円オフ、『FF14』推奨ヘッドセットが22%オフなど",
+      "description": "Amazon（アマゾン）で毎日開催されているタイムセール。本日2022年8月26日は、Belkinの3 in 1ワイヤレス充電器が4,910円オフ、『FF14』推奨ヘッドセットが22%オフなど今すぐ欲しい人気のアイテムがお得に多数登場しています。",
+      "url": "https://www.gizmodo.jp/2022/08/amazon-timesale-2022-0826-1.html",
+      "urlToImage": "https://assets.media-platform.com/gizmodo/dist/images/2022/08/26/GIZ-1-w960.jpg",
+      "publishedAt": "2022-08-26T09:45:00Z",
+      "content": "Amazon2022826Belkin3 in 14,910FF1422%\r\n202282617\r\n5,000\r\nApple26%\r\nApple WatchBelkinApple\r\niPhone13/12AirPodsApple Watch33Apple Watch 7\r\n2115\r\nXIV22%\r\n45mm\r\n64GB512GBmicroSD\r\n128GBSDmicroSD17\r\nHD4KV3… [+191 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Lifehacker.jp"
+      },
+      "author": "ぬえよしこ",
+      "title": "iPadOS 15の便利すぎる「キーボードショートカット」リスト",
+      "description": "Image:shutterstockライフハッカー［日本版］2021年10月8日掲載の記事より転載。記事中の情報は掲載時点でのものです。iPadOS15に新しい機能が登場しました。それが、地球儀キー（GlobeKey/グローブキー）に関するものです。Appleは、iPadOS15の新しいアップデートによって外部キーボードと接続しているiPadの使用体験をついに改善しました。iPadでは、Split",
+      "url": "https://www.lifehacker.jp/article/242916every-ipados-15-keyboard-shortcut-worth-knowing-about/",
+      "urlToImage": "https://assets.media-platform.com/gizmodo/dist/images/2022/08/26/shutterstock_1718026123-w960.jpg",
+      "publishedAt": "2022-08-26T13:30:00Z",
+      "content": "2021108\r\niPadOS 15Globe Key/\r\nAppleiPadOS 15iPad\r\niPadSplit ViewSlide Over\r\niPadOS 15\r\nScreenshot: Khamosh Pathak\r\nScreenshot: Khamosh Pathak\r\nScreenshot: Khamosh Pathak\r\nAppleThingsTimeryLire\r\nApple… [+137 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNET"
+      },
+      "author": "Adrian Marlow",
+      "title": "Save Hundreds on LG's New OLED Evo C2 4K TV for Your Entertainment Space - CNET",
+      "description": "For stellar picture quality and a big screen, this is a deal you don't want to miss.",
+      "url": "https://www.cnet.com/deals/save-hundreds-on-lgs-new-oled-evo-c2-4k-tv-for-your-entertainment-space/",
+      "urlToImage": "https://www.cnet.com/a/img/resize/abf585ebd0aa4aa60d8a50e0c003bb3cbd1c6eb9/2022/08/26/782a3b1c-ac63-4144-a943-83350f884171/91zyuosdvvl-ac-sx679.jpg?auto=webp&fit=crop&height=630&width=1200",
+      "publishedAt": "2022-08-26T16:01:00Z",
+      "content": "It's no secret that OLED TVs offer unparalleled picture quality. They are thinner, lighter and more energy-efficient than traditional LCD TVs and provide an immersive viewing experience -- however, t… [+1407 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNET"
+      },
+      "author": "Sarah Lord",
+      "title": "ESPN Plus Review: A Must-Have for Hockey and UFC Fans, but That's About It - CNET",
+      "description": "The service raised its prices and lost its coverage of MLS, making it less appealing to sports fans.",
+      "url": "https://www.cnet.com/tech/services-and-software/espn-plus-review-a-must-have-for-hockey-and-ufc-fans-but-thats-about-it/",
+      "urlToImage": "https://www.cnet.com/a/img/resize/a0a642f041a19d36b8804ad6413bb18ad6c7b38a/2021/10/21/3c5edfcf-9002-4a6e-89be-30cf6e126336/31-espn-streaming-service-app-october-2021-review.jpg?auto=webp&fit=crop&height=630&width=1200",
+      "publishedAt": "2022-08-26T20:19:27Z",
+      "content": "In the past year, ESPN Plus has both raised its prices and lost an important content partner. ESPN Plus is currently the out-of-market streaming home of Major League Soccer, but will lose the league … [+11163 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yanko Design"
+      },
+      "author": "Srishti Mitra",
+      "title": "Top 10 accessories for your iPhone",
+      "description": "Top 10 accessories for your iPhoneOn September 14th, 2021, the iPhone 13 series was launched at Apple’s event. Everyone had major expectations for the latest iPhone family – some were...",
+      "url": "https://www.yankodesign.com/2022/08/26/top-10-accessories-for-your-iphone/",
+      "urlToImage": "https://www.yankodesign.com/images/design_news/2022/08/top-10-iphone-accessories/apple_iphone_accessories_top_10_yanko_design_01.jpg",
+      "publishedAt": "2022-08-26T10:17:48Z",
+      "content": "On September 14th, 2021, the iPhone 13 series was launched at Apples event. Everyone had major expectations for the latest iPhone family some were met, some were not.  The iPhone has a smaller notch,… [+10736 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Windows Central"
+      },
+      "author": "daniel@windowscentral.com (Daniel Rubino)",
+      "title": "5 things I love about the Samsung Galaxy Z Fold 4 (and 5 things I hate)",
+      "description": "The Samsung Galaxy Z Fold 4 is making many headlines with positive reviews. How does this hardcore Surface Duo 2 user like it so far? Will they be switching or sticking with Microsoft's two-screen vision instead? Here's what good about the Fold 4, and what's …",
+      "url": "https://www.windowscentral.com/phones/5-things-i-love-about-the-samsung-galaxy-z-fold-4-and-5-things-i-hate",
+      "urlToImage": "https://cdn.mos.cms.futurecdn.net/3BuoNnTGeuQyb8AMiXVgMC-1200-80.jpg",
+      "publishedAt": "2022-08-26T16:59:27Z",
+      "content": "Since last year, I’ve used Microsoft’s Surface Duo 2 as my primary phone with no regrets. And as an advocate for the form factor, there hasn’t been much to woo me away from it. I’m so over boring sin… [+13108 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Windows Central"
+      },
+      "author": "zacharylboddy@outlook.com (Zachary Boddy)",
+      "title": "Grounded 0.14.0 'Home Stretch' available now, final content update before full release",
+      "description": "Obsidian Entertainment is gearing up to release Grounded alongside the major 1.0 update, but it has one more major content release for its unique survival game. The 0.14.0 \"Home Stretch\" update is now available.",
+      "url": "https://www.windowscentral.com/gaming/xbox/grounded-0140-home-stretch-available-now-final-content-update-before-full-release",
+      "urlToImage": "https://cdn.mos.cms.futurecdn.net/xyKN3sXkiYpycgdHaoHe6C-1200-80.jpg",
+      "publishedAt": "2022-08-26T15:12:08Z",
+      "content": "What you need to know\r\n<ul><li>Grounded is an upcoming survival game from Obsidian Entertainment and Xbox Game Studios.</li><li>Ahead of Grounded's full release, Obsidian Entertainment is releasing t… [+16469 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Microsiervos.com"
+      },
+      "author": "wicho@microsiervos.com (Wicho)",
+      "title": "SpaceX y T-Mobile prometen dar cobertura vía satélite a cualquier teléfono móvil… pero la promesa viene con letra pequeña",
+      "description": "Anoche, en una presentación en las instalaciones de SpaceX en Texas, Starbase, Elon Musk y Mike Sievert, director ejecutivo y presidente de T-Mobile en los Estados Unidos, anunciaban un acuerdo de ambas empresas para dar cobertura vía satélite a cualquier tel…",
+      "url": "https://www.microsiervos.com/archivo/internet/spacex-tmobile-cobertura-via-satelite-telefono-movil.html",
+      "urlToImage": "https://img.youtube.com/vi/Qzli-Ww26Qs/maxresdefault.jpg",
+      "publishedAt": "2022-08-26T18:27:11Z",
+      "content": "Por @Wicho 26 de Agosto de 2022\r\nAnoche, en una presentación en las instalaciones de SpaceX en Texas, Starbase, Elon Musk y Mike Sievert, director ejecutivo y presidente de T-Mobile en los Estados Un… [+4338 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Journal du geek"
+      },
+      "author": "Jean",
+      "title": "Tirage EuroMillion : FDJ offre 4 chances de gagner sans sortir 1€",
+      "description": "Ce vendredi est un jour de tirage EuroMillions. 100 millions sont à gagner, en plus du million d'euros garantis du tirage My Million. Deux codes spéciaux permettent aux nouveaux joueurs de démarrer la rentrée en douceur.\nTirage EuroMillion : FDJ offre 4 chanc…",
+      "url": "https://www.journaldugeek.com/2022/08/26/tirage-euromillion-fdj-vous-offre-4-chances-de-gagner-sans-sortir-1e/",
+      "urlToImage": "https://www.journaldugeek.com/content/uploads/2022/08/fdj-100m.jpg",
+      "publishedAt": "2022-08-26T06:50:00Z",
+      "content": "Ce vendredi est un jour de tirage EuroMillions. 100 millions sont à gagner, en plus du million d'euros garantis du tirage My Million. Deux codes spéciaux permettent aux nouveaux joueurs de démarrer l… [+5746 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Applesfera.com"
+      },
+      "author": "Miguel López",
+      "title": "Vuelve la conectividad vía satélite: Apple podría presentarlas para los iPhone 14 junto con un operador",
+      "description": "Ya hace un año de los primeros rumores sobre esto, y aunque parecía que habían muerto vuelven justo antes de una keynote. Al parecer Apple reservará un espacio del evento 'Far Out' para desvelar que los iPhone 14 podrán tener conexión vía satélite en momentos…",
+      "url": "https://www.applesfera.com/iphone/vuelve-conectividad-via-satelite-apple-podria-presentarlas-para-iphone-14-operador",
+      "urlToImage": "https://i.blogs.es/be454e/captura-de-pantalla-2022-08-26-a-las-20.09.42/840_560.jpeg",
+      "publishedAt": "2022-08-26T18:13:28Z",
+      "content": "Ya hace un año de los primeros rumores sobre esto, y aunque parecía que habían muerto vuelven justo antes de una keynote. Al parecer Apple reservará un espacio del evento 'Far Out' para desvelar que … [+1151 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Applesfera.com"
+      },
+      "author": "Jesús Quesada",
+      "title": "Los mejores auriculares de Apple con más de 200 euros de descuento, estrena iPhone por menos de 400 euros y más: Cazando Gangas",
+      "description": "Quedan pocos días para que empiece septiembre, mes odiado por muchos niños y estudiantes porque es sinónimo de vuelta al cole. Si necesitas renovar tu iPad, Mac o cualquier otro dispositivo de Apple, en la sección Cazando Gangas de Applesfera te traemos las m…",
+      "url": "https://www.applesfera.com/general/mejores-auriculares-apple-200-euros-descuento-estrena-iphone-400-euros-cazando-gangas",
+      "urlToImage": "https://i.blogs.es/f6b1e8/cazando-gangas/840_560.jpg",
+      "publishedAt": "2022-08-26T06:00:36Z",
+      "content": "Quedan pocos días para que empiece septiembre, mes odiado por muchos niños y estudiantes porque es sinónimo de vuelta al cole. Si necesitas renovar tu iPad, Mac o cualquier otro dispositivo de Apple,… [+5936 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Applesfera.com"
+      },
+      "author": "Javier Lacort",
+      "title": "El modelo de anuncios de la App Store se expandirá a más apps de iOS según Gurman. Esto solo beneficiará a Apple",
+      "description": "Gurman, uno de los filtradores más fiables sobre Apple que conocemos, avanzó que Apple Maps empezará a incluir anuncios del mismo estilo que los que ya existen en la App Store muy pronto. Es más: muy probablemente también llegarán a otros servicios nativos de…",
+      "url": "https://www.applesfera.com/applesfera-podcast/modelo-anuncios-app-store-se-expandira-a-apps-ios-gurman-esto-solo-beneficiara-a-apple",
+      "urlToImage": "https://i.blogs.es/422ded/as/840_560.jpeg",
+      "publishedAt": "2022-08-26T10:24:49Z",
+      "content": "Gurman, uno de los filtradores más fiables sobre Apple que conocemos, avanzó que Apple Maps empezará a incluir anuncios del mismo estilo que los que ya existen en la App Store muy pronto. Es más: muy… [+4482 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Applesfera.com"
+      },
+      "author": "David Bernal Raspall",
+      "title": "He comprado casi todos los iPhone desde el original. Esto es lo que he aprendido de cara al iPhone 14",
+      "description": "Estamos a menos de dos semanas de la presentación de los nuevos iPhone 14 y del fin de los misterios de esta nueva generación. Un buen momento para echar la vista atrás y contaros, desde mi experiencia, qué he aprendido comprando casi todos los iPhone desde e…",
+      "url": "https://www.applesfera.com/iphone/he-comprado-casi-todos-iphone-original-esto-que-he-aprendido-cara-al-iphone-14",
+      "urlToImage": "https://i.blogs.es/46a1a9/hero/840_560.jpeg",
+      "publishedAt": "2022-08-26T12:00:43Z",
+      "content": "Estamos a menos de dos semanas de la presentación de los nuevos iPhone 14 y del fin de los misterios de esta nueva generación. Un buen momento para echar la vista atrás y contaros, desde mi experienc… [+4807 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Applesfera.com"
+      },
+      "author": "Miguel López",
+      "title": "A más espera, menos valor: el momento perfecto para vender tu iPhone y prepararte para el iPhone 14 es ahora",
+      "description": "Hay quien ni piensa en esto y busca usar su iPhone tantos años como sea posible, pero hay quien renueva el iPhone con frecuencia vendiendo su modelo anterior para así minimizar el coste de comprarse el nuevo. Eso implica estar atento a los precios del mercado…",
+      "url": "https://www.applesfera.com/iphone/a-espera-valor-momento-perfecto-para-vender-tu-iphone-prepararte-para-iphone-14-ahora",
+      "urlToImage": "https://i.blogs.es/d7af10/1366_2000-4/840_560.jpeg",
+      "publishedAt": "2022-08-26T08:30:05Z",
+      "content": "Hay quien ni piensa en esto y busca usar su iPhone tantos años como sea posible, pero hay quien renueva el iPhone con frecuencia vendiendo su modelo anterior para así minimizar el coste de comprarse … [+2265 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Applesfera.com"
+      },
+      "author": "Jesús Quesada",
+      "title": "Este iPhone SE con cargador de Apple a 20W puede ser tuyo por menos de 400 euros en MediaMarkt, ¡y totalmente nuevo!",
+      "description": "El iPhone SE es el smartphone más económico de Apple y una buena forma de entrar en el ecosistema de la compañía sin gastar mucho dinero; sobre todo si aprovechamos esta oferta de MediaMarkt, a través de eBay, que deja el modelo de 2020 con 64 GB y cargador o…",
+      "url": "https://www.applesfera.com/seleccion/este-iphone-se-cargador-apple-a-20w-puede-ser-tuyo-400-euros-mediamarkt-totalmente-nuevo",
+      "urlToImage": "https://i.blogs.es/18c15b/iphone-se-2020-oferta/840_560.jpg",
+      "publishedAt": "2022-08-26T08:49:26Z",
+      "content": "El iPhone SE es el smartphone más económico de Apple y una buena forma de entrar en el ecosistema de la compañía sin gastar mucho dinero; sobre todo si aprovechamos esta oferta de MediaMarkt, a travé… [+1429 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Applesfera.com"
+      },
+      "author": "Miguel López",
+      "title": "macOS Ventura, ¿compatible con Mac de 2012? Hay desarrolladores que lo están intentando",
+      "description": "Todos tenemos ganas de probar macOS Ventura... excepto aquellos que no tienen un Mac compatible. Esos usuarios se verán obligados a seguir usando macOS Monterey, que por supuesto seguirá actualizándose con mejoras de seguridad. Pero hay grupos de desarrollado…",
+      "url": "https://www.applesfera.com/os-x/macos-ventura-compatible-mac-2012-hay-desarrolladores-que-estan-intentando",
+      "urlToImage": "https://i.blogs.es/532bc8/1366_2000-5/840_560.jpeg",
+      "publishedAt": "2022-08-26T17:04:36Z",
+      "content": "Todos tenemos ganas de probar macOS Ventura... excepto aquellos que no tienen un Mac compatible. Esos usuarios se verán obligados a seguir usando macOS Monterey, que por supuesto seguirá actualizándo… [+1692 chars]"
     },
     {
       "source": {
         "id": null,
         "name": "MakeUseOf"
       },
-      "author": "Patrick Kariuki",
-      "title": "No, Elon Musk Is Not Buying [Insert Company Here]",
-      "description": "Elon Musk sometimes tweets to say he's planning to buy a company. But whether it's Coca-Cola or Manchester United, he (probably) isn't being serious.",
-      "url": "https://www.makeuseof.com/elon-musk-is-not-buying-that-company/",
-      "urlToImage": "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/08/elon-musk-animated.jpg",
-      "publishedAt": "2022-08-23T10:01:35Z",
-      "content": "Despite being one of the world's richest (and presumably busiest) businesspeople, Elon Musk seems to spend a lot of time tweeting. And some of these tweets are him joking about buying random companie… [+2741 chars]"
+      "author": "Lindsay E. Mack",
+      "title": "How to Use the Camera Lucida App to Create Fantastic Drawings in No Time",
+      "description": "Using a reference image for your art makes it easier to complete your work. Here's how to use the Camera Lucida app to draw anything you want.",
+      "url": "https://www.makeuseof.com/how-to-use-camera-lucida-app-for-drawing/",
+      "urlToImage": "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/08/Camera-Lucida-drawing-app-demonstration.jpg",
+      "publishedAt": "2022-08-26T14:31:14Z",
+      "content": "Want to boost your drawing skills? The Camera Lucida app uses your phone or tablet to superimpose an image onto your drawing surface, making it easy to draw what you see.\r\nIt's a helpful tool for art… [+6245 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Tomshw.it"
+        "name": "Phandroid - News for Android"
       },
-      "author": "Luca Rocchi",
-      "title": "I pulsanti fisici sono più sicuri da usare rispetto agli schermi di infotainment",
-      "description": "Gli abitacoli moderni sono un vero e proprio concentrato di tecnologia, ma quanto sono facili e sicuri da utilizzare?",
-      "url": "https://www.tomshw.it/automotive/i-pulsanti-fisici-sono-piu-sicuri-da-usare-rispetto-agli-schermi-di-infotainment/",
-      "urlToImage": "https://www.tomshw.it/images/images/2022/02/mercedes-benz-eqs-classe-s-prova-214337.jpg",
-      "publishedAt": "2022-08-23T10:01:23Z",
-      "content": "Tecnologia a bordo I pulsanti fisici sono più sicuri da usare rispetto agli schermi di infotainment\r\nTom's Hardware vive grazie al suo pubblico. Quando compri qualcosa dai nostri link, potremmo guada… [+4416 chars]"
+      "author": "Tyler Lee",
+      "title": "Samsung is outpacing Apple in the smartwatch market",
+      "description": "According to the latest data, it appears that Samsung’s smartwatch growth is outpacing that of Apple.\nThe post Samsung is outpacing Apple in the smartwatch market first appeared on Phandroid.",
+      "url": "https://phandroid.com/2022/08/26/samsung-is-outpacing-apple-in-the-smartwatch-market/",
+      "urlToImage": "https://phandroid.com/wp-content/uploads/2022/08/samsung-galaxy-watch-5-18-640x802.jpg",
+      "publishedAt": "2022-08-26T13:39:21Z",
+      "content": "Apple has very strong branding, so it’s not uncommon to see an Apple Watch strapped to the wrist of someone. But for those not in Apple’s ecosystem, you have a lot more options to choose from, which … [+1282 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Presse-citron"
+      },
+      "author": "RPB",
+      "title": "Un ingénieur plaide coupable d’avoir volé les plans de “l’Apple Car”",
+      "description": "Apple avait porté plainte en 2018 contre un ex employé après la fuite de documents internes autour de \"l'Apple Car\" - le projet de voiture autonome de la firme.",
+      "url": "https://www.presse-citron.net/un-ingenieur-plaide-coupable-davoir-vole-les-plans-de-lapple-car/",
+      "urlToImage": "https://www.presse-citron.net/app/uploads/2021/02/Apple-Car-rendu.jpg",
+      "publishedAt": "2022-08-26T08:00:19Z",
+      "content": "L’épilogue de deux ans de procédures lancées par Apple contre l’un de ses ex-employés se rapproche, avec un revirement qui risque de déplaire à la startup chinoise Xpeng. En juillet 2018, le tribunal… [+2273 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Presse-citron"
+      },
+      "author": "Setra",
+      "title": "LastPass : le gestionnaire de mots de passe a été victime d’un piratage",
+      "description": "LastPass assure cependant qu’aucune donnée d’utilisateur n’est compromise.",
+      "url": "https://www.presse-citron.net/lastpass-le-gestionnaire-de-mots-de-passe-a-ete-victime-dun-piratage/",
+      "urlToImage": "https://www.presse-citron.net/app/uploads/2020/06/test-dell-xps-13-2020-4k-touches-clavier.jpg",
+      "publishedAt": "2022-08-26T18:00:39Z",
+      "content": "Lavantage dutiliser un gestionnaire de mots de passe est que vous pouvez utiliser des mots de passe compliqués et donc plus difficiles à pirater, sans avoir à mémoriser ceux-ci. Cependant, linconvéni… [+3329 chars]"
     }
   ]
 }
-

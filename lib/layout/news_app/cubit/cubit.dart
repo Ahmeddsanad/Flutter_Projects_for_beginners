@@ -63,9 +63,10 @@ class AppNewsCubit extends Cubit<NewsStates> {
     DioHelper.getData(
         url: 'v2/everything',
         Query: {
-          'q' : 'tesla',
-          'from' : '2022-07-24',
-          'sortBy' : 'publishedAt',
+          'q' : 'apple',
+          'from' : '2022-08-26',
+          'to' : '2022-08-26',
+          'sortBy' : 'popularity',
           'apiKey' : '8cf0ab8b4fa8438990ae6171e83c225b',
         }
     ).then((value) {

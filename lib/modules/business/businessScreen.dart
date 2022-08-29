@@ -13,11 +13,14 @@ class BusinessScreen extends StatelessWidget {
     return BlocConsumer<AppNewsCubit,NewsStates>(
         listener: (context,state){},
         builder: (context,state){
+
+          var list = AppNewsCubit.get(context).Business;
+
           return ConditionalBuilder(
               condition: state is! AppNewsGetDataLoadingState,
               builder: (context) => ListView.separated(
                   physics: BouncingScrollPhysics(),
-                  itemBuilder: (context, index) => BuildArticleItem(),
+                  itemBuilder: (context, index) => BuildArticleItem(list[index]),
                   separatorBuilder: (context,index) => MyDivider(),
                   itemCount: 10,
               ),
