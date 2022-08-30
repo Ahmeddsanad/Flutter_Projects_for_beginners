@@ -19,7 +19,6 @@ class AppNewsCubit extends Cubit<NewsStates> {
     BusinessScreen(),
     SportsScreen(),
     ScienceScreen(),
-    SettingsScreen(),
   ];
 
   List<BottomNavigationBarItem> bottomItems = [
@@ -41,16 +40,14 @@ class AppNewsCubit extends Cubit<NewsStates> {
         ),
       label: 'Science',
     ),
-    BottomNavigationBarItem(
-        icon:Icon(
-            Icons.settings
-        ),
-      label: 'Settings',
-    ),
   ];
 
   void ChangeBottomNavBar(int index) {
     currentIndex = index;
+    if(index == 1)
+      getSports();
+    if(index == 2)
+      getScience();
     emit(AppNewsBottomNavState());
   }
 
@@ -59,24 +56,103 @@ class AppNewsCubit extends Cubit<NewsStates> {
 
   void getBusiness()
   {
-    emit(AppNewsGetDataLoadingState());
-    DioHelper.getData(
-        url: 'v2/everything',
-        Query: {
-          'q' : 'apple',
-          'from' : '2022-08-26',
-          'to' : '2022-08-26',
-          'sortBy' : 'popularity',
-          'apiKey' : '8cf0ab8b4fa8438990ae6171e83c225b',
-        }
-    ).then((value) {
-      // print(value.data.toString());
-      Business = value.data['articles'];
-      print(Business[1]['title']);
-      emit(AppNewsGetDataSuccessState());
-    }).catchError((error){
-      print(error.toString());
-      emit(AppNewsGetDataErrorState(error.toString()));
-    });
+    emit(AppNewsGetBusinessLoadingState());
+
+    if(Business.isEmpty){
+      DioHelper.getData(
+          url: 'v2/everything',
+          Query: {
+            'q' : 'business',
+            'from' : '2022-08-26',
+            'to' : '2022-08-26',
+            'sortBy' : 'popularity',
+            'apiKey' : '8cf0ab8b4fa8438990ae6171e83c225b',
+          }
+      ).then((value) {
+        // print(value.data.toString());
+        Business = value.data['articles'];
+        print(Business[1]['title']);
+        emit(AppNewsGetBusinessSuccessState());
+      }).catchError((error){
+        print(error.toString());
+        emit(AppNewsGetBusinessErrorState(error.toString()));
+      });
+    }
+    else{
+      emit(AppNewsGetBusinessSuccessState());
+    }
+  }
+
+  List<dynamic> Sports = [];
+
+  void getSports()
+  {
+
+    emit(AppNewsGetSportsLoadingState());
+
+    if(Sports.isEmpty){
+      DioHelper.getData(
+          url: 'v2/everything',
+          Query: {
+            'q' : 'sports',
+            'from' : '2022-08-26',
+            'to' : '2022-08-26',
+            'sortBy' : 'popularity',
+            'apiKey' : '8cf0ab8b4fa8438990ae6171e83c225b',
+          }
+      ).then((value) {
+        // print(value.data.toString());
+        Sports = value.data['articles'];
+        print(Sports[1]['title']);
+        emit(AppNewsGetSportsSuccessState());
+      }).catchError((error){
+        print(error.toString());
+        emit(AppNewsGetSportsErrorState(error.toString()));
+      });
+    }
+    else{
+      emit(AppNewsGetSportsSuccessState());
+    }
+  }
+
+  List<dynamic> Science = [];
+
+  void getScience()
+  {
+    emit(AppNewsGetScienceLoadingState());
+
+    if(Science.isEmpty){
+      DioHelper.getData(
+          url: 'v2/everything',
+          Query: {
+            'q' : 'science',
+            'from' : '2022-08-26',
+            'to' : '2022-08-26',
+            'sortBy' : 'popularity',
+            'apiKey' : '8cf0ab8b4fa8438990ae6171e83c225b',
+          }
+      ).then((value) {
+        // print(value.data.toString());
+        Science = value.data['articles'];
+        print(Science[1]['title']);
+        emit(AppNewsGetScienceSuccessState());
+      }).catchError((error){
+        print(error.toString());
+        emit(AppNewsGetScienceErrorState(error.toString()));
+      });
+    }
+    else{
+      emit(AppNewsGetScienceSuccessState());
+    }
+
+  }
+
+
+  bool isDark = false ;
+
+  void ChangeAppNewsThemeMode()
+  {
+    isDark = !isDark;
+    emit(AppNewsDarkModeState());
   }
 }

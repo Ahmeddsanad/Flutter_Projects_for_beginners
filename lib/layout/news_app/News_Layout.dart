@@ -1,36 +1,48 @@
+// ignore_for_file: file_names
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:project1/layout/news_app/cubit/states.dart';
-import 'package:project1/shared/network/remote/dio_helper.dart';
+import '../../shared/cubit/cubit.dart';
 import 'cubit/cubit.dart';
 
 class NewsLayout extends StatelessWidget {
+  const NewsLayout({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
+      //create: (BuildContext context) => AppNewsCubit()..getBusiness()..getSports()..getScience(),
+      //to download all bottom taps in starting app <----
       create: (BuildContext context) => AppNewsCubit()..getBusiness(),
       child: BlocConsumer<AppNewsCubit,NewsStates>(
         listener: (context,state){},
         builder: (context,state){
+          // ignore: non_constant_identifier_names
           var Cubit = AppNewsCubit.get(context) ;
           return Scaffold(
             appBar: AppBar(
-              title: Text(
+              title: const Text(
                 'News App',
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
-                    color: Colors.black,
+                    color: Colors.white,
                   fontSize: 20.0,
                 ),
               ),
               actions: [
                 IconButton(
                     onPressed: (){},
-                    icon: Icon(
-                      Icons.search
+                    icon: const Icon(
+                        Icons.search
+                    )
+                ),
+                IconButton(
+                    onPressed: (){
+                      AppNewsCubit.get(context).isDark ? ThemeMode.dark : ThemeMode.light;
+                    },
+                    icon: const Icon(
+                        Icons.brightness_4_outlined
                     )
                 ),
               ],
@@ -41,7 +53,7 @@ class NewsLayout extends StatelessWidget {
               {
 
               },
-              child: Icon(
+              child: const Icon(
                 Icons.add
               ),
             ),
@@ -53,7 +65,7 @@ class NewsLayout extends StatelessWidget {
               },
             ),
           );
-        },
+          },
       ),
     );
   }

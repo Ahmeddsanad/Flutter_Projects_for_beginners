@@ -150,4 +150,13 @@ class AppCubit extends Cubit<AppStates> {
       emit(AppDeleteDataBaseLoadingState());
     });
   }
+
+
+  bool isDark = false;
+
+  void ChangeBottomNav()
+  {
+    isDark = !isDark;
+    emit(AppNewsDarkModeState());
+  }
 }
