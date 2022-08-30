@@ -17,3 +17,5 @@ class AppUpdateDataBaseLoadingState extends AppStates {}
 class AppDeleteDataBaseLoadingState extends AppStates {}
 
 class AppChangeBottomSheetState extends AppStates {}
+
+class AppNewsDarkModeState extends AppStates {}

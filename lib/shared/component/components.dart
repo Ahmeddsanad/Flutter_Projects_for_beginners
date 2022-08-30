@@ -182,7 +182,7 @@ Widget MyDivider() => Container(
   color: Colors.grey[300],
 );
 
-Widget BuildArticleItem(articles) => Padding(
+Widget BuildArticleItem(articles ,context) => Padding(
   padding: const EdgeInsets.all(20.0),
   child: Row(
     children: [
@@ -214,10 +214,11 @@ Widget BuildArticleItem(articles) => Padding(
               Expanded(
                 child: Text(
                   '${articles['title']}',
-                  style: TextStyle(
-                      fontWeight: FontWeight.w600,
-                      fontSize: 18.0
-                  ),
+                  style: Theme.of(context).textTheme.bodyText1,
+                  //TextStyle(
+                  //                       fontWeight: FontWeight.w600,
+                  //                       fontSize: 18.0
+                  //                   )
                   maxLines: 4,
                   overflow: TextOverflow.ellipsis,
                 ),
@@ -226,7 +227,7 @@ Widget BuildArticleItem(articles) => Padding(
                 '${articles['publishedAt']}',
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
-                    color: Colors.black45,
+                    //color: Colors.white,
                     fontSize: 14.0
                 ),
                 maxLines: 4,
@@ -238,5 +239,16 @@ Widget BuildArticleItem(articles) => Padding(
       ),
     ],
   ),
+);
+
+Widget BuildArticle(list, context) => ConditionalBuilder(
+    condition: list.isNotEmpty,
+    builder: (context) => ListView.separated(
+      physics: BouncingScrollPhysics(),
+      itemBuilder: (context, index) => BuildArticleItem(list[index],context),
+      separatorBuilder: (context,index) => MyDivider(),
+      itemCount: 10,
+    ),
+    fallback: (context) => Center(child: CircularProgressIndicator())
 );
 //Component file
