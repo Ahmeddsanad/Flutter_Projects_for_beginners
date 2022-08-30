@@ -26,7 +26,7 @@ class NewsLayout extends StatelessWidget {
                 'News App',
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
-                    color: Colors.white,
+                    //color: Colors.white,
                   fontSize: 20.0,
                 ),
               ),
@@ -39,7 +39,7 @@ class NewsLayout extends StatelessWidget {
                 ),
                 IconButton(
                     onPressed: (){
-                      AppNewsCubit.get(context).isDark ? ThemeMode.dark : ThemeMode.light;
+                      AppCubit.get(context).ChangeAppMode();
                     },
                     icon: const Icon(
                         Icons.brightness_4_outlined

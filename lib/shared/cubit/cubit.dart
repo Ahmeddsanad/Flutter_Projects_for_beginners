@@ -154,7 +154,7 @@ class AppCubit extends Cubit<AppStates> {
 
   bool isDark = false;
 
-  void ChangeBottomNav()
+  void ChangeAppMode()
   {
     isDark = !isDark;
     emit(AppNewsDarkModeState());

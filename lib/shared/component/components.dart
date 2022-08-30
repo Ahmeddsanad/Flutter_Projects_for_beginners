@@ -227,7 +227,7 @@ Widget BuildArticleItem(articles ,context) => Padding(
                 '${articles['publishedAt']}',
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
-                    //color: Colors.white,
+                    color: Colors.grey,
                     fontSize: 14.0
                 ),
                 maxLines: 4,

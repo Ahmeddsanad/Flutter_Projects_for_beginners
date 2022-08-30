@@ -20,6 +20,7 @@ import 'package:project1/modules/testing/t1.dart';
 import 'package:project1/modules/withListView/withListView.dart';
 import 'package:project1/shared/bloc_observer.dart';
 import 'package:project1/shared/cubit/cubit.dart';
+import 'package:project1/shared/cubit/states.dart';
 import 'package:project1/shared/network/remote/dio_helper.dart';
 import 'modules/testing/LoginScreen2.dart';
 import 'modules/testing/Messenger2.dart';
@@ -34,8 +35,8 @@ class MyApp extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (BuildContext context) => AppNewsCubit(),
-      child: BlocConsumer<AppNewsCubit,NewsStates>(
+      create: (BuildContext context) => AppCubit(),
+      child: BlocConsumer<AppCubit,AppStates>(
         listener: (context,state) {},
         builder:  (context,state) {
           return MaterialApp(
@@ -51,6 +52,9 @@ class MyApp extends StatelessWidget{
                     elevation: 0.0,
                     iconTheme: IconThemeData(
                         color: Colors.black
+                    ),
+                    titleTextStyle: TextStyle(
+                      color:Colors.black
                     ),
                     systemOverlayStyle: SystemUiOverlayStyle(
                         statusBarColor: Colors.white,
@@ -111,13 +115,13 @@ class MyApp extends StatelessWidget{
                     )
                 )
             ),
-            themeMode: AppNewsCubit.get(context).isDark ? ThemeMode.dark : ThemeMode.light,
+            themeMode: AppCubit.get(context).isDark ? ThemeMode.dark : ThemeMode.light,
             home: NewsLayout(),
           );
         },
       ),
     );
   }
-  
+
 }
 
