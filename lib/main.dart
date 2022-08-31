@@ -21,21 +21,36 @@ import 'package:project1/modules/withListView/withListView.dart';
 import 'package:project1/shared/bloc_observer.dart';
 import 'package:project1/shared/cubit/cubit.dart';
 import 'package:project1/shared/cubit/states.dart';
+import 'package:project1/shared/network/local/cache_helper.dart';
 import 'package:project1/shared/network/remote/dio_helper.dart';
 import 'modules/testing/LoginScreen2.dart';
 import 'modules/testing/Messenger2.dart';
 
-void main() {
+void main() async
+{
+  WidgetsFlutterBinding.ensureInitialized();
+
   Bloc.observer = MyBlocObserver();
   DioHelper.init();
+  await CacheHelper.init();
+  
+  bool? isDark = CacheHelper.getBoolean(Key:'isDark');
 
-  runApp(MyApp());
+  bool isDarkened = isDark!;
+
+  runApp(MyApp(isDarkened));
 }
 class MyApp extends StatelessWidget{
+
+  final bool isDark ;
+  MyApp(this.isDark);
+
   @override
   Widget build(BuildContext context) {
     return BlocProvider(
-      create: (BuildContext context) => AppCubit(),
+      create: (BuildContext context) => AppCubit()..ChangeAppMode(
+        fromShared: isDark
+      ),
       child: BlocConsumer<AppCubit,AppStates>(
         listener: (context,state) {},
         builder:  (context,state) {
