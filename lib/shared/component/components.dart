@@ -43,7 +43,10 @@ Widget DefaultFormField({
       controller: Controller,
       keyboardType: type,
       onFieldSubmitted: onSubmit != null ? onSubmit() : null,
-      onChanged: onChange != null ? onChange() : null,
+      //onChanged: onChange != null ? onChange() : null, --> in todo app
+      onChanged: (value){
+        return onChange!(value);
+      },
       onTap: onTap != null ? () => onTap() : null,
       validator: (vale) {
         return validated(vale);
@@ -251,4 +254,14 @@ Widget BuildArticle(list, context) => ConditionalBuilder(
     ),
     fallback: (context) => Center(child: CircularProgressIndicator())
 );
+
+void NavigateTo(context, widget) => Navigator.push(
+  context,
+  MaterialPageRoute(
+    builder: (context) => widget
+    ),
+);
+
+
+
 //Component file

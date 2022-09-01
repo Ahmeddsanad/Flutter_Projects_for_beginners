@@ -58,7 +58,8 @@ class AppNewsCubit extends Cubit<NewsStates> {
   {
     emit(AppNewsGetBusinessLoadingState());
 
-    if(Business.isEmpty){
+    if(Business.isEmpty)
+    {
       DioHelper.getData(
           url: 'v2/everything',
           Query: {
@@ -145,6 +146,31 @@ class AppNewsCubit extends Cubit<NewsStates> {
       emit(AppNewsGetScienceSuccessState());
     }
 
+  }
+
+  List<dynamic> Search = [];
+
+  void getSearch(String value)
+  {
+    emit(AppNewsGetSearchLoadingState());
+
+    //Search = [];
+
+    DioHelper.getData(
+        url: 'v2/everything',
+        Query: {
+          'q' : '$value',
+          'apiKey' : '8cf0ab8b4fa8438990ae6171e83c225b',
+        }
+    ).then((value) {
+      // print(value.data.toString());
+      Search = value.data['articles'];
+      //print(Search[1]['title']);
+      emit(AppNewsGetSearchSuccessState());
+    }).catchError((error){
+      print(error.toString());
+      emit(AppNewsGetSearchErrorState(error.toString()));
+    });
   }
 
 

@@ -16,6 +16,7 @@ import 'package:project1/modules/login_Screen/Login_Screen.dart';
 import 'package:project1/modules/Messenger/Messenger.dart';
 import 'package:project1/modules/UsersScreen/UsersScreen.dart';
 import 'package:project1/modules/BmiScreen/bmiScreen.dart';
+import 'package:project1/modules/search/search_screen.dart';
 import 'package:project1/modules/testing/t1.dart';
 import 'package:project1/modules/withListView/withListView.dart';
 import 'package:project1/shared/bloc_observer.dart';
@@ -36,9 +37,11 @@ void main() async
   
   bool? isDark = CacheHelper.getBoolean(Key:'isDark');
 
-  bool isDarkened = isDark!;
+  //notes that
+  //bool isDarkened = isDark!; --> Null Safety Problem Solved ! by ---> ? , ! , ?? new operators and 'late' word before data type
 
-  runApp(MyApp(isDarkened));
+
+  runApp(MyApp(isDark!));
 }
 class MyApp extends StatelessWidget{
 
@@ -47,11 +50,14 @@ class MyApp extends StatelessWidget{
 
   @override
   Widget build(BuildContext context) {
-    return BlocProvider(
-      create: (BuildContext context) => AppCubit()..ChangeAppMode(
-        fromShared: isDark
-      ),
-      child: BlocConsumer<AppCubit,AppStates>(
+    return MultiBlocProvider(
+      providers: [
+        BlocProvider(create: (context)=> AppNewsCubit()..getBusiness()..getSports()..getScience()),
+        BlocProvider(create: (BuildContext context) => AppCubit()..ChangeAppMode(
+            fromShared: isDark
+        )),
+      ],
+      child:BlocConsumer<AppCubit,AppStates>(
         listener: (context,state) {},
         builder:  (context,state) {
           return MaterialApp(
