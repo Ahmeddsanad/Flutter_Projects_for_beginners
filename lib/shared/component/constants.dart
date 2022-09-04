@@ -19,3 +19,5 @@ List<Map> tasks = [];
 
 
 //https://newsapi.org/v2/everything?q=tesla&apiKey=8cf0ab8b4fa8438990ae6171e83c225b
+
+//https://newsapi.org/v2/everything?q=tesla&from=2022-08-01&sortBy=publishedAt&apiKey=8cf0ab8b4fa8438990ae6171e83c225b

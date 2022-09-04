@@ -15,6 +15,7 @@ class NewsLayout extends StatelessWidget {
   Widget build(BuildContext context) {
     //create: (BuildContext context) => AppNewsCubit()..getBusiness()..getSports()..getScience(),
     //to download all bottom taps in launching app <----
+    //we put all BlocProviders in Main File Cause we have multi BlocProviders to use them together
     return BlocConsumer<AppNewsCubit,NewsStates>
       (
       listener: (context,state){},
@@ -27,7 +28,7 @@ class NewsLayout extends StatelessWidget {
               'News App',
               style: TextStyle(
                   fontWeight: FontWeight.bold,
-                  //color: Colors.white,
+                  //color: Colors.white, --> we control it in main appbar theme
                 fontSize: 20.0,
               ),
             ),
@@ -52,7 +53,8 @@ class NewsLayout extends StatelessWidget {
             ],
           ),
           body: Cubit.Screens[Cubit.currentIndex],
-          floatingActionButton: FloatingActionButton(
+          floatingActionButton: FloatingActionButton
+            (
             onPressed: ()
             {
 
@@ -61,10 +63,12 @@ class NewsLayout extends StatelessWidget {
               Icons.add
             ),
           ),
-          bottomNavigationBar: BottomNavigationBar(
+          bottomNavigationBar: BottomNavigationBar
+            (
             items: Cubit.bottomItems,
             currentIndex: Cubit.currentIndex,
-            onTap: (int index){
+            onTap: (int index)
+            {
               Cubit.ChangeBottomNavBar(index);
             },
           ),

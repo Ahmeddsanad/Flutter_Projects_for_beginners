@@ -22,19 +22,19 @@ class AppNewsCubit extends Cubit<NewsStates> {
   ];
 
   List<BottomNavigationBarItem> bottomItems = [
-    BottomNavigationBarItem(
+    const BottomNavigationBarItem(
         icon:Icon(
           Icons.business
         ),
       label: 'Business',
     ),
-    BottomNavigationBarItem(
+    const BottomNavigationBarItem(
         icon:Icon(
             Icons.sports
         ),
       label: 'Sports',
     ),
-    BottomNavigationBarItem(
+    const BottomNavigationBarItem(
         icon:Icon(
             Icons.science
         ),
@@ -127,8 +127,8 @@ class AppNewsCubit extends Cubit<NewsStates> {
           url: 'v2/everything',
           Query: {
             'q' : 'science',
-            'from' : '2022-08-26',
-            'to' : '2022-08-26',
+            'from' : '2022-08-02',
+            'to' : '2022-08-02',
             'sortBy' : 'popularity',
             'apiKey' : '8cf0ab8b4fa8438990ae6171e83c225b',
           }

@@ -1,5 +1,6 @@
 import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
 import 'package:flutter/material.dart';
+import 'package:project1/modules/web_view/webview_screen.dart';
 import 'package:project1/shared/cubit/cubit.dart';
 
 // ignore: non_constant_identifier_names
@@ -185,76 +186,84 @@ Widget MyDivider() => Container(
   color: Colors.grey[300],
 );
 
-Widget BuildArticleItem(articles ,context) => Padding(
-  padding: const EdgeInsets.all(20.0),
-  child: Row(
-    children: [
-      Container(
-        width: 100.0,
-        height: 100.0,
-        decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(10.0),
-            image: DecorationImage(
-                image: NetworkImage(
-                  '${articles['urlToImage']}',
-                ),
-                fit: BoxFit.cover
-            )
-        ),
-      ),
-      SizedBox(
-        width: 15.0,
-        // width: 30.0
-      ),
-      Expanded(
-        child: Container(
+// ignore: non_constant_identifier_names
+Widget BuildArticleItem(articles ,context) => InkWell(
+  onTap: (){
+    NavigateTo(context, WebViewScreen(articles['url']),);
+  },
+  child:Padding(
+    padding: const EdgeInsets.all(20.0),
+    child: Row(
+      children: [
+        Container(
+          width: 100.0,
           height: 100.0,
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.start,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            // mainAxisSize: MainAxisSize.min,
-            children: [
-              Expanded(
-                child: Text(
-                  '${articles['title']}',
-                  style: Theme.of(context).textTheme.bodyText1,
-                  //TextStyle(
-                  //                       fontWeight: FontWeight.w600,
-                  //                       fontSize: 18.0
-                  //                   )
+          decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(10.0),
+              image: DecorationImage(
+                  image: NetworkImage(
+                    '${articles['urlToImage']}',
+                  ),
+                  fit: BoxFit.cover
+              )
+          ),
+        ),
+        SizedBox(
+          width: 15.0,
+          // width: 30.0
+        ),
+        Expanded(
+          child: Container(
+            height: 100.0,
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              // mainAxisSize: MainAxisSize.min,
+              children: [
+                Expanded(
+                  child: Text(
+                    '${articles['title']}',
+                    style: Theme.of(context).textTheme.bodyText1,
+                    //TextStyle(
+                    //                       fontWeight: FontWeight.w600,
+                    //                       fontSize: 18.0
+                    //                   )
+                    maxLines: 4,
+                    overflow: TextOverflow.ellipsis,
+                  ),
+                ),
+                Text(
+                  '${articles['publishedAt']}',
+                  style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      color: Colors.grey,
+                      fontSize: 14.0
+                  ),
                   maxLines: 4,
                   overflow: TextOverflow.ellipsis,
                 ),
-              ),
-              Text(
-                '${articles['publishedAt']}',
-                style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    color: Colors.grey,
-                    fontSize: 14.0
-                ),
-                maxLines: 4,
-                overflow: TextOverflow.ellipsis,
-              ),
-            ],
+              ],
+            ),
           ),
         ),
-      ),
-    ],
+      ],
+    ),
   ),
 );
 
-Widget BuildArticle(list, context) => ConditionalBuilder(
+// ignore: non_constant_identifier_names
+Widget BuildArticle(list, context, {isSearch = false}) => ConditionalBuilder(
     condition: list.isNotEmpty,
     builder: (context) => ListView.separated(
-      physics: BouncingScrollPhysics(),
+      physics: const BouncingScrollPhysics(),
       itemBuilder: (context, index) => BuildArticleItem(list[index],context),
       separatorBuilder: (context,index) => MyDivider(),
       itemCount: 10,
     ),
-    fallback: (context) => Center(child: CircularProgressIndicator())
+    fallback: (context) => isSearch ? Container() : const Center(child: CircularProgressIndicator())
 );
 
+// ignore: non_constant_identifier_names
 void NavigateTo(context, widget) => Navigator.push(
   context,
   MaterialPageRoute(
