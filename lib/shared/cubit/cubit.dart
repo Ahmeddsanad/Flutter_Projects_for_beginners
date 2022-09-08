@@ -4,10 +4,9 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:project1/shared/cubit/states.dart';
 import 'package:project1/shared/network/local/cache_helper.dart';
 import 'package:sqflite/sqflite.dart';
-
-import '../../modules/ArchivedScreen/ArchivedToDoScreen.dart';
-import '../../modules/DoneScreen/DoneToDoScreen.dart';
-import '../../modules/TasksScreen/TasksToDoScreen.dart';
+import '../../modules/todo_app/ArchivedScreen/ArchivedToDoScreen.dart';
+import '../../modules/todo_app/DoneScreen/DoneToDoScreen.dart';
+import '../../modules/todo_app/TasksScreen/TasksToDoScreen.dart';
 
 class AppCubit extends Cubit<AppStates> {
   AppCubit() : super(AppInitialState());

@@ -12,14 +12,16 @@ class NewsLayout extends StatelessWidget {
   const NewsLayout({Key? key}) : super(key: key);
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context)
+  {
     //create: (BuildContext context) => AppNewsCubit()..getBusiness()..getSports()..getScience(),
     //to download all bottom taps in launching app <----
     //we put all BlocProviders in Main File Cause we have multi BlocProviders to use them together
     return BlocConsumer<AppNewsCubit,NewsStates>
       (
       listener: (context,state){},
-      builder: (context,state){
+      builder: (context,state)
+      {
         // ignore: non_constant_identifier_names
         var Cubit = AppNewsCubit.get(context) ;
         return Scaffold(

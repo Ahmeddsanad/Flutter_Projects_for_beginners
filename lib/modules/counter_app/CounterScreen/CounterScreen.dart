@@ -1,8 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:project1/modules/CounterScreen/cubit.dart';
-import 'package:project1/modules/CounterScreen/states.dart';
+import 'package:project1/modules/counter_app/CounterScreen/cubit.dart';
+import 'package:project1/modules/counter_app/CounterScreen/states.dart';
+
 
 class CounterScreen extends StatelessWidget {
   @override

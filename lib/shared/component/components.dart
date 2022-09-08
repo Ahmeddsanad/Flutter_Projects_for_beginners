@@ -1,7 +1,8 @@
 import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
 import 'package:flutter/material.dart';
-import 'package:project1/modules/web_view/webview_screen.dart';
 import 'package:project1/shared/cubit/cubit.dart';
+
+import '../../modules/news_app/web_view/webview_screen.dart';
 
 // ignore: non_constant_identifier_names
 Widget DefaultButton(
@@ -9,23 +10,47 @@ Widget DefaultButton(
         Color background = Colors.blue,
         bool isUpperCase = true,
         double radius = 3.0,
-        required Function? function,
-        required String text}) =>
+        required Function function,
+        required String text,
+        bool isboxdecorated = true,
+        BoxDecoration? Decorated
+        }) =>
     Container(
       height: 50.0,
       width: width,
       child: MaterialButton(
         onPressed: () {
-          function!();
+          function();
         },
         child: Text(
           isUpperCase ? text.toUpperCase() : text,
           style: const TextStyle(fontSize: 15.0, color: Colors.white),
         ),
       ),
-      decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(radius), color: background),
+      decoration: isboxdecorated ? BoxDecoration(
+          borderRadius: BorderRadius.circular(radius), color: background) : Decorated,
     );
+
+Widget DefaultTextButton({
+  required String text,
+  //required Function function,
+  required VoidCallback? function,
+  TextStyle? textStyle
+}) => TextButton(
+    onPressed: (){
+      return function!();
+    },
+    child: Text(
+      text.toUpperCase(),
+      style: textStyle,
+      //------------->
+      // validator: (vale) {
+      //   return validated(vale);
+      // },
+      //testing one (don't use it)
+    )
+);
+
 
 Widget DefaultFormField({
   required TextEditingController Controller,
@@ -39,15 +64,23 @@ Widget DefaultFormField({
   Function? onChange,
   Function? onTap,
   bool isPassword = false,
+  bool isBorder = true,
+  InputBorder? Border
 }) =>
     TextFormField(
       controller: Controller,
       keyboardType: type,
-      onFieldSubmitted: onSubmit != null ? onSubmit() : null,
+      //if u find any errors change between them onFieldSubmitted
+      // onFieldSubmitted: onSubmit != null ? onSubmit() : null,
+      //if u find any errors change between them onChanged
       //onChanged: onChange != null ? onChange() : null, --> in todo app
-      onChanged: (value){
-        return onChange!(value);
+      // onChanged: (value){
+      //   return onChange!(value);
+      // },
+      onFieldSubmitted: (value){
+        return onSubmit!(value);
       },
+      onChanged: onChange != null ? onChange() : null,
       onTap: onTap != null ? () => onTap() : null,
       validator: (vale) {
         return validated(vale);
@@ -67,9 +100,7 @@ Widget DefaultFormField({
                 },
               )
             : null,
-        border: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(20.0),
-        ),
+        border: isBorder ? OutlineInputBorder(borderRadius: BorderRadius.circular(20.0)) : Border,
       ),
     );
 
@@ -269,6 +300,14 @@ void NavigateTo(context, widget) => Navigator.push(
   MaterialPageRoute(
     builder: (context) => widget
     ),
+);
+
+// ignore: non_constant_identifier_names, avoid_types_as_parameter_names
+void NavigateAndFinish(context,widget) => Navigator.pushAndRemoveUntil(
+        context, MaterialPageRoute(
+        builder: (context) => widget
+        ),
+        (route) => false
 );
 
 

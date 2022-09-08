@@ -2,20 +2,22 @@ import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:project1/layout/news_app/cubit/states.dart';
-import 'package:project1/modules/SettingsScreen/SettingsScreen.dart';
-import 'package:project1/modules/business/businessScreen.dart';
-import '../../../modules/science/ScienceScreen.dart';
-import '../../../modules/sports/SportsScreen.dart';
+import '../../../modules/news_app/business/businessScreen.dart';
+import '../../../modules/news_app/science/ScienceScreen.dart';
+import '../../../modules/news_app/sports/SportsScreen.dart';
 import '../../../shared/network/remote/dio_helper.dart';
 
-class AppNewsCubit extends Cubit<NewsStates> {
+class AppNewsCubit extends Cubit<NewsStates>
+{
   AppNewsCubit() : super(AppNewsInitialState());
 
   static AppNewsCubit get(context) => BlocProvider.of(context);
 
   var currentIndex = 0;
 
-  List<Widget> Screens = [
+  // ignore: non_constant_identifier_names
+  List<Widget> Screens =
+  [
     BusinessScreen(),
     SportsScreen(),
     ScienceScreen(),
@@ -127,8 +129,8 @@ class AppNewsCubit extends Cubit<NewsStates> {
           url: 'v2/everything',
           Query: {
             'q' : 'science',
-            'from' : '2022-08-02',
-            'to' : '2022-08-02',
+            'from' : '2022-08-05',
+            'to' : '2022-08-05',
             'sortBy' : 'popularity',
             'apiKey' : '8cf0ab8b4fa8438990ae6171e83c225b',
           }
