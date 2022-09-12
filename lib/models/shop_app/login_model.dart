@@ -35,6 +35,7 @@ class UserData
 //     required this.credit,
 //     required this.token,
 // });
+
   //named constructor
 
   UserData.fromJson(Map<String, dynamic> json)
