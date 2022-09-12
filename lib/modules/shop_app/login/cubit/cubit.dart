@@ -1,14 +1,23 @@
+// ignore_for_file: non_constant_identifier_names
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:project1/models/shop_app/login_model.dart';
 import 'package:project1/modules/shop_app/login/cubit/states.dart';
 import 'package:project1/shared/network/end_points.dart';
 import 'package:project1/shared/network/remote/dio_helper.dart';
 
+
+
+
 class ShopLoginCubit extends Cubit<ShopAppLoginStates>
 {
+
   ShopLoginCubit() : super(ShopLoginInitialState());
 
   static ShopLoginCubit get(context) => BlocProvider.of(context);
+
+  ShopLoginModel? LoginModel;
 
   void userLogin({
   required String email,
@@ -25,8 +34,20 @@ class ShopLoginCubit extends Cubit<ShopAppLoginStates>
         'password' : password,
       },
     ).then((value){
-        print(value.data);
-        emit(ShopLoginSuccessState());
+        // if(value.data == null)
+        // {
+        //   return ShopLoginModel.fromJson(value.data! as Map<String, dynamic>);
+        // }
+        // print(LoginModel.data.id);
+      // print(LoginModel.status);
+      // print(LoginModel.message);
+      // print(LoginModel.data.token);
+      // LoginModel != null ? ShopLoginModel?.fromJson(value.data) : null;
+      print(value.data);
+      LoginModel = ShopLoginModel.fromJson(value.data);
+      // print(LoginModel?.message);
+      // print(LoginModel?.data);
+      emit(ShopLoginSuccessState(LoginModel!));
     }).catchError((error){
       emit(ShopLoginErrorState(error.toString()));
       print(error.toString());

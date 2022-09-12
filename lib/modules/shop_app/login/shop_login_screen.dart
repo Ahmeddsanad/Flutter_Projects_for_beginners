@@ -1,14 +1,19 @@
+// ignore_for_file: must_be_immutable
 import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 import 'package:project1/modules/shop_app/login/cubit/cubit.dart';
 import 'package:project1/modules/shop_app/login/cubit/states.dart';
 import 'package:project1/modules/shop_app/register/shop_register_screen.dart';
 import 'package:project1/shared/component/components.dart';
 
+
 class ShopLoginScreen extends StatelessWidget {
 
   var formKey = GlobalKey<FormState>();
+
+  ShopLoginScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +26,41 @@ class ShopLoginScreen extends StatelessWidget {
     return BlocProvider(
       create: (BuildContext context) => ShopLoginCubit(),
       child: BlocConsumer<ShopLoginCubit,ShopAppLoginStates>(
-        listener: (context,state) {},
+        listener: (context,state)
+        {
+          if(state is ShopLoginSuccessState)
+          {
+            if(state.loginModel.status!)
+              {
+                print(state.loginModel.message);
+                print(state.loginModel.data!.token);
+
+                Fluttertoast.showToast(
+                  msg: state.loginModel.message!,
+                  toastLength: Toast.LENGTH_LONG,
+                  gravity: ToastGravity.BOTTOM,
+                  timeInSecForIosWeb: 5,
+                  backgroundColor: Colors.green,
+                  textColor: Colors.white,
+                  fontSize: 16.0,
+                );
+              }
+            else
+              {
+                Fluttertoast.showToast(
+                    msg: state.loginModel.message!,
+                    toastLength: Toast.LENGTH_LONG,
+                    gravity: ToastGravity.BOTTOM,
+                    timeInSecForIosWeb: 5,
+                    backgroundColor: Colors.red,
+                    textColor: Colors.white,
+                    fontSize: 16.0,
+                );
+
+                print(state.loginModel.message);
+              }
+          }
+        },
         builder:  (context,state) {
 
           // ignore: non_constant_identifier_names
@@ -69,8 +108,8 @@ class ShopLoginScreen extends StatelessWidget {
                             isBorder: false,
                             Border: OutlineInputBorder(
                               borderRadius: BorderRadius.circular(40),
-                            )
-                        ),
+                            ),
+                        ), // DefaultFormField
                         const SizedBox(
                           height: 15.0,
                         ),
@@ -93,18 +132,18 @@ class ShopLoginScreen extends StatelessWidget {
                             Suffix: Cubit.suffix,
                             onSubmit: (value)
                             {
-                                Cubit.userLogin(
+                                Cubit.userLogin
+                                  (
                                   email: EmailController.text,
                                   password: PasswordController.text,
-                                );
-
+                                  );
                             },
                             isPassword: Cubit.isPassword,
                             suffixPressed: ()
                             {
                               Cubit.changePasswordVisibility();
                             }
-                        ),
+                        ), // DefaultFormField
                         const SizedBox(
                           height: 15.0,
                         ),
@@ -129,7 +168,7 @@ class ShopLoginScreen extends StatelessWidget {
                                 borderRadius: BorderRadius.circular(40)
                             ),
                           ),
-                          fallback: (context) => Center(child: CircularProgressIndicator()),
+                          fallback: (context) => const Center(child: CircularProgressIndicator()),
                         ),
                         const SizedBox(
                           height: 10.0,
@@ -137,8 +176,8 @@ class ShopLoginScreen extends StatelessWidget {
                         Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            Text(
-                              'Don\'t have an acoount yet?',
+                            const Text(
+                              'Don\'t have an account yet?',
                             ),
                             DefaultTextButton(
                                 text: 'Register',
@@ -146,7 +185,7 @@ class ShopLoginScreen extends StatelessWidget {
                                 {
                                   NavigateTo(context, RegisterShopAppScreen());
                                 },
-                                textStyle: TextStyle(
+                                textStyle: const TextStyle(
                                   color: Colors.teal,
                                   fontSize: 13.0,
                                 )

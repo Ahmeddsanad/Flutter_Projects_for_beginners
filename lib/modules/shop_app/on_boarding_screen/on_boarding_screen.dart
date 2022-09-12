@@ -22,6 +22,8 @@ import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class OnBoardingScreen extends StatefulWidget
 {
+  const OnBoardingScreen({Key? key}) : super(key: key);
+
   @override
   State<OnBoardingScreen> createState() => _OnBoardingScreenState();
 }
@@ -54,29 +56,36 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        actions: [
+        actions:
+        [
           DefaultTextButton(
               function: ()
               {
-                  NavigateAndFinish(context,ShopLoginScreen(),);
+                  NavigateAndFinish
+                  (
+                    context,
+                    ShopLoginScreen(),
+                  );
               },
               text: 'SKIP',
-              textStyle: TextStyle(
+              textStyle: const TextStyle(
                 color: Colors.teal,
               )
           ),
         ],
       ),
-      body: Padding(
+      body: Padding
+        (
         padding: const EdgeInsets.all(30.0),
         child: Column(
-          children: [
+          children:
+          [
             Expanded(
               child: PageView.builder(
                   itemBuilder: (context, index) => BuildBoardingItem(boarding[index]),
                   itemCount: boarding.length,
                   controller: boardController,
-                  physics: BouncingScrollPhysics(),
+                  physics: const BouncingScrollPhysics(),
                   onPageChanged: (int index)
                   {
                     if(index == boarding.length - 1){
@@ -94,7 +103,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                   },
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 40.0,
             ),
             Row(
@@ -105,7 +114,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                 SmoothPageIndicator(
                     controller: boardController,
                     count: boarding.length,
-                    effect: ExpandingDotsEffect(
+                    effect: const ExpandingDotsEffect(
                       dotColor: Colors.grey,
                       dotHeight: 10.0,
                       expansionFactor: 4,
@@ -126,7 +135,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                       {
                         boardController.nextPage
                           (
-                            duration: Duration(
+                            duration: const Duration(
                                 seconds: 2
                             ),
                             curve: Curves.fastLinearToSlowEaseIn
@@ -136,7 +145,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                   child: Icon(Icons.arrow_forward_ios),
                 )
               ],
-            )
+            ),
           ],
         ),
       )
@@ -146,36 +155,39 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
 
 
 
+// ignore: non_constant_identifier_names
 Widget BuildBoardingItem(BoardingModel model) => Column(
   crossAxisAlignment: CrossAxisAlignment.start,
   children:
   [
     Expanded(
-      child: Image(
+      child: Image
+      (
         image: AssetImage('${model.image}'),
       ),
     ),
+    //optional not required do put sizedbox here
     // SizedBox(
     //   height: 30.0,
     // ),
     Text(
       '${model.title}',
-      style: TextStyle(
+      style: const TextStyle(
           fontSize: 24.0,
           fontWeight: FontWeight.bold
       ),
     ),
-    SizedBox(
+    const SizedBox(
       height: 15.0,
     ),
     Text(
       '${model.body}',
-      style: TextStyle(
+      style: const TextStyle(
           fontSize: 14.0,
           fontWeight: FontWeight.bold
       ),
     ),
-    SizedBox(
+    const SizedBox(
       height: 15.0,
     ),
   ],

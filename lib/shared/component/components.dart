@@ -1,10 +1,12 @@
+// ignore: duplicate_ignore
+// ignore_for_file: non_constant_identifier_names
+
 import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
 import 'package:flutter/material.dart';
 import 'package:project1/shared/cubit/cubit.dart';
 
 import '../../modules/news_app/web_view/webview_screen.dart';
 
-// ignore: non_constant_identifier_names
 Widget DefaultButton(
         {double width = double.infinity,
         Color background = Colors.blue,
@@ -60,7 +62,7 @@ Widget DefaultFormField({
   required IconData prefix,
   IconData? Suffix,
   Function? suffixPressed,
-  Function? onSubmit,
+  ValueChanged? onSubmit,
   Function? onChange,
   Function? onTap,
   bool isPassword = false,
@@ -71,14 +73,21 @@ Widget DefaultFormField({
       controller: Controller,
       keyboardType: type,
       //if u find any errors change between them onFieldSubmitted
-      // onFieldSubmitted: onSubmit != null ? onSubmit() : null,
+      //    onFieldSubmitted: onSubmit != null ? onSubmit() : null,
       //if u find any errors change between them onChanged
-      //onChanged: onChange != null ? onChange() : null, --> in todo app
-      // onChanged: (value){
-      //   return onChange!(value);
+      //    onChanged: onChange != null ? onChange() : null, --> in todo app
+      //    onChanged: (value)
+      //    {
+      //    return onChange!(value);
+      //    },
+      // onFieldSubmitted:(value)
+      // {
+      //   onSubmit!(value);
+      //   // print(value) ;
       // },
-      onFieldSubmitted: (value){
-        return onSubmit!(value);
+      onFieldSubmitted: (value)
+      {
+        onSubmit!(value);
       },
       onChanged: onChange != null ? onChange() : null,
       onTap: onTap != null ? () => onTap() : null,
@@ -115,17 +124,15 @@ Widget BuildTaskItem(Map model, context) => Dismissible(
               radius: 40.0,
               child: Text(
                 //${model['time']}
-
                 '${model['time']}',
-
-                style: TextStyle(
+                style: const TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 15.0,
                     color: Colors.white),
               ),
               backgroundColor: Colors.black,
             ),
-            SizedBox(
+            const SizedBox(
               width: 10.0,
             ),
             Expanded(
@@ -136,16 +143,16 @@ Widget BuildTaskItem(Map model, context) => Dismissible(
                   Text(
                     '${model['title']}',
                     style:
-                        TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
+                        const TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
                   ),
                   Text(
                     '${model['date']}',
-                    style: TextStyle(color: Colors.grey, fontSize: 14.0),
+                    style: const TextStyle(color: Colors.grey, fontSize: 14.0),
                   ),
                 ],
               ),
             ),
-            SizedBox(
+            const SizedBox(
               width: 10.0,
             ),
             IconButton(
@@ -155,7 +162,7 @@ Widget BuildTaskItem(Map model, context) => Dismissible(
                     id: model['id'],
                   );
                 },
-                icon: Icon(
+                icon: const Icon(
                   Icons.check_box,
                   color: Colors.green,
                 )),
@@ -166,7 +173,7 @@ Widget BuildTaskItem(Map model, context) => Dismissible(
                     id: model['id'],
                   );
                 },
-                icon: Icon(
+                icon: const Icon(
                   Icons.archive,
                   color: Colors.black45,
                 )),
@@ -193,7 +200,7 @@ Widget TasksBuilder({
       fallback: (context) => Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: [
+          children: const [
             Icon(
               Icons.menu,
               size: 100.0,
@@ -217,7 +224,6 @@ Widget MyDivider() => Container(
   color: Colors.grey[300],
 );
 
-// ignore: non_constant_identifier_names
 Widget BuildArticleItem(articles ,context) => InkWell(
   onTap: (){
     NavigateTo(context, WebViewScreen(articles['url']),);
@@ -239,7 +245,7 @@ Widget BuildArticleItem(articles ,context) => InkWell(
               )
           ),
         ),
-        SizedBox(
+        const SizedBox(
           width: 15.0,
           // width: 30.0
         ),
@@ -265,7 +271,7 @@ Widget BuildArticleItem(articles ,context) => InkWell(
                 ),
                 Text(
                   '${articles['publishedAt']}',
-                  style: TextStyle(
+                  style: const TextStyle(
                       fontWeight: FontWeight.bold,
                       color: Colors.grey,
                       fontSize: 14.0
@@ -282,7 +288,6 @@ Widget BuildArticleItem(articles ,context) => InkWell(
   ),
 );
 
-// ignore: non_constant_identifier_names
 Widget BuildArticle(list, context, {isSearch = false}) => ConditionalBuilder(
     condition: list.isNotEmpty,
     builder: (context) => ListView.separated(
@@ -294,7 +299,6 @@ Widget BuildArticle(list, context, {isSearch = false}) => ConditionalBuilder(
     fallback: (context) => isSearch ? Container() : const Center(child: CircularProgressIndicator())
 );
 
-// ignore: non_constant_identifier_names
 void NavigateTo(context, widget) => Navigator.push(
   context,
   MaterialPageRoute(
@@ -302,7 +306,6 @@ void NavigateTo(context, widget) => Navigator.push(
     ),
 );
 
-// ignore: non_constant_identifier_names, avoid_types_as_parameter_names
 void NavigateAndFinish(context,widget) => Navigator.pushAndRemoveUntil(
         context, MaterialPageRoute(
         builder: (context) => widget

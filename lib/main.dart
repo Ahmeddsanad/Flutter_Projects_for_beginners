@@ -1,5 +1,4 @@
 import 'dart:io';
-
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -35,19 +34,25 @@ void main() async
 
   //notes that
   //bool isDarkened = isDark!; --> Null Safety Problem Solved ! by ---> ? , ! , ?? new operators and 'late' word before data type
+  //  runApp(MyApp(false));
 
+  // if(isDark == null) {
+  //   return null;
+  // }
 
-  runApp(MyApp(isDark!));
+  runApp(MyApp(isDark));
 }
 class MyApp extends StatelessWidget{
 
-  final bool isDark ;
-  MyApp(this.isDark);
+    final bool? isDark ;
+    MyApp(this.isDark);
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context)
+  {
     return MultiBlocProvider(
-      providers: [
+      providers:
+      [
         BlocProvider(create: (context)=> AppNewsCubit()..getBusiness()..getSports()..getScience()),
         BlocProvider(create: (BuildContext context) => AppCubit()..ChangeAppMode(
             fromShared: isDark
@@ -55,10 +60,11 @@ class MyApp extends StatelessWidget{
       ],
       child:BlocConsumer<AppCubit,AppStates>(
         listener: (context,state) {},
-        builder:  (context,state) {
+        builder:  (context,state)
+        {
           return MaterialApp(
             theme: lighttheme,
-            debugShowCheckedModeBanner:false ,
+            debugShowCheckedModeBanner:false,
             darkTheme: darktheme,
             themeMode: AppCubit.get(context).isDark ? ThemeMode.dark : ThemeMode.light,
             home: OnBoardingScreen(),

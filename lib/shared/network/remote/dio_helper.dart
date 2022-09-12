@@ -28,7 +28,7 @@ class DioHelper {
     dio.options.headers =
     {
       'lang' : lang,
-      'Authorization' : token,
+      'Authorization' : token??'',
     };
 
     return await dio.get(url, queryParameters: Query);
@@ -46,7 +46,7 @@ class DioHelper {
     dio.options.headers =
     {
       'lang' : lang,
-      'Authorization' : token,
+      'Authorization' : token??'',
     };
 
     return dio.post(
