@@ -47,6 +47,8 @@ class ShopLoginScreen extends StatelessWidget {
               }
             else
               {
+                print(state.loginModel.message);
+
                 Fluttertoast.showToast(
                     msg: state.loginModel.message!,
                     toastLength: Toast.LENGTH_LONG,
@@ -56,8 +58,6 @@ class ShopLoginScreen extends StatelessWidget {
                     textColor: Colors.white,
                     fontSize: 16.0,
                 );
-
-                print(state.loginModel.message);
               }
           }
         },
