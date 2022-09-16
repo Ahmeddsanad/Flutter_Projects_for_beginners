@@ -2,11 +2,12 @@
 import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:fluttertoast/fluttertoast.dart';
+import 'package:project1/layout/shop_app/Shop_Layout.dart';
 import 'package:project1/modules/shop_app/login/cubit/cubit.dart';
 import 'package:project1/modules/shop_app/login/cubit/states.dart';
 import 'package:project1/modules/shop_app/register/shop_register_screen.dart';
 import 'package:project1/shared/component/components.dart';
+import 'package:project1/shared/network/local/cache_helper.dart';
 
 
 class ShopLoginScreen extends StatelessWidget {
@@ -35,28 +36,24 @@ class ShopLoginScreen extends StatelessWidget {
                 print(state.loginModel.message);
                 print(state.loginModel.data!.token);
 
-                Fluttertoast.showToast(
-                  msg: state.loginModel.message!,
-                  toastLength: Toast.LENGTH_LONG,
-                  gravity: ToastGravity.BOTTOM,
-                  timeInSecForIosWeb: 5,
-                  backgroundColor: Colors.green,
-                  textColor: Colors.white,
-                  fontSize: 16.0,
-                );
+                CacheHelper.saveData(
+                    Key: 'token',
+                    value: state.loginModel.data!.token,
+                ).then((value)
+                {
+                  NavigateAndFinish(
+                      context,
+                      const ShopLayout(),
+                  );
+                });
               }
             else
               {
                 print(state.loginModel.message);
 
-                Fluttertoast.showToast(
-                    msg: state.loginModel.message!,
-                    toastLength: Toast.LENGTH_LONG,
-                    gravity: ToastGravity.BOTTOM,
-                    timeInSecForIosWeb: 5,
-                    backgroundColor: Colors.red,
-                    textColor: Colors.white,
-                    fontSize: 16.0,
+                showToast(
+                    text: state.loginModel.message!,
+                    state: ToastStates.ERROR
                 );
               }
           }

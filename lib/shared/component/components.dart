@@ -3,7 +3,10 @@
 
 import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
 import 'package:flutter/material.dart';
+import 'package:fluttertoast/fluttertoast.dart';
+import 'package:project1/modules/shop_app/login/shop_login_screen.dart';
 import 'package:project1/shared/cubit/cubit.dart';
+import 'package:project1/shared/network/local/cache_helper.dart';
 
 import '../../modules/news_app/web_view/webview_screen.dart';
 
@@ -313,6 +316,51 @@ void NavigateAndFinish(context,widget) => Navigator.pushAndRemoveUntil(
         (route) => false
 );
 
+void showToast({
+  required String text,
+  required ToastStates state,
+}) => Fluttertoast.showToast(
+  msg:text,
+  toastLength: Toast.LENGTH_LONG,
+  gravity: ToastGravity.BOTTOM,
+  timeInSecForIosWeb: 5,
+  backgroundColor: ChooseToastColor(state),
+  textColor: Colors.white,
+  fontSize: 16.0,
+);
+
+enum ToastStates { SUCCESS, ERROR , WARNING}
+
+Color ChooseToastColor(ToastStates state)
+{
+  Color color ;
+
+  switch(state)
+  {
+    case ToastStates.SUCCESS:
+         color =  Colors.green;
+         break;
+    case ToastStates.ERROR:
+         color =  Colors.red;
+         break;
+    case ToastStates.WARNING:
+         color =  Colors.amber;
+         break;
+  }
+
+  return color ;
+}
+
+void SignOut(context)
+{
+  CacheHelper.removeData(Key: 'token').then((value)
+  {
+    if(value)
+    {
+      NavigateAndFinish(context, ShopLoginScreen());
+    }
+  });
+}
 
 
 //Component file

@@ -7,12 +7,16 @@ import 'package:hexcolor/hexcolor.dart';
 import 'package:project1/layout/news_app/News_Layout.dart';
 import 'package:project1/layout/news_app/cubit/cubit.dart';
 import 'package:project1/layout/news_app/cubit/states.dart';
+import 'package:project1/layout/shop_app/Shop_Layout.dart';
+import 'package:project1/layout/shop_app/cubit/cubit.dart';
 import 'package:project1/layout/todo_app/todo_Layout.dart';
 import 'package:project1/modules/basics_app/login_Screen/Login_Screen.dart';
 import 'package:project1/modules/search/search_screen.dart';
-import 'package:project1/modules/shop_app/on_boarding_screen/on_boarding_screen.dart';
+import 'package:project1/modules/shop_app/login/shop_login_screen.dart';
+import 'package:project1/modules/shop_app/on_boarding/on_boarding_screen.dart';
 import 'package:project1/modules/testing/t1.dart';
 import 'package:project1/shared/bloc_observer.dart';
+import 'package:project1/shared/component/constants.dart';
 import 'package:project1/shared/cubit/cubit.dart';
 import 'package:project1/shared/cubit/states.dart';
 import 'package:project1/shared/network/local/cache_helper.dart';
@@ -29,8 +33,16 @@ void main() async
   Bloc.observer = MyBlocObserver();
   DioHelper.init();
   await CacheHelper.init();
-  
-  bool? isDark = CacheHelper.getBoolean(Key:'isDark');
+
+  bool? isDark = CacheHelper.getData(Key:'isDark');
+
+  Widget? widget;
+
+  bool? onBoarding = CacheHelper.getData(Key:'onBoarding');
+
+  token = CacheHelper.getData(Key:'token');
+
+  //print(onBoarding);
 
   //notes that
   //bool isDarkened = isDark!; --> Null Safety Problem Solved ! by ---> ? , ! , ?? new operators and 'late' word before data type
@@ -40,12 +52,36 @@ void main() async
   //   return null;
   // }
 
-  runApp(MyApp(isDark));
+  if(onBoarding != null)
+  {
+    if(token != null)
+    {
+      widget = ShopLayout();
+    }
+    else
+    {
+      widget = ShopLoginScreen();
+    }
+  }
+  else
+  {
+    widget = OnBoardingScreen();
+  }
+
+  runApp(MyApp(
+      isDark:isDark,
+      startWidget: widget,
+  ));
 }
 class MyApp extends StatelessWidget{
 
     final bool? isDark ;
-    MyApp(this.isDark);
+    final Widget? startWidget ;
+
+    MyApp({
+      this.isDark,
+      this.startWidget
+    });
 
   @override
   Widget build(BuildContext context)
@@ -55,8 +91,10 @@ class MyApp extends StatelessWidget{
       [
         BlocProvider(create: (context)=> AppNewsCubit()..getBusiness()..getSports()..getScience()),
         BlocProvider(create: (BuildContext context) => AppCubit()..ChangeAppMode(
-            fromShared: isDark
+            fromShared: isDark,
         )),
+        BlocProvider(create: (BuildContext context) => ShopAppCubit()..getHomeData()
+        ),
       ],
       child:BlocConsumer<AppCubit,AppStates>(
         listener: (context,state) {},
@@ -67,7 +105,7 @@ class MyApp extends StatelessWidget{
             debugShowCheckedModeBanner:false,
             darkTheme: darktheme,
             themeMode: AppCubit.get(context).isDark ? ThemeMode.dark : ThemeMode.light,
-            home: OnBoardingScreen(),
+            home: startWidget,
           );
         },
       ),

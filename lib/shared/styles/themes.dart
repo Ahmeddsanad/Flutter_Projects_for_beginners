@@ -6,7 +6,7 @@ import 'package:project1/shared/styles/colors.dart';
 ThemeData darktheme = ThemeData(
     primarySwatch: defaultColor,
     floatingActionButtonTheme: FloatingActionButtonThemeData(
-        backgroundColor: Colors.teal
+        backgroundColor: defaultColor
     ),
     appBarTheme: AppBarTheme(
         backwardsCompatibility: false,
@@ -27,7 +27,7 @@ ThemeData darktheme = ThemeData(
     ),
     bottomNavigationBarTheme: BottomNavigationBarThemeData(
         type: BottomNavigationBarType.fixed,
-        selectedItemColor: Colors.teal,
+        selectedItemColor: defaultColor,
         unselectedItemColor: Colors.grey,
         elevation: 20.0,
         backgroundColor: HexColor('333739')
@@ -45,7 +45,7 @@ ThemeData darktheme = ThemeData(
 ThemeData lighttheme = ThemeData(
     primarySwatch: defaultColor,
     floatingActionButtonTheme: FloatingActionButtonThemeData(
-        backgroundColor: Colors.teal
+        backgroundColor: defaultColor
     ),
     scaffoldBackgroundColor: Colors.white,
     appBarTheme: AppBarTheme(
@@ -65,7 +65,7 @@ ThemeData lighttheme = ThemeData(
     ),
     bottomNavigationBarTheme: BottomNavigationBarThemeData(
         type: BottomNavigationBarType.fixed,
-        selectedItemColor: Colors.teal,
+        selectedItemColor: defaultColor,
         unselectedItemColor: Colors.grey,
         elevation: 20.0,
         backgroundColor: Colors.white
