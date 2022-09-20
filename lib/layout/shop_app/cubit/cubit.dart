@@ -3,6 +3,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:project1/layout/shop_app/cubit/states.dart';
+import 'package:project1/models/shop_app/categories_model.dart';
 import 'package:project1/models/shop_app/home_model.dart';
 import 'package:project1/modules/shop_app/categories/categories_screen.dart';
 import 'package:project1/modules/shop_app/favourites/favourite_screen.dart';
@@ -47,22 +48,45 @@ class ShopAppCubit extends Cubit<ShopAppStates>
         token:token,
     ).then((value) {
       //print(value.toString()); --> successfully running
+      //printFullText(value.toString());
 
-      homeModel = HomeModel.fromJason(value.data);
+      homeModel = HomeModel.fromJson(value.data);
 
-      try {
-        print(homeModel?.data?.banners?[0].id);
-      } catch (e, s) {
-        print(s);
-      }
-      //print(homeModel?.data?.products);
-      print(homeModel!.status);
+
+      // print(homeModel?.data?.banners[0].image);
+
+      // print(homeModel?.data?.products[0].image);
+
+      // print(homeModel?.status);
 
       emit(ShopAppSuccessHomeDataState());
     }).catchError((error)
     {
       printFullText(error.toString());
       emit(ShopAppErrorHomeDataState());
+    });
+  }
+
+  CategoriesModel? categoriesModel;
+
+  void getCategories()
+  {
+
+    DioHelper.getData(
+      url: GET_CATEGORIES,
+      // token:token,
+    ).then((value) {
+      //print(value.toString()); --> successfully running
+      // printFullText(value.toString());
+
+      categoriesModel = CategoriesModel.fromJson(value.data);
+
+      print(categoriesModel?.data?.data?[0]);
+      emit(ShopAppSuccessCategoriesDataState());
+    }).catchError((error)
+    {
+      printFullText(error.toString());
+      emit(ShopAppErrorCategoriesDataState());
     });
   }
 }

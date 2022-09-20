@@ -2,63 +2,66 @@
 
 class HomeModel
 {
-  bool? status;
-  HomeDataModel? data;
+   bool? status;
+   HomeDataModel? data;
 
-  HomeModel.fromJason(Map<String, dynamic> json)
+  HomeModel.fromJson(Map<String, dynamic> json)
   {
     status = json['status'];
-    data = json['data'] != null ? HomeDataModel?.fromJson(json['data']) : null;
+    // data = json['data'] != null ? HomeDataModel.fromJson(json['data']) : null;
     //data = json['data'] != null? UserData.fromJson(json['data']): null;
-    //data = HomeDataModel.fromJson(json['data']);
+    data = HomeDataModel.fromJson(json['data']);
   }
 }
 
 
 class HomeDataModel
 {
-  List<ProductsModel>? products;
-  List<BannerModel>? banners ;
+   List<ProductsModel> products = [];
+   List<BannerModel> banners = [];
 
 
     HomeDataModel.fromJson(Map<String, dynamic> json)
     {
-      json['banners']?.forEach((element){
-        banners?.add(element);
-      });
+      json['banners'].forEach((element) {
+        banners.add(BannerModel.fromJson(element));
+      }
+      );
 
-      json['products']?.forEach((element){
-        banners?.add(element);
+      json['products'].forEach((element){
+        products.add(ProductsModel.fromJson(element));
       });
     }
+
 }
 
 
 class BannerModel
 {
-  int? id ;
-  String? image;
-  // dynamic category;
-  // dynamic product;
+  late int id ;
+  late String image;
+  late dynamic category;
+  late dynamic product;
+
 
   BannerModel.fromJson(Map<String, dynamic> json)
   {
-    id = json['id']!;
-    image = json['image']!;
-    // category = json['category'];
-    // product = json['product'];
+    id = json['id'];
+    image = json['image'];
+    category = json['category'];
+    product = json['product'];
   }
 }
 
 class ProductsModel{
-  late int? id;
+  late int id;
   late dynamic price;
   late dynamic OldPrice;
   late dynamic discount;
-  late String? image;
-  late String? name;
-  late bool? inFavorites;
-  late bool? inCart;
+  late String image;
+  late String name;
+  late bool inFavorites;
+  late bool inCart;
 
   ProductsModel.fromJson(Map<String, dynamic>json)
   {
