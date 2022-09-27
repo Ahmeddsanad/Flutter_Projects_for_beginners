@@ -1,4 +1,4 @@
-// ignore_for_file: non_constant_identifier_names
+// ignore_for_file: non_constant_identifier_names, unrelated_type_equality_checks
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -17,7 +17,7 @@ class ShopLoginCubit extends Cubit<ShopAppLoginStates>
 
   static ShopLoginCubit get(context) => BlocProvider.of(context);
 
-  ShopLoginModel? LoginModel;
+  late ShopLoginModel LoginModel;
 
   void userLogin({
   required String email,
@@ -27,31 +27,33 @@ class ShopLoginCubit extends Cubit<ShopAppLoginStates>
     emit(ShopLoginLoadingState());
 
     DioHelper.postData(
-      url: LOGIN,
-      data:
-      {
-        'email' : email,
-        'password' : password,
-      },
-    ).then((value){
+        url: LOGIN,
+        data:
+        {
+          'email' : email,
+          'password' : password,
+        },
+      ).then((value){
         // if(value.data == null)
         // {
         //   return ShopLoginModel.fromJson(value.data! as Map<String, dynamic>);
         // }
         // print(LoginModel.data.id);
-      // print(LoginModel.status);
-      // print(LoginModel.message);
-      // print(LoginModel.data.token);
-      // LoginModel != null ? ShopLoginModel?.fromJson(value.data) : null;
+        // print(LoginModel.status);
+        // print(LoginModel.message);
+        // print(LoginModel.data.token);
+        // LoginModel != null ? ShopLoginModel?.fromJson(value.data) : null;
         // print(LoginModel?.message);
         // print(LoginModel?.data);
-      print(value.data);
-      LoginModel = ShopLoginModel.fromJson(value.data);
-      emit(ShopLoginSuccessState(LoginModel!));
-    }).catchError((error){
-      emit(ShopLoginErrorState(error.toString()));
-      print(error.toString());
-    });
+        print(value.data);
+        LoginModel = ShopLoginModel?.fromJson(value.data);
+        emit(ShopLoginSuccessState(LoginModel));
+      }).catchError((error){
+        emit(ShopLoginErrorState(error.toString()));
+        print(error.toString());
+      });
+
+
   }
 
 

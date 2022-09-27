@@ -4,13 +4,12 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-// import 'package:loading_animations/loading_animations.dart';
 import 'package:project1/layout/shop_app/cubit/cubit.dart';
 import 'package:project1/layout/shop_app/cubit/states.dart';
 import 'package:project1/models/shop_app/categories_model.dart';
 import 'package:project1/models/shop_app/home_model.dart';
+import 'package:project1/shared/component/components.dart';
 import 'package:project1/shared/styles/colors.dart';
-// import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class ProductsScreen extends StatelessWidget {
   const ProductsScreen({Key? key}) : super(key: key);
@@ -18,23 +17,37 @@ class ProductsScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+    var cubit = ShopAppCubit.get(context);
+
     return BlocConsumer<ShopAppCubit,ShopAppStates>(
-      listener: (context,state) {},
+      listener: (context,state)
+      {
+        if(state is ShopAppSuccessChangeFavoritesDataState)
+          {
+            if(state.model.status! == false)
+              {
+                showToast(
+                    text: state.model.message!,
+                    state: ToastStates.ERROR,
+                );
+              }
+          }
+      },
       builder:  (context,state) {
-        var cubit = ShopAppCubit.get(context);
 
         return ConditionalBuilder(
           condition: cubit.homeModel != null && cubit.categoriesModel != null,
-          builder: (context) => BuilderWidget(cubit.homeModel!,cubit.categoriesModel!),
-          fallback: (context) =>  const Center(
-            child: CircularProgressIndicator()
-          ),
+          builder: (context) => BuilderWidget(cubit.homeModel!,cubit.categoriesModel!, context),
+          fallback: (context) => const Center(
+            child:CircularProgressIndicator(),
+          )
         );
       },
     );
   }
 
-  Widget BuilderWidget(HomeModel model, CategoriesModel categoriesModel) => SingleChildScrollView(
+  Widget BuilderWidget(HomeModel model, CategoriesModel categoriesModel, context) => SingleChildScrollView(
     physics: const BouncingScrollPhysics(),
     child: Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -116,14 +129,14 @@ class ProductsScreen extends StatelessWidget {
               children:
                 List.generate(
                     model.data!.products.length,
-                    (index) => BuildGridProduct(model.data!.products[index]))
+                    (index) => BuildGridProduct(model.data!.products[index],context))
           ),
         ),
       ],
     ),
   );
 
-  Widget BuildGridProduct(ProductsModel model) => Container(
+  Widget BuildGridProduct(ProductsModel model, context) => Container(
     color: Colors.white,
     child: Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -191,11 +204,20 @@ class ProductsScreen extends StatelessWidget {
                   const Spacer(),
                   IconButton(
                       padding: EdgeInsets.zero,
-                      onPressed: (){},
-                      icon: const Icon(
-                            Icons.favorite_border,
-                            size: 14.0,
-                      )
+                      onPressed: ()
+                      {
+                        ShopAppCubit.get(context).ChangeFAVORITES(model.id);
+                        print(model.id);
+                      },
+                      icon: CircleAvatar(
+                        radius: 15.0,
+                        backgroundColor: ShopAppCubit.get(context).favorites[model.id]! ? defaultColor : Colors.grey,
+                        child: const Icon(
+                          Icons.favorite_border,
+                          size: 14.0,
+                          color: Colors.white,
+                        ),
+                      ),
                   ),
                 ],
               ),

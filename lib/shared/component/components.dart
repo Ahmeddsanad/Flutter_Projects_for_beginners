@@ -1,12 +1,16 @@
 // ignore: duplicate_ignore
-// ignore_for_file: non_constant_identifier_names
+// ignore_for_file: non_constant_identifier_names, avoid_types_as_parameter_names
 
 import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:fluttertoast/fluttertoast.dart';
+import 'package:project1/layout/news_app/cubit/cubit.dart';
+import 'package:project1/layout/shop_app/cubit/cubit.dart';
 import 'package:project1/modules/shop_app/login/shop_login_screen.dart';
 import 'package:project1/shared/cubit/cubit.dart';
 import 'package:project1/shared/network/local/cache_helper.dart';
+import 'package:project1/shared/styles/colors.dart';
 
 import '../../modules/news_app/web_view/webview_screen.dart';
 
@@ -302,10 +306,10 @@ Widget BuildArticle(list, context, {isSearch = false}) => ConditionalBuilder(
     fallback: (context) => isSearch ? Container() : const Center(child: CircularProgressIndicator())
 );
 
-void NavigateTo(context, widget) => Navigator.push(
+void NavigateTo(context, Widget) => Navigator.push(
   context,
   MaterialPageRoute(
-    builder: (context) => widget
+    builder: (context) => Widget
     ),
 );
 
@@ -360,7 +364,104 @@ void SignOut(context)
       NavigateAndFinish(context, ShopLoginScreen());
     }
   });
+
 }
 
+Widget BuildListProduct(model, context, {isOldPrice = true}) => Padding(
+  padding: const EdgeInsets.all(20.0),
+  child: Container(
+    height: 120.0,
+    child: Row(
+      children:
+      [
+        Stack(
+          alignment: AlignmentDirectional.bottomStart,
+          children: [
+            Image(
+              image: NetworkImage(model.image!),
+              width: 120.0,
+              height: 120.0,
+              // fit: BoxFit.cover,
+            ),
+            if(model.discount != 0 && isOldPrice)
+              Container(
+                color: Colors.red,
+                padding: const EdgeInsets.symmetric(horizontal: 5.0),
+                child: const Text(
+                  'DISCOUNT',
+                  style: TextStyle(
+                      fontSize: 8.0,
+                      color: Colors.white
+                  ),
+                ),
+              )
+          ],
+        ),
+        SizedBox(
+          width: 5.0,
+        ),
+        Expanded(
+          child: Column(
+            children: [
+              Text(
+                model.name!,
+                maxLines: 2,
+                overflow: TextOverflow.ellipsis,
+                style: const TextStyle(
+                    fontSize: 14.0,
+                    height: 1.3
+                ),
+              ),
+              Spacer(),
+              Row(
+                children: [
+                  Text(
+                    model.price.toString(),
+                    style: const TextStyle(
+                        color: defaultColor,
+                        fontSize: 12.0,
+                        height: 1.3
+                    ),
+                  ),
+                  const SizedBox(
+                    width: 5.0,
+                  ),
+                  if(model.discount != 0 && isOldPrice)
+                    Text(
+                      model.oldPrice.toString(),
+                      style: const TextStyle(
+                        color: Colors.grey,
+                        fontSize: 10.0,
+                        height: 1.3,
+                        decoration: TextDecoration.lineThrough,
+                      ),
+                    ),
+                  const Spacer(),
+                  IconButton(
+                    padding: EdgeInsets.zero,
+                    onPressed: ()
+                    {
+                      ShopAppCubit.get(context).ChangeFAVORITES(model.id!);
+                      // print(model.id);
+                    },
+                    icon: CircleAvatar(
+                      radius: 15.0,
+                      backgroundColor: ShopAppCubit.get(context).favorites[model.id]! ? defaultColor : Colors.grey,
+                      child: const Icon(
+                        Icons.favorite_border,
+                        size: 14.0,
+                        color: Colors.white,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ],
+          ),
+        ),
+      ],
+    ),
+  ),
+);
 
 //Component file

@@ -1,3 +1,5 @@
+// ignore_for_file: non_constant_identifier_names
+
 import 'package:dio/dio.dart';
 
 class DioHelper {
@@ -48,10 +50,33 @@ class DioHelper {
     {
       'lang' : lang,
       'Content-Type':'application/json',
-      'Authorization' : token??'',
+      'Authorization' : token,
     };
 
     return dio.post(
+      url,
+      queryParameters: Query,
+      data: data,
+    );
+  }
+
+  static Future<Response> putData({
+    required String url ,
+    required Map<String,dynamic> data,
+    Map<String,dynamic>? Query,
+    String lang = 'en',
+    String? token,
+  }) async
+  {
+
+    dio.options.headers =
+    {
+      'lang' : lang,
+      'Content-Type':'application/json',
+      'Authorization' : token,
+    };
+
+    return dio.put(
       url,
       queryParameters: Query,
       data: data,

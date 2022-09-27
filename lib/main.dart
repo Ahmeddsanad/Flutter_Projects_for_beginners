@@ -1,3 +1,5 @@
+// ignore_for_file: unnecessary_null_comparison
+
 import 'dart:io';
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
@@ -11,9 +13,14 @@ import 'package:project1/layout/shop_app/Shop_Layout.dart';
 import 'package:project1/layout/shop_app/cubit/cubit.dart';
 import 'package:project1/layout/todo_app/todo_Layout.dart';
 import 'package:project1/modules/basics_app/login_Screen/Login_Screen.dart';
+import 'package:project1/modules/basics_app/withListView/withListView.dart';
+import 'package:project1/modules/bmi_app/BMIResultScreen/BMIResultScreen.dart';
+import 'package:project1/modules/bmi_app/BmiScreen/bmiScreen.dart';
 import 'package:project1/modules/search/search_screen.dart';
+import 'package:project1/modules/shop_app/login/cubit/cubit.dart';
 import 'package:project1/modules/shop_app/login/shop_login_screen.dart';
 import 'package:project1/modules/shop_app/on_boarding/on_boarding_screen.dart';
+import 'package:project1/modules/shop_app/register/cubit/cubit.dart';
 import 'package:project1/modules/testing/t1.dart';
 import 'package:project1/shared/bloc_observer.dart';
 import 'package:project1/shared/component/constants.dart';
@@ -42,6 +49,8 @@ void main() async
 
   token = CacheHelper.getData(Key:'token');
 
+  print(token);
+
   //print(onBoarding);
 
   //notes that
@@ -56,7 +65,7 @@ void main() async
   {
     if(token != null)
     {
-      widget = ShopLayout();
+      widget = const ShopLayout();
     }
     else
     {
@@ -89,11 +98,13 @@ class MyApp extends StatelessWidget{
     return MultiBlocProvider(
       providers:
       [
+        BlocProvider(create: (BuildContext context) => ShopLoginCubit(),),
+        BlocProvider(create: (BuildContext context) => ShopRegisterCubit()),
         BlocProvider(create: (context)=> AppNewsCubit()..getBusiness()..getSports()..getScience()),
         BlocProvider(create: (BuildContext context) => AppCubit()..ChangeAppMode(
             fromShared: isDark,
         )),
-        BlocProvider(create: (BuildContext context) => ShopAppCubit()..getHomeData()..getCategories()
+        BlocProvider(create: (BuildContext context) => ShopAppCubit()..getHomeData()..getCategories()..getFavorites()..getAllUserData()..UpdateUserData,
         ),
       ],
       child:BlocConsumer<AppCubit,AppStates>(

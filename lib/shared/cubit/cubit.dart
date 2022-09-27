@@ -152,7 +152,7 @@ class AppCubit extends Cubit<AppStates> {
   }
 
 
-  bool isDark = false;
+  bool isDark = true;
 
   void ChangeAppMode({bool? fromShared})
   {

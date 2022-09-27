@@ -71,7 +71,7 @@ class ProductsModel{
     discount = json['discount'];
     image = json['image'];
     name = json['name'];
-    inFavorites = json['in_favorites'];
+    inFavorites = json['in_favorites']!;
     inCart = json['in_cart'];
   }
 }

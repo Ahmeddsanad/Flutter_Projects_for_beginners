@@ -7,7 +7,7 @@ class ShopLoginModel
    ShopLoginModel.fromJson(Map<String, dynamic> json)
    {
      status = json['status'];
-     message = json['message']!;
+     message = json['message'];
      //       data = UserData.fromJson(json['data']); --> try if there are errors with null safety
      //       data = UserData.fromJson(json['data']!);
      data = json['data'] != null? UserData.fromJson(json['data']): null;
@@ -18,13 +18,14 @@ class ShopLoginModel
 
 class UserData
 {
-  late int id;
-  late String email;
-  late String phone;
-  late String image;
-  late int points;
-  late int credit;
-  late String token;
+  late dynamic id;
+  late dynamic name;
+  late dynamic email;
+  late dynamic phone;
+  late dynamic image;
+  late dynamic points;
+  late dynamic credit;
+  late dynamic token;
 
 //   UserData({
 //     required this.id,
@@ -41,6 +42,7 @@ class UserData
   UserData.fromJson(Map<String, dynamic> json)
   {
       id = json['id'];
+      name = json['name'];
       email = json['email'];
       image = json['image'];
       phone = json['phone'];
