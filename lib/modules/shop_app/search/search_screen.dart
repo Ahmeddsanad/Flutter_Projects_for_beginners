@@ -47,7 +47,10 @@ class SearchShopScreen extends StatelessWidget {
                       height: 10,
                     ),
                     if(state is ShopAppLoadingSearchState)
-                    const LinearProgressIndicator(),
+                    const Padding(
+                      padding:  EdgeInsets.all(10.0),
+                      child: LinearProgressIndicator(),
+                    ),
                     const SizedBox(
                       height: 10,
                     ),

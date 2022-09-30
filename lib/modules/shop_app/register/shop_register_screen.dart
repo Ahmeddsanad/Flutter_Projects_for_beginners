@@ -29,7 +29,7 @@ class RegisterShopScreen extends StatelessWidget {
       {
         if(state is ShopRegisterSuccessState)
         {
-
+          ShopAppCubit()..getHomeData()..getCategories()..getFavorites()..getAllUserData()..UpdateUserData;
           if(state.loginModel.status!)
           {
             print(state.loginModel.message);
@@ -68,7 +68,7 @@ class RegisterShopScreen extends StatelessWidget {
           appBar: AppBar(),
           body: Center(
             child: SingleChildScrollView(
-              physics: BouncingScrollPhysics(),
+              physics: const BouncingScrollPhysics(),
               child: Padding(
                 padding: const EdgeInsets.all(20.0),
                 child: Form(
