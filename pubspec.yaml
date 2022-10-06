@@ -49,6 +49,15 @@ dependencies:
   fluttertoast: ^8.0.9
   carousel_slider: ^4.1.1
   water_bottle: ^0.0.7
+  flutter_svg: ^1.1.5
+
+  #firebase
+  firebase_core: ^1.24.0
+  firebase_auth: ^3.11.1
+  cloud_firestore: ^3.5.0
+
+
+
 
 
 
@@ -80,6 +89,9 @@ flutter:
     - family: Jannah
       fonts:
         - asset: assets/fonts/jannah.ttf
+    - family: IconBroken
+      fonts:
+        - asset: assets/fonts/icons.ttf
 
   # To add 1 to your application, add an 1 section, like this:
   # 1:

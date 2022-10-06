@@ -1,5 +1,5 @@
 // ignore: duplicate_ignore
-// ignore_for_file: non_constant_identifier_names, avoid_types_as_parameter_names
+// ignore_for_file: non_constant_identifier_names, avoid_types_as_parameter_names, void_checks
 
 import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
 import 'package:flutter/material.dart';
@@ -43,11 +43,11 @@ Widget DefaultButton(
 Widget DefaultTextButton({
   required String text,
   //required Function function,
-  required VoidCallback? function,
+  required Function function,
   TextStyle? textStyle
 }) => TextButton(
     onPressed: (){
-      return function!();
+      function();
     },
     child: Text(
       text.toUpperCase(),

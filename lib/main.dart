@@ -2,6 +2,7 @@
 
 import 'dart:io';
 import 'package:bloc/bloc.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -11,6 +12,8 @@ import 'package:project1/layout/news_app/cubit/cubit.dart';
 import 'package:project1/layout/news_app/cubit/states.dart';
 import 'package:project1/layout/shop_app/Shop_Layout.dart';
 import 'package:project1/layout/shop_app/cubit/cubit.dart';
+import 'package:project1/layout/social_app/cubit/cubit.dart';
+import 'package:project1/layout/social_app/social_layout.dart';
 import 'package:project1/layout/todo_app/todo_Layout.dart';
 import 'package:project1/modules/basics_app/login_Screen/Login_Screen.dart';
 import 'package:project1/modules/basics_app/withListView/withListView.dart';
@@ -21,6 +24,8 @@ import 'package:project1/modules/shop_app/login/cubit/cubit.dart';
 import 'package:project1/modules/shop_app/login/shop_login_screen.dart';
 import 'package:project1/modules/shop_app/on_boarding/on_boarding_screen.dart';
 import 'package:project1/modules/shop_app/register/cubit/cubit.dart';
+import 'package:project1/modules/social_app/social_login/social_login_screen.dart';
+import 'package:project1/modules/social_app/social_register/cubit/cubit.dart';
 import 'package:project1/modules/testing/t1.dart';
 import 'package:project1/shared/bloc_observer.dart';
 import 'package:project1/shared/component/constants.dart';
@@ -35,6 +40,7 @@ import 'modules/testing/Messenger2.dart';
 void main() async
 {
   WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
 
   HttpOverrides.global = MyHttpOverrides();
   Bloc.observer = MyBlocObserver();
@@ -44,12 +50,25 @@ void main() async
   bool? isDark = CacheHelper.getData(Key:'isDark');
 
   Widget? widget;
+  //in the case of shop app
 
-  bool? onBoarding = CacheHelper.getData(Key:'onBoarding');
+  // bool? onBoarding = CacheHelper.getData(Key:'onBoarding');
 
-  token = CacheHelper.getData(Key:'token');
+  uId = CacheHelper.getData(Key: 'uId');
 
-  print(token);
+  if(uId != null)
+  {
+    widget = SocialLayout();
+  }
+  else
+    {
+      widget = SocialLoginScreen();
+    }
+
+  //in the case of shop app
+  // token = CacheHelper.getData(Key:'token');
+  //
+  // print(token);
 
   //print(onBoarding);
 
@@ -61,27 +80,28 @@ void main() async
   //   return null;
   // }
 
-  if(onBoarding != null)
-  {
-    if(token != null)
-    {
-      widget = const ShopLayout();
-    }
-    else
-    {
-      widget = ShopLoginScreen();
-    }
-  }
-  else
-  {
-    widget = OnBoardingScreen();
-  }
+  // if(onBoarding != null)
+  // {
+  //   if(token != null)
+  //   {
+  //     widget = const ShopLayout();
+  //   }
+  //   else
+  //   {
+  //     widget = ShopLoginScreen();
+  //   }
+  // }
+  // else
+  // {
+  //   widget = const OnBoardingScreen();
+  // }
 
   runApp(MyApp(
       isDark:isDark,
       startWidget: widget,
   ));
 }
+
 class MyApp extends StatelessWidget{
 
     final bool? isDark ;
@@ -100,12 +120,14 @@ class MyApp extends StatelessWidget{
       [
         BlocProvider(create: (BuildContext context) => ShopLoginCubit(),),
         BlocProvider(create: (BuildContext context) => ShopRegisterCubit()),
-        BlocProvider(create: (context)=> AppNewsCubit()..getBusiness()..getSports()..getScience()),
+        BlocProvider(create: (BuildContext context)=> AppNewsCubit()..getBusiness()..getSports()..getScience()),
         BlocProvider(create: (BuildContext context) => AppCubit()..ChangeAppMode(
             fromShared: isDark,
         )),
         BlocProvider(create: (BuildContext context) => ShopAppCubit()..getHomeData()..getCategories()..getFavorites()..getAllUserData()..UpdateUserData,
         ),
+        BlocProvider(create: (BuildContext context) => SocialRegisterCubit()),
+        BlocProvider(create: (BuildContext context) => SocialCubit()..GetUserData())
       ],
       child:BlocConsumer<AppCubit,AppStates>(
         listener: (context,state) {},
@@ -133,7 +155,6 @@ class MyHttpOverrides extends HttpOverrides{
       ..badCertificateCallback = (X509Certificate cert, String host, int port)=> true;
   }
 }
-
 
 
 //to solve error in using dio helper handshake errors we add like 393, 359,....

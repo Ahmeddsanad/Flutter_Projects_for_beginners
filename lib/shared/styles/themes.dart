@@ -5,21 +5,22 @@ import 'package:project1/shared/styles/colors.dart';
 
 ThemeData darktheme = ThemeData(
     primarySwatch: defaultColor,
-    floatingActionButtonTheme: FloatingActionButtonThemeData(
+    floatingActionButtonTheme:const FloatingActionButtonThemeData(
         backgroundColor: defaultColor
     ),
     appBarTheme: AppBarTheme(
         backwardsCompatibility: false,
         backgroundColor: HexColor('333739'),
         elevation: 0.0,
-        iconTheme: IconThemeData(
+        iconTheme:const IconThemeData(
             color: Colors.white
         ),
         systemOverlayStyle: SystemUiOverlayStyle(
             statusBarColor: HexColor('333739'),
             statusBarIconBrightness: Brightness.light
         ),
-        titleTextStyle: TextStyle(
+        titleTextStyle:const  TextStyle(
+            fontFamily: 'Jannah',
             color: Colors.white,
             fontSize: 20.0,
             fontWeight: FontWeight.bold
@@ -33,7 +34,7 @@ ThemeData darktheme = ThemeData(
         backgroundColor: HexColor('333739')
     ),
     scaffoldBackgroundColor: HexColor('333739'),
-    textTheme: TextTheme(
+    textTheme: const TextTheme(
         bodyText1: TextStyle(
             fontSize: 18.0,
             fontWeight: FontWeight.w600, color:Colors.white
@@ -44,11 +45,11 @@ ThemeData darktheme = ThemeData(
 
 ThemeData lighttheme = ThemeData(
     primarySwatch: defaultColor,
-    floatingActionButtonTheme: FloatingActionButtonThemeData(
+    floatingActionButtonTheme: const FloatingActionButtonThemeData(
         backgroundColor: defaultColor
     ),
     scaffoldBackgroundColor: Colors.white,
-    appBarTheme: AppBarTheme(
+    appBarTheme: const AppBarTheme(
         backwardsCompatibility: false,
         backgroundColor: Colors.white,
         elevation: 0.0,
@@ -56,6 +57,7 @@ ThemeData lighttheme = ThemeData(
             color: Colors.black
         ),
         titleTextStyle: TextStyle(
+            fontFamily: 'Jannah',
             color:Colors.black
         ),
         systemOverlayStyle: SystemUiOverlayStyle(
@@ -63,14 +65,14 @@ ThemeData lighttheme = ThemeData(
             statusBarIconBrightness: Brightness.dark
         )
     ),
-    bottomNavigationBarTheme: BottomNavigationBarThemeData(
+    bottomNavigationBarTheme: const BottomNavigationBarThemeData(
         type: BottomNavigationBarType.fixed,
         selectedItemColor: defaultColor,
         unselectedItemColor: Colors.grey,
         elevation: 20.0,
         backgroundColor: Colors.white
     ),
-    textTheme: TextTheme(
+    textTheme: const TextTheme(
         bodyText1: TextStyle(
             fontSize: 18.0,
             fontWeight: FontWeight.w600,
