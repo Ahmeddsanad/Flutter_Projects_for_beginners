@@ -22,10 +22,12 @@ Widget DefaultButton(
         required Function function,
         required String text,
         bool isboxdecorated = true,
-        BoxDecoration? Decorated
+        BoxDecoration? Decorated,
+          bool isHeight = false,
+          double? hi,
         }) =>
     Container(
-      height: 50.0,
+      height: isHeight ? hi : 50.0 ,
       width: width,
       child: MaterialButton(
         onPressed: () {

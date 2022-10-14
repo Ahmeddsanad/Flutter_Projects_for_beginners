@@ -7,6 +7,7 @@ import 'package:project1/layout/social_app/cubit/states.dart';
 import 'package:project1/models/social_app/social_user_model.dart';
 import 'package:project1/modules/social_app/chats/social_chats_screen.dart';
 import 'package:project1/modules/social_app/feeds/social_feeds_screen.dart';
+import 'package:project1/modules/social_app/new_post/new_post_screen.dart';
 import 'package:project1/modules/social_app/settings/social_settings_screen.dart';
 import 'package:project1/modules/social_app/users/social_users_screen.dart';
 import 'package:project1/shared/component/constants.dart';
@@ -47,6 +48,7 @@ class SocialCubit extends Cubit<SocialAppStates>
   [
     SocialFeeds(),
     SocialChats(),
+    NewPostScreen(),
     SocialUsers(),
     SocialSettings(),
   ];
@@ -56,6 +58,7 @@ class SocialCubit extends Cubit<SocialAppStates>
   [
     'Home',
     'Chat',
+    'Post',
     'Users',
     'Settings',
   ];

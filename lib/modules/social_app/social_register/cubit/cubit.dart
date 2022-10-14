@@ -49,6 +49,9 @@ class SocialRegisterCubit extends Cubit<SocialAppRegisterStates> {
       email: email,
       phone: phone,
       uId: uId,
+      bio: 'write ur bio ...',
+      image: 'https://img.freepik.com/free-photo/happy-smiling-handsome-man-against-blue-background_93675-135164.jpg?w=1060&t=st=1665759567~exp=1665760167~hmac=9bd424b763fed758226a4078ddcdb1a17fff67f108051bcec14fe2192cf3e7f9',
+      cover: 'https://as2.ftcdn.net/v2/jpg/03/26/98/51/1000_F_326985142_1aaKcEjMQW6ULp6oI9MYuv8lN9f8sFmj.jpg',
       isEmailVerified: false
     );
 
