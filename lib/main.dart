@@ -42,7 +42,7 @@ void main() async
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
 
-  HttpOverrides.global = MyHttpOverrides();
+  // HttpOverrides.global = MyHttpOverrides();
   Bloc.observer = MyBlocObserver();
   DioHelper.init();
   await CacheHelper.init();
@@ -130,12 +130,12 @@ class MyApp extends StatelessWidget{
         BlocProvider(create: (BuildContext context) => SocialCubit()..GetUserData())
       ],
       child:BlocConsumer<AppCubit,AppStates>(
-        listener: (context,state) {},
-        builder:  (context,state)
+        listener: (context, state) {},
+        builder:  (context, state)
         {
           return MaterialApp(
             theme: lighttheme,
-            debugShowCheckedModeBanner:false,
+            debugShowCheckedModeBanner: false,
             darkTheme: darktheme,
             themeMode: AppCubit.get(context).isDark ? ThemeMode.dark : ThemeMode.light,
             home: startWidget,
@@ -148,13 +148,13 @@ class MyApp extends StatelessWidget{
 }
 
 //
-class MyHttpOverrides extends HttpOverrides{
-  @override
-  HttpClient createHttpClient(SecurityContext? context){
-    return super.createHttpClient(context)
-      ..badCertificateCallback = (X509Certificate cert, String host, int port)=> true;
-  }
-}
+// class MyHttpOverrides extends HttpOverrides{
+//   @override
+//   HttpClient createHttpClient(SecurityContext? context){
+//     return super.createHttpClient(context)
+//       ..badCertificateCallback = (X509Certificate cert, String host, int port)=> true;
+//   }
+// }
 
 
 //to solve error in using dio helper handshake errors we add like 393, 359,....

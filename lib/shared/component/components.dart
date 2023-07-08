@@ -11,6 +11,7 @@ import 'package:project1/modules/shop_app/login/shop_login_screen.dart';
 import 'package:project1/shared/cubit/cubit.dart';
 import 'package:project1/shared/network/local/cache_helper.dart';
 import 'package:project1/shared/styles/colors.dart';
+import 'package:project1/shared/styles/icon_broken.dart';
 
 import '../../modules/news_app/web_view/webview_screen.dart';
 
@@ -76,7 +77,8 @@ Widget DefaultFormField({
   Function? onTap,
   bool isPassword = false,
   bool isBorder = true,
-  InputBorder? Border
+  InputBorder? Border,
+  bool isBio = false,
 }) =>
     TextFormField(
       controller: Controller,
@@ -119,7 +121,9 @@ Widget DefaultFormField({
               )
             : null,
         border: isBorder ? OutlineInputBorder(borderRadius: BorderRadius.circular(20.0)) : Border,
+
       ),
+      maxLength: isBio ? 64 : null,
     );
 
 //onTap != null ? () => onTap() : null,
@@ -465,5 +469,32 @@ Widget BuildListProduct(model, context, {isOldPrice = true}) => Padding(
     ),
   ),
 );
+
+DefaultAppBar({
+  required BuildContext context,
+  String? title,
+  List<Widget>? action
+
+}) => AppBar(
+  leading: IconButton(
+    onPressed:(){
+      Navigator.pop(context);
+    },
+    icon:const Icon(
+      IconBroken.Arrow___Left_2
+    ),
+  ),
+  titleSpacing: 0.0,
+  title: Text(
+    title!,
+    style: const TextStyle(
+      fontWeight: FontWeight.bold,
+      fontSize: 16.0,
+    ),
+  ),
+  actions: action,
+
+);
+
 
 //Component file

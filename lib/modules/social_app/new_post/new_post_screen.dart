@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:project1/shared/component/components.dart';
 
 class NewPostScreen extends StatelessWidget {
   const NewPostScreen({Key? key}) : super(key: key);
@@ -6,11 +7,10 @@ class NewPostScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text(
-          'Add Post'
-        ),
-      ),
+        appBar: DefaultAppBar(
+          context: context,
+          title: 'Add Post',
+          ),
     );
   }
 }

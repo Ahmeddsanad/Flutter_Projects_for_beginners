@@ -1,5 +1,6 @@
 class SocialUserModel
 {
+  //Define Variables
   String? name;
   String? email;
   String? phone;
@@ -9,6 +10,7 @@ class SocialUserModel
   String? bio;
   bool? isEmailVerified;
 
+  //Constructor
   SocialUserModel({
     this.name,
     this.email,
@@ -19,19 +21,20 @@ class SocialUserModel
     this.bio,
     this.isEmailVerified
 });
-
-  SocialUserModel.fromJson(Map <String, dynamic> json)
+  //Object from Social Model
+  SocialUserModel.fromJson(Map<String, dynamic>? json)
   {
-    email = json['email'];
-    name = json['name'];
-    phone = json['phone'];
-    uId = json['uId'];
-    image = json['image'];
-    cover = json['cover'];
-    bio = json['bio'];
-    isEmailVerified = json['isEmailVerified'];
+    email = json?['email'];
+    name = json?['name'];
+    phone = json?['phone'];
+    uId = json?['uId'];
+    image = json?['image'];
+    cover = json?['cover'];
+    bio = json?['bio'];
+    isEmailVerified = json?['isEmailVerified'];
   }
-
+  // Define to Map type --> map of key is string and value is dynamic (because we don't know the variable datatype)
+  // key --> value
   Map<String, dynamic> toMap()
   {
     return {

@@ -16,3 +16,11 @@ class SocialGetUserErrorState extends SocialAppStates
 class SocialChangeBottomNavState extends SocialAppStates {}
 
 class SocialNewPostState extends SocialAppStates {}
+
+class SocialProfilePickedSuccessState extends SocialAppStates {}
+
+class SocialProfilePickedErrorState extends SocialAppStates {}
+
+class SocialCoverPickedSuccessState extends SocialAppStates {}
+
+class SocialCoverPickedErrorState extends SocialAppStates {}

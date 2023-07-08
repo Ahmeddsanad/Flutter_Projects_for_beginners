@@ -9,7 +9,7 @@ ThemeData darktheme = ThemeData(
         backgroundColor: defaultColor
     ),
     appBarTheme: AppBarTheme(
-        backwardsCompatibility: false,
+        //backwardsCompatibility: false,
         backgroundColor: HexColor('333739'),
         elevation: 0.0,
         iconTheme:const IconThemeData(
@@ -56,7 +56,7 @@ ThemeData lighttheme = ThemeData(
     ),
     scaffoldBackgroundColor: Colors.white,
     appBarTheme: const AppBarTheme(
-        backwardsCompatibility: false,
+        //backwardsCompatibility: false,
         backgroundColor: Colors.white,
         elevation: 0.0,
         iconTheme: IconThemeData(

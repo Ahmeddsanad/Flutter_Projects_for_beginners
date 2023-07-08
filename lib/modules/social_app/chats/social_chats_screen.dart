@@ -1,4 +1,6 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:project1/shared/component/components.dart';
 
 class SocialChats extends StatelessWidget {
   const SocialChats({Key? key}) : super(key: key);
@@ -7,12 +9,12 @@ class SocialChats extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children:
-      const [
+      [
         Center(
           child: Text(
             'Social Chat'
           ),
-        )
+        ),
       ],
     );
   }

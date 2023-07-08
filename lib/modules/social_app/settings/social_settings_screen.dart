@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:project1/layout/social_app/cubit/cubit.dart';
 import 'package:project1/layout/social_app/cubit/states.dart';
 import 'package:project1/models/social_app/social_user_model.dart';
+import 'package:project1/modules/social_app/edit_profile/edit_profile_screen.dart';
 import 'package:project1/shared/component/components.dart';
 import 'package:project1/shared/styles/icon_broken.dart';
 
@@ -107,7 +108,7 @@ class SocialSettings extends StatelessWidget {
                               style: Theme.of(context).textTheme.bodyText1,
                             ),
                             Text(
-                              'Posts',
+                              'Likes',
                               style: Theme.of(context).textTheme.caption,
                             ),
                           ],
@@ -167,7 +168,10 @@ class SocialSettings extends StatelessWidget {
                     width: 15.0,
                   ),
                   OutlinedButton(
-                    onPressed: (){},
+                    onPressed: ()
+                    {
+                      NavigateTo(context, EditProfileScreen());
+                    },
                     child: const Icon(
                       IconBroken.Edit,
                       size: 16.0,
